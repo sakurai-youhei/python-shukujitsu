@@ -10,17 +10,17 @@ import shukujitsu
 def getargs(args):
     jp_holidays = shukujitsu.Japan()
     parser = ArgumentParser(prog="shukujitsu",
-                            description="Utility to check Japanese holidays "
+                            description="Utility to match Japanese holidays "
                             "from year %d to %d" % (min(jp_holidays).year,
                                                     max(jp_holidays).year),
-                            epilog="Exit code stays 0 if one or more holidays "
-                            "are found. Otherwise, it always goes 1.")
+                            epilog="Exit code stays 0 if one or more dates "
+                            "are matched. Otherwise, it always goes 1.")
     parser.add_argument("-i", "--invert-match", action="store_true",
                         help="select non-matching dates")
     parser.add_argument("-n", "--holiday-name", action="store_true",
                         help="output holiday name instead")
     parser.add_argument("dates", metavar="DATE", type=str, nargs="*",
-                        help="date to be checked")
+                        help="date to be matched")
     return parser.parse_args(args)
 
 
@@ -30,7 +30,7 @@ def main():
     try:
         if args.invert_match and args.holiday_name:
             raise RuntimeError("Both options can't be enabled, --invert-match "
-                               "and --holiday-name")
+                               "and --holiday-name.")
         jp_holidays = shukujitsu.Japan()
         for date in args.dates and args.dates or iter(input, None):
             if args.invert_match and date not in jp_holidays:
@@ -42,6 +42,8 @@ def main():
                 else:
                     print(date.strip())
                 status = 0
+    except (EOFError, KeyboardInterrupt):
+        pass
     except Exception as e:
         print(e, file=stderr)
     finally:
