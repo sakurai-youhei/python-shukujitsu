@@ -68,10 +68,13 @@ $ shukujitsu 2020-01-01 && echo This is holiday || echo This is not holiday
 This is holiday
 
 $ # You can also filter dates by using shukujitsu command.
-$ cat <<EOF > holiday.txt
-> 2020-01-02
-> 2020-01-03
-> 2020-01-04
+$ cat <<EOF | shukujitsu > holidays.txt
+> 2020-05-02
+> 2020-05-03
+> 2020-05-04
+> 2020-05-05
+> 2020-05-06
+> 2020-05-07
 > EOF
 
 $ # You can check multiple dates at once.
