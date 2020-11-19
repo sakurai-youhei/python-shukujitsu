@@ -33,6 +33,8 @@ setup(name="python-shukujitsu",
       long_description=long_description,
       long_description_content_type="text/markdown",
       platforms="any",
+      entry_points=dict(console_scripts=["shukujitsu = "
+                                         "shukujitsu.__main__:main"]),
       classifiers=dedent("""\
         Intended Audience :: Developers
         License :: OSI Approved :: MIT License
