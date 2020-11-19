@@ -42,7 +42,7 @@ pip install python-shukujitsu
 
 `shukujitsu` command becomes available by installing this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package.
 
-```bash
+```console
 $ shukujitsu --help  # or python3 -m shukujitsu --help
 usage: shukujitsu [-h] [-i] [-n] [DATE ...]
 
@@ -61,7 +61,7 @@ Exit code stays 0 if one or more dates are matched. Otherwise, it always goes 1.
 
 One or some dates can be input to the command through command line arguments or STDIN.
 
-```bash
+```console
 $ # You can start conditional branch from shukujitsu command.
 $ shukujitsu 2020-01-01 && echo This is holiday || echo This is not holiday
 2020-01-01
