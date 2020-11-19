@@ -33,13 +33,17 @@ def main():
                                "and --holiday-name.")
         jp_holidays = shukujitsu.Japan()
         for date in args.dates and args.dates or iter(input, None):
+            try:
+                key = int(date)
+            except ValueError:
+                key = date
             if args.invert_match:
-                if date not in jp_holidays:
+                if key not in jp_holidays:
                     print(date.strip())
                     status = 0
-            elif date in jp_holidays:
+            elif key in jp_holidays:
                 if args.holiday_name:
-                    print(jp_holidays[date])
+                    print(jp_holidays[key])
                 else:
                     print(date.strip())
                 status = 0
