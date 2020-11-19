@@ -32,7 +32,7 @@ jp_holidays['2014-01-01': '2014-01-03']  # [date(2014, 1, 1)]
 
 This library is based on following data. (Japanese - 本ライブラリは以下のデータを加工して作成しています。) License of Source Data is [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.ja) compatible; Exact rule is described at [内閣府ホームページ利用規約](https://www.cao.go.jp/notice/rule.html).
 
-- 内閣府ホームページの[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されている「[昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv）
+- 内閣府ホームページの[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されている「[昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
 
 ### Source Code
 
