@@ -35,7 +35,7 @@ jp_holidays['2014-01-01': '2014-01-03']  # [date(2014, 1, 1)]
 ## Installation
 
 ```
-pip install python-shukujitsu
+pip3 install python-shukujitsu
 ```
 
 ## Command-Line interface
