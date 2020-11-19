@@ -1,5 +1,5 @@
 # python-shukujitsu
-Japanese holidays library based on static data published by Cabinet Office, Government of Japan
+Python Japanese holidays library based on static data published by Cabinet Office, Government of Japan
 
 [![image](https://img.shields.io/pypi/l/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
 [![image](https://img.shields.io/pypi/dm/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
@@ -69,9 +69,9 @@ This is holiday
 
 $ # You can also filter dates by using shukujitsu command.
 $ cat <<EOF > holiday.txt
-> 2014-01-02
-> 2014-01-03
-> 2014-01-04
+> 2020-01-02
+> 2020-01-03
+> 2020-01-04
 > EOF
 
 $ # You can check multiple dates at once.
