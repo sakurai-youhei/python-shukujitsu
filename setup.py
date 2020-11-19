@@ -16,8 +16,7 @@ with open(join(here, "shukujitsu", "__init__.py"), encoding="utf-8") as fp:
                      fp.read(), MULTILINE).group(1)
 
 with open(join(here, "README.md"), encoding="utf-8") as fp:
-    next(fp)
-    description = next(fp).strip()
+    long_description = fp.read()
 
 setup(name="python-shukujitsu",
       version=version,
@@ -30,8 +29,9 @@ setup(name="python-shukujitsu",
       maintainer_email="sakurai.youhei@gmail.com",
       url="https://github.com/sakurai-youhei/python-shukujitsu",
       license="MIT",
-      description=description,
-      long_description=description,
+      description=long_description.splitlines()[1],
+      long_description=long_description,
+      long_description_content_type="text/markdown",
       platforms="any",
       classifiers=dedent("""\
         Intended Audience :: Developers
