@@ -11,8 +11,8 @@ def getargs(args):
     jp_holidays = shukujitsu.Japan()
     parser = ArgumentParser(prog="shukujitsu",
                             description="Utility to match Japanese holidays "
-                            "from year %d to %d" % (min(jp_holidays).year,
-                                                    max(jp_holidays).year),
+                            "from the year %d to %d" % (min(jp_holidays).year,
+                                                        max(jp_holidays).year),
                             epilog="Exit code stays 0 if one or more dates "
                             "are matched. Otherwise, it always goes 1.")
     parser.add_argument("-i", "--invert-match", action="store_true",
