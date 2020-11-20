@@ -1,5 +1,6 @@
 
 from argparse import ArgumentParser
+from argparse import RawTextHelpFormatter
 from sys import argv
 from sys import exit
 from sys import stderr
@@ -7,9 +8,22 @@ from sys import stderr
 import shukujitsu
 
 
+VERSION = """\
+%(prog)s v{version}
+
+MIT license <https://opensource.org/licenses/MIT>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Youhei Sakurai and others; see
+<https://github.com/sakurai-youhei/python-shukujitsu/graphs/contributors>.
+""".format(version=shukujitsu.__version__)
+
+
 def getargs(args):
     jp_holidays = shukujitsu.Japan()
     parser = ArgumentParser(prog="shukujitsu",
+                            formatter_class=RawTextHelpFormatter,
                             description="Utility to match Japanese holidays "
                             "from the year %d to %d" % (min(jp_holidays).year,
                                                         max(jp_holidays).year),
@@ -19,6 +33,8 @@ def getargs(args):
                         help="select non-matching dates")
     parser.add_argument("-n", "--holiday-name", action="store_true",
                         help="output holiday name instead")
+    parser.add_argument("-V", "--version", action="version", version=VERSION,
+                        help="display version information and exit")
     parser.add_argument("dates", metavar="DATE", type=str, nargs="*",
                         help="date to be matched")
     return parser.parse_args(args)

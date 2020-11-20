@@ -45,7 +45,7 @@ pip3 install python-shukujitsu
 
 ```console
 $ shukujitsu --help  # or python3 -m shukujitsu --help
-usage: shukujitsu [-h] [-i] [-n] [DATE ...]
+usage: shukujitsu [-h] [-i] [-n] [-V] [DATE ...]
 
 Utility to match Japanese holidays from the year 1955 to 2021
 
@@ -56,6 +56,7 @@ optional arguments:
   -h, --help          show this help message and exit
   -i, --invert-match  select non-matching dates
   -n, --holiday-name  output holiday name instead
+  -V, --version       display version information and exit
 
 Exit code stays 0 if one or more dates are matched. Otherwise, it always goes 1.
 ```
