@@ -50,3 +50,9 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: sakuraiyouhei/shukujitsu
           tag_with_ref: true
+      - name: Docker Hub Description
+        uses: peter-evans/dockerhub-description@v2
+        with:
+          username: sakuraiyouhei
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: sakuraiyouhei/shukujitsu
