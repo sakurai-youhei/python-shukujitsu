@@ -48,9 +48,15 @@ jobs:
           repository: sakuraiyouhei/shukujitsu
           tags: latest
           tag_with_ref: true
-      - name: Docker Hub Description
-        uses: peter-evans/dockerhub-description@v2
-        with:
-          username: sakuraiyouhei
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: sakuraiyouhei/shukujitsu
+
+  dockerHubDescription:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Docker Hub Description
+      uses: peter-evans/dockerhub-description@v2
+      with:
+        username: sakuraiyouhei
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        repository: sakuraiyouhei/shukujitsu
