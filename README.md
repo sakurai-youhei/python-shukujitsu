@@ -39,15 +39,6 @@ jp_holidays['2014-01-01': '2014-01-03']  # [date(2014, 1, 1)]
 pip3 install python-shukujitsu
 ```
 
-## Docker
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
-[![Image Size  ](https://img.shields.io/docker/image-size/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
-
-```
-docker run -it sakuraiyouhei/shukujitsu --help
-```
-
 ## Command-Line interface
 
 `shukujitsu` command becomes available by installing this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package.
@@ -101,6 +92,15 @@ $ shukujitsu -n 2020/7/22 2020/7/23 2020/7/24
 $ # You can also pick up non-holiday.
 $ shukujitsu -i 2020/7/22 2020/7/23 2020/7/24
 2020/7/22
+```
+
+## Docker
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
+[![Image Size  ](https://img.shields.io/docker/image-size/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
+
+```
+docker run -it sakuraiyouhei/shukujitsu --help
 ```
 
 ## Important Notice
