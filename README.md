@@ -8,7 +8,6 @@ Python Japanese holidays library based on static data published by Cabinet Offic
 
 Usage is similar to [python-holidays](https://github.com/dr-prodigy/python-holidays) package. But note that this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan **from the year 1955 to 2021** as of today.
 
-import shukujitsu
 ```python
 import shukujitsu
 
