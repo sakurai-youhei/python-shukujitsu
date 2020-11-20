@@ -52,5 +52,5 @@ jobs:
         uses: peter-evans/dockerhub-description@v2
         with:
           username: sakuraiyouhei
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
           repository: sakuraiyouhei/shukujitsu
