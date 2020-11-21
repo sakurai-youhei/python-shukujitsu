@@ -35,14 +35,12 @@ jobs:
           createrepo rpm/
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / rpm' -L 1 --noreport --charset utf-8 rpm/ > rpm/index.html
 
-#  push:
-#    runs-on: ubuntu-latest
-#    steps:
       - name: Commit & Push
         working-directory: gh-pages
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add rpm/
-          git commit -m "Update rpm via $GITHUB_REF"
+          git add --verbose rpm/
+          git add --verbose rpm/repodata/
+          git commit --verbose -m "Update rpm via $GITHUB_REF"
           git push origin gh-pages
