@@ -21,28 +21,32 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: gh-pages
-          clean: false
+          path: gh-pages
 
       - name: Update rpm dir
+        working-directory: gh-pages
         run: |
           yum install -y createrepo tree
-          cp dist/*.rpm rpm/
+          cp ../dist/*.rpm rpm/
           rm -rf rpm/repodata/
           createrepo rpm/
-          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / rpm' -L 1 --noreport --charset utf-8 rpm/ > index.html
+          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / rpm' -L 1 --noreport --charset utf-8 rpm/ > rpm/index.html
 
   push:
     runs-on: ubuntu-latest
     steps:
       - name: Config
+        working-directory: gh-pages
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
       - name: Commit
+        working-directory: gh-pages
         run: |
           git add rpm/
           git commit -m "Update rpm via $GITHUB_REF"
       - name: Push
+        working-directory: gh-pages
         run: |
           git pull
           git push origin gh-pages
