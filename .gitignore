@@ -1,6 +1,9 @@
 .project
 .pydevproject
 
+python-shukujitsu-*.tar.gz
+deb_dist/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
