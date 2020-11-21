@@ -24,10 +24,10 @@ jobs:
 
       - name: Sign rpm packages
         run: |
-          rpm --import https://sakurai-youhei.github.io/python-shukujitsu/gpg
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
+          rpm --import https://sakurai-youhei.github.io/python-shukujitsu/gpg
           cat <<EOF > $HOME/.rpmmacros
           %_signature gpg
           %_gpg_path $HOME/.gnupg
@@ -75,7 +75,15 @@ jobs:
 
       - name: Install additional dependencies
         run: |
-          sudo apt install -y apt-utils git-core tree
+          sudo apt install -y apt-utils debsigs devscripts git-core tree
+
+      - name: Sign deb packages
+        run: |
+          cat <<EOF | gpg --batch --import
+          ${{ secrets.GPG_PRIVATE_KEY }}
+          EOF
+          debsign -k 8A124CD64688ABCC *.dsc
+          debsigs -k 8A124CD64688ABCC --sign=origin *.deb
 
       - uses: actions/checkout@v2
         with:
@@ -85,6 +93,8 @@ jobs:
       - name: Update deb directory
         working-directory: gh-pages
         run: |
+          cp ../deb_dist/*.buildinfo deb/
+          cp ../deb_dist/*.changes deb/
           cp ../deb_dist/*.deb deb/
           cp ../deb_dist/*.dsc deb/
           cp ../deb_dist/*.debian.tar.* deb/
