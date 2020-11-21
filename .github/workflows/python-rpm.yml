@@ -42,5 +42,4 @@ jobs:
           git config user.email github-actions@github.com
           git add rpm/
           git commit -m "Update rpm via $GITHUB_REF"
-          git pull
           git push origin gh-pages
