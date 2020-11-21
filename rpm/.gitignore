@@ -4,5 +4,6 @@
 !*/
 # Whitelist files
 !/.gitignore
-!/index.html
 !/*.rpm
+!/index.html
+!/python-shukujitsu.repo
