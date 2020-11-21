@@ -5,6 +5,10 @@
 # Whitelist files
 !.gitignore
 !index.html
+!Packages.gz
+!Sources.gz
+!Release
+!Release.gpg
 !*.buildinfo
 !*.changes
 !*.deb
