@@ -4,5 +4,5 @@ from shukujitsu.exports import JP
 from shukujitsu.exports import JPN
 
 
-__version__ = "2020.11.18.post4"
+__version__ = "2020.11.18.post5"
 assert __version__ and CountryHoliday and Japan and JP and JPN
