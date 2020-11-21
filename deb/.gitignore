@@ -2,6 +2,7 @@
 *
 # Except these files
 !.gitignore
+!index.html
 !*.deb
 !*.orig.tar.[bgx]z
 !*.debian.tar.[bgx]z
