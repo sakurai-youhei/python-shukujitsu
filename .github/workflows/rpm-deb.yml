@@ -95,7 +95,7 @@ jobs:
         run: |
           apt-ftparchive packages . | tee Packages | gzip > Packages.gz
           apt-ftparchive sources . | tee Sources | gzip > Sources.gz
-          apt-ftparchive release > deb/Release
+          apt-ftparchive release > Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
 
