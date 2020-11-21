@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Sat, 21 Nov 2020 15:04:24 +0000
+Date: Sat, 21 Nov 2020 15:29:03 +0000
 Source: python-shukujitsu
 Binary: python3-python-shukujitsu
 Architecture: source
@@ -18,32 +18,32 @@ Changes:
  .
    * source package automatically created by stdeb 0.10.0
 Checksums-Sha1:
- b5f18e9ed100823b9f4603ccc27575a499ac79af 1816 python-shukujitsu_2020.11.18.post5-1.dsc
- 1b21e241a60ae49e50d1b57aa1e24a11c21e8ace 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
- f467539cbf7c23e8f6c47c728efc957e0ba2d349 1928 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
- 605a679846dea2baf2587fde49e771b173c7b00b 8110 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+ 2fede3a173c25d4f3a684d09562d6d44425fb694 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ 20e64b27705b46c5c4019af5429a56b5da935bbc 11018 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 87863eed412e290df113634287f36b935e9a55fa 1928 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ 34b67f580a92d59574329ecf2e00fa59551f2efc 8110 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
 Checksums-Sha256:
- b56799e69f68ccd85b8393db61f33f9697bbbc6265cffc19fafc262260535dda 1816 python-shukujitsu_2020.11.18.post5-1.dsc
- a2f195c8640839766f1183c2c28221147d9e0f76edf8913dcbc3bc36d160d829 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
- 88112ca9a65bedc442784733b4b0649b2db2ff31524546daabc0d8f1009b0a0c 1928 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
- f728c7be10912a129071f003ed0cfe205cef93486612eecb096e0611ad4e162f 8110 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+ b9dae0344f7a62019a998cc900ae3675cc19c78aa4f63844d0ca64d94d9a2c41 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ 840e261ff9b3eea2d0f29167569d1b66162dbf7cd2353cff0533bffef036e417 11018 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ f4bdbadb7a789468f1438b57df279df93a069bafbd4e60eca0e4e15ed0e4afff 1928 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ ccd4dd9048d1c3e355f3eb39dca8739339d4af48bfb160401fe21a3a62e03347 8110 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
 Files:
- 6daa02ecc6580113e508ac2b3b99e2dc 1816 python optional python-shukujitsu_2020.11.18.post5-1.dsc
- 6b5b03864f46b8207e22d4c53594d796 11016 python optional python-shukujitsu_2020.11.18.post5.orig.tar.gz
- 70da9fb8a31dd33f307214f9aa8dbca6 1928 python optional python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
- 2af5517e2d4018f5868be466e8f164eb 8110 python optional python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+ 6860da7b6062937a16424a089be409be 1816 python optional python-shukujitsu_2020.11.18.post5-1.dsc
+ acd6bec5f59b78a54aab600667e7043b 11018 python optional python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 7a06fcf9a261e811634c4a0b82844046 1928 python optional python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ b88478796b5afd94b5c3c3e79a1c69d4 8110 python optional python-shukujitsu_2020.11.18.post5-1_source.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5LJEACgkQihJM1kaI
-q8x0mAwAz+kmAzLnKtRCWStMnI6DwYu8lbG11h4Qt77LyWcXV3UiuLzD0HFYaWM+
-nOYs58aRumU3GahcO84BZZlelok2FAFBpmxsb6Nl8nTFPHeEqFHktUbQ/1VJMl+L
-FPjqTkcjwJUrCGiE0N2ik2YQg5tlGF6K8ut744oF2DA5W0RDgg4n/BFQMfKvPZF7
-vsUfHsfzwpXrNRrcoyTkwDk29BIWY92hjZ7PPgDJj2/KzDrJh3gqe89Ir3Fpw5M9
-vco5K8lartUs634lUUXS/NEwatj6NWb13eEvR2Pe2xfn/1DNPtrTSPtpgV3tNYzL
-P+aejcEdpg+weIhUaw7qMnLxpjaLG+ltvpYoaU3ylmi8lx7Dz3Vt9gs0Ea6xcH2u
-b+oZ0UHl657jR5NtH2/fEX+afymrKMkaZJoG0MaIrWNrW8Ivm0CPf0VNXLTiNszX
-/+Y4WMytWt72G5pUhpRvfRXSIBZO1xk9mpBs8/pnc+kx/hM452bf7UY9oZPUfJvd
-iEmQ9fzq
-=SNL4
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5MlgACgkQihJM1kaI
+q8z8FQv/QVUmLCsVfgpsH5BWxBGu0omAaNUBsptxO6X2/YerRUH7o80Sp5iYgJlV
+cmWcYCNCfY9S1q0pNaLn1dMN+i0NXp1BvW/mL64yoLj3szgj6Ppm7jUqMqDOMFsx
+TzNGm+/7VFmh9cYKTbhjg2eQ+KSD0415ZCb0SeHb8Z9PteTcQMphgVD4TcCf3WGz
+3Qm1c9rKoeEa0GvSQkuzsrhw1cYWvF2CtLEDTxMsCtXlgiLIW/qgqqTS6f34He+u
+wqNwzFAESLKnTZOYcm2i7pvwEkbldN2MFkI1Cx98EtYr+ir9QIkIMvS5bSbYZdcb
+wCD4g96uRfb0Lp9ei7gxXdophW9YbSCf0CWtEYlp6rCzsib1yDNeFEJkMDHTeUGJ
+1WTJWSvIyxQ7vY56/bHuu5C9yhhr9Wsen3N26rxgrlS53FrV8MRZ52H7oxOKYh+Q
+seZegd9jloRZyq+UoR77HEgq/Zy2p22mXqRKNPzQd2oUMu5p4HGVvZk8QYTBdIOc
+cGK6wYOJ
+=hhFS
 -----END PGP SIGNATURE-----
