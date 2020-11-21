@@ -93,13 +93,35 @@ $ shukujitsu -i 2020/7/22 2020/7/23 2020/7/24
 2020/7/22
 ```
 
-## Docker
+## Other ways to use
+
+### Docker
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
 [![Image Size  ](https://img.shields.io/docker/image-size/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
 
+```console
+$ docker run -it sakuraiyouhei/shukujitsu --help
 ```
-docker run -it sakuraiyouhei/shukujitsu --help
+
+### yum
+
+```console
+$ sudo yum install -y curl
+$ curl -fsSL https://sakurai-youhei.github.io/python-shukujitsu/rpm/python-shukujitsu.repo | sudo tee /etc/yum.repos.d/python-shukujitsu.repo
+$ sudo yum install -y python-shukujitsu
+$ shukujitsu --help
+```
+
+### apt
+
+```console
+$ sudo apt install -y curl gpg
+$ curl -fsSL https://sakurai-youhei.github.io/python-shukujitsu/gpg | sudo apt-key add -
+$ curl -fsSL https://sakurai-youhei.github.io/python-shukujitsu/deb/python-shukujitsu.list | sudo tee /etc/apt/sources.list.d/python-shukujitsu.list
+$ sudo apt update
+$ sudo apt install -y python-shukujitsu
+$ shukujitsu --help
 ```
 
 ## Important Notice
