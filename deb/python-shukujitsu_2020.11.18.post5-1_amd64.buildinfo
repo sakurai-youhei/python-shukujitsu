@@ -7,14 +7,14 @@ Binary: python3-python-shukujitsu
 Architecture: all
 Version: 2020.11.18.post5-1
 Checksums-Md5:
- f8792f53c18567e12716bed58ef78599 9508 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ c1213c7b72cbb356e30b6f0b5bb2c3e3 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Checksums-Sha1:
- ac9a3e1ce46cb469dbe4509ab04dd4b3bebfff1c 9508 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 3382bc416e5848a17333b846b718a8a2184c2401 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Checksums-Sha256:
- 5d14c71d0650b533a8d899ec28c66766736c3c2eb8dcdd1046ecf17e77251d15 9508 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 3d65c36073f18c42670ae44bd6d30dcebde91eda9e068cafbb82cfdb5b3ae1ba 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 21 Nov 2020 16:22:51 +0000
+Build-Date: Sat, 21 Nov 2020 16:46:08 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -215,19 +215,19 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
- SOURCE_DATE_EPOCH="1605975766"
+ SOURCE_DATE_EPOCH="1605977163"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5Pu4ACgkQihJM1kaI
-q8z7nQv/YYISDSYYgh/LMpAwuSD052ORF3mb8TlpwpD2OKa1XPdA0vbYBDyuRTUU
-1OfOzeUVxCf9NogqB3j+oLijFT/p2+NNcSA0jNEOIiwQHHRqUx3jUpbzq8awOTtD
-WzKTmEqYYZGSbR6I9e1rbKs+Sc5YQRc6AtqPLnrMCLTQVBKLN81Y1N4eCPzZeu1W
-/VmIg8iCrWORZZNJgP6QTjRuMILBWk5JZ1bOHb8alO4SnKdostkPpQpjwF4J4/Ys
-1VAhcdu7cD7fd7MFxfHCi/RRniEfxmRSKzRU554fzz1DfcOrequTr04iyZppUEpz
-yA6Ii2q/E4KA2No0snw7H8S5ILaWtkJOgXC/38p3Ppftt0tTMJf/L5K5/XJkEBFh
-i8htmfUtCHZ2A+mlBMvaXT/CGG7cTEy28KIYr62imkEuvflmOY9rEEoCw/9IrIxd
-G32OpTttjAt7DBhHA5eUSJ0ss84/xboccF2GqyncLRIznysrhPYhTMcw9PUuasdb
-yzmAGVnp
-=toxD
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5RGQACgkQihJM1kaI
+q8zTGQv+PgYU4Dh4I30YBufgbwotElJlMuwJhC8pBL9/J2/9IdRXOQIB7nWpC/LN
+6pn/rcSPa5+GFwjwEjpZCh9rIJQokJ7h75FNaQ6yuBxG9l7MrZas8gs2JqPjvq5I
+gM0oWcRmZ13cPvQazH92BMSJtoEHQV6q2EFDPrAqsCMYUwzWS7bA9tKRtsDM9Bp3
+lq8YYg13UrThfuDDyU/SfEWcbessDntK91Pg56pNHQAeL06YgvS6ZFyMwZ52fbl1
+kY/4pYc/q2hZ3Hlhbi6Q95rCvt+Xr0OqRQn29BE3Zy8AmAhc9DpixeKKTupUvo3w
+k9FPvgkI6sTM8ztpOANJZlTReZIWQwXXiN2rAMGo7m1BIH1UMjNeYGD1rmSG5qCW
+8CIxLblbChfCdG49c+smvJmpXpYM/CDA4OhtgQQDnzVmhKndGcJ8PryU6Mu13mIQ
+yS1BFfVlbjhlirCdKPOZpKOrZgpw3JKUon6h3iB/ayfrrMZCdlAPG2lm0V6eH72L
+dpnQsxEa
+=KL1r
 -----END PGP SIGNATURE-----
