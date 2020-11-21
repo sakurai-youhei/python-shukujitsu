@@ -20,7 +20,20 @@ jobs:
 
       - name: Install additional dependencies
         run: |
-          yum install -y createrepo git-core tree
+          yum install -y createrepo git-core rpm-sign tree
+
+      - name: Sign rpm packages
+        run: |
+          rpm --import https://sakurai-youhei.github.io/python-shukujitsu/gpg
+          echo ${{ secrets.GPG_PRIVATE_KEY }} | gpg --batch --import
+          cat <<EOF > $HOME/.rpmmacros
+          %_signature gpg
+          %_gpg_path $HOME/.gnupg
+          %_gpg_name Youhei Sakurai
+          %_gpgbin /usr/bin/gpg
+          %__gpg_sign_cmd %{__gpg} gpg --force-v3-sigs --batch --verbose --no-armor --passphrase-fd 0 --pinentry-mode loopback --no-secmem-warning -u '%{_gpg_name}' -sbo %{__signature_filename} %{__plaintext_filename}
+          EOF
+          echo | rpmsign --addsign /dist/*.rpm
 
       - uses: actions/checkout@v2
         with:
