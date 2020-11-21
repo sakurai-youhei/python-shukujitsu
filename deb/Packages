@@ -7,11 +7,11 @@ Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
 Installed-Size: 58
 Depends: python3-dateutil, python3-pkg-resources
 Filename: ./python-shukujitsu_2020.11.18.post5-1_all.deb
-Size: 9846
-MD5sum: 1fbe64cee1a51b00e9dce2cef84599c7
-SHA1: be430115f37af417c570bd2f5c28206d5a9cc84e
-SHA256: acd9ea2ecdea33e3c200fccdc7f9c910d916cae04cdb42fd4fcd86dab048e4a6
-SHA512: 18d6a4424aba8faf535b422ca7fa5ca8ef5eec1f52258564eb9a11f757ae2e2ad7f23c7357997cbce3f8047d462b58776e43d30d54687932db576ffe0121f06e
+Size: 9974
+MD5sum: 7506cadc7db06e788d41fd641d2c487c
+SHA1: 3a8c032a3994829773da12c9ae25e43ca8f9797a
+SHA256: c113258538e8cbd5fc90284ce1bfba0fdcf89641da5864a686b7a6bbbd61dff0
+SHA512: fd7f24fe03ab19f40aee4dfdcb8ceea25fe2d4f16d8a1f61d23a48ecd3e5959523328f4cb31405415d5e486085912583fe3f638088eea3cff0f07452996a5f47
 Homepage: https://github.com/sakurai-youhei/python-shukujitsu
 Description: Python Japanese holidays library based on static data publis
  # python-shukujitsu
@@ -22,6 +22,11 @@ Description: Python Japanese holidays library based on static data publis
  [![PyPI Version        ](https://img.shields.io/pypi/v/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
  [![PyPI Python Versions](https://img.shields.io/pypi/pyversions/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
  .
+ ![flake8 and pytest   ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/flake8%20and%20pytest/badge.svg)
+ ![Publish to PyPI     ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20PyPI/badge.svg)
+ ![Publish to DockerHub](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20DockerHub/badge.svg)
+ ![RPM and DEB         ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/RPM%20and%20DEB/badge.svg)
+ .
  Usage is similar to [python-holidays](https://github.com/dr-prodigy/python-holidays) package. But note that this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan **from the year 1955 to 2021** as of today.
  .
  ```python
@@ -29,9 +34,4 @@ Description: Python Japanese holidays library based on static data publis
  .
  jp_holidays = shukujitsu.Japan()
  # or:
- # jp_holidays = shukujitsu.JP()
- # or:
- # jp_holidays = shukujitsu.CountryHoliday('JP')
- .
- from datetime import date
 
