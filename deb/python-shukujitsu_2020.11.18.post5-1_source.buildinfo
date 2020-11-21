@@ -7,14 +7,14 @@ Binary: python-shukujitsu
 Architecture: source
 Version: 2020.11.18.post5-1
 Checksums-Md5:
- fe73fbb76bee90e800231463a0ca0ae0 1800 python-shukujitsu_2020.11.18.post5-1.dsc
+ 02fe7c026be0f71d8a05dcf86bd61600 1800 python-shukujitsu_2020.11.18.post5-1.dsc
 Checksums-Sha1:
- 266d8a5e2de3bf2807c64f02fb1abb333dd70631 1800 python-shukujitsu_2020.11.18.post5-1.dsc
+ 51143107477369146d194f11482fa3b99829a90e 1800 python-shukujitsu_2020.11.18.post5-1.dsc
 Checksums-Sha256:
- a2d15bbb93151e891f8431697e8e5854e041f8ce7ed14673554501084192fe49 1800 python-shukujitsu_2020.11.18.post5-1.dsc
+ a94942a8d6b0a171b5bdbede0102aa5fc782e6256400402636478ae630e38d87 1800 python-shukujitsu_2020.11.18.post5-1.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 21 Nov 2020 16:52:50 +0000
+Build-Date: Sat, 21 Nov 2020 17:03:23 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -215,19 +215,19 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
- SOURCE_DATE_EPOCH="1605977569"
+ SOURCE_DATE_EPOCH="1605978201"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5RfoACgkQihJM1kaI
-q8y+NgwAqdUNrR/LfQ/TrlKZyVvSPVr41aT0j1ekCGuKznmpG57B8WdsEgHi0Rux
-JsGVqvmqkExhjPNDNA7U006XJxq/NuyUMcHk23AWM8H9REw1Ar6+7FyTjV1G4IRS
-FKlnbKdkidCwwi2MmWbNlAZ2vt1kBHNwKU8SYQKiFnWEKQpKZ4tggAhZKVyHO2Sm
-Z+2X1Id2Z7aKyNFBwYWS/5SdkqJmAtOMeicDqQ4WHcZGSdj1pC7o/c5Q7QGjUOUs
-E7knT74d/BxmB2tg/uBqBhHw6kIlCREwx1U9p81cTi9JQaL/LT07iafs8R/CZX8C
-ycwn4nKAmSnhtbH1MFc8YKuo9qtmkRG1HgtvaTZD7jWWFur8yR601tMPYIxytX1E
-wA3GwMFbClNRR5eDlTFtlsDZVivevgg5viANDBZEgyMYpjzwZDGWd0Q9NinWgUd1
-A3OfNQKLau2H5fw57SBnGu06vb5vCZXpD8faqYCg+cUoXAn/YPHN36gwJUdeNeQc
-A7cDZplf
-=gqp4
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5SHMACgkQihJM1kaI
+q8w8NQwA29VjjFP+uC5/bm6WnQOJBFw2sVbb7I84mj8MiLpZ4kaaOPFUKk80Zaw2
+phjl3MAjqQlppRvi/WgZ5nk4swcxQ7ZfJANgX9QwySxaNtwbHjmhbzt5n5dv5SLC
+tr4o2WZVaC1Bs0ApHIvgAH8cyINA6iSfLA3pOApo286weD8Ef8ykLQ9/TOuebaBK
+tKjMu18yB5ve2XktY5QW5b53gy12/dD2OaZjxCdZHXmbgf2M5WHN407jjpDOIXrA
+Yorq6Y+FZBceErh2ZHYXsVii5oH65MQpa8S+U6n9hlAZv8TnfR+pRLoXuYMZ8WZE
+LQqAF5T5xBoAWLAdBNwAIF67vSrxbTKZTFAlarmxG8pZf5bZj/S3pBUpC85ejJPM
+2/3Rf9+4Q+SII8AOovOHi6g99wdEUIcexayZw2qwl/94DQLq5ei/+JIXLLvoFDhd
+Seuqc2h71Fm1G17QfOe/uFPqWAtqsIH2K05wN8uek3XX0N7TcaiFH5I1B0X8UI7t
+YsFA6ExW
+=HhZw
 -----END PGP SIGNATURE-----

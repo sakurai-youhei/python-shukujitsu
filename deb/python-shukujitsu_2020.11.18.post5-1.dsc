@@ -14,26 +14,26 @@ Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
 Package-List:
  python-shukujitsu deb python optional arch=all
 Checksums-Sha1:
- 8ed79f85dd9bae2da73d91f7498e82702d37d71a 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
- 3e312936ba93b8197ff15e45e6c055150b61f472 1924 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ 6089dded636e43db096d538b93890bfde87868f0 11015 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 46c3fb9b7a69584ec4603758a036f36c697747d3 1936 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
 Checksums-Sha256:
- fda5ca270c93ee2cfb7d21d29e22505a22e1b2718320889df4d4bacd822f5664 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
- 2ab23ae0494a33373284187d9283358b4f628d10f373efa63329f900e47c2b8c 1924 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ ab83f7f1d6b711e8022830aa75b9234cfc623260d897966cc5ceca87016f5e95 11015 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 63eef424103eb5a03b52b26e955b786026a8351be0553d1561c15fcd3ab925ad 1936 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
 Files:
- ac208188b24b65fa722b270e62c73dd7 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
- 4f2b44f01082102559749951832a6f35 1924 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ 66258ca0b4aee1f7788448171b0dbbc5 11015 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 6f16935b30df5a5f7d81b0340fc16a21 1936 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGyBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5RfoACgkQihJM1kaI
-q8z8LQv3aqsH+nlf213QWLNPRz7I+GxABK4qTyYH/zLz+bIvzFx5ORjfzNoDKNpR
-X9nRRPPaaFx1BcDBlnM2BgovyHfNLEdd0HZXOEeypmDuSrPJd0MeJydB2m5ykYPu
-AYO2piL9qOJwak+RomKofPD6T/XqMkUsV93OIzy1vLp7+7PWu8vens3qQ0NrKU2J
-PcGfI+PF97CPABqPaXMb9BPO8aupp+de+RjrnYuTd6Ivw3Bdv2mSO0O5bAbJ5T37
-KlR0o5wwFRL6q2RxAv0Z36lzjtxy4OE01hT4Fq5J16DbqL8br4T6JagbGgbJ0FLs
-9tb2WCHRi17L2097CnBnMgDO/HMpIf9ypTnR77zoHLNqCo485oeIUtq54cmaXYA0
-4bqEU0Ltri9hpt76So2d3QwJZheq63m5Q8c/MhKQSBPpDNq2PoPTCHYzGvNvTfq9
-j/fOarzpD9KEyarFYISONXkE1DYIVv1CbhALvyEJ16OfuCYtp7x8jQlMMasEapM5
-SaT32ow=
-=EUy2
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5SHMACgkQihJM1kaI
+q8yxNwwAvUwjhC4bfq78I0o6GtR1zyCON2Kpoj3AOd+VxtHoF2Y2HB7ZvHMEPJyY
+g9hsZ9rtKLO6jiOZgIXmRsP6mj63K3kJSD2VGf5DShPESpPa0otGzvPc/b4Dq2VL
+GymnIIufcQabguQSWmx89svdcoL41FWhsXdFeI9Fkqf4jMxh2eAre2QNq8sDu2cs
+ihHJGoov8Mvtx2an53hZLwA0AoKrkRkjIEPJYqcoecKqLNkkefDfklIemy+3FREf
+8I0CDQ0lbWaZVB3jidXLsqpKNejIJRc5P9gRHFKOyFwen4bc8bX666ZYarwfPhHV
+YaJD3HFZEurBl9x30yUrUM4YY55pE8xw3Jqqut5dKHOM3ScXWSZUh15K/gEMvWPb
+u796wZZzgLsLWVBhn1p/INPTq+a+vGx7te91tV4CfW7iNujbd16xecALTXD7GbbJ
+uE8kOFoZNrALQJ0ZJ4a9hW66szIRA3Mh+It8UFWV2ffHrdArF1cL2zbjBl/rB+FF
+IhEE5xIm
+=ADHb
 -----END PGP SIGNATURE-----
