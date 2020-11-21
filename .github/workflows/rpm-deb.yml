@@ -100,7 +100,9 @@ jobs:
           cp ../deb_dist/*.debian.tar.* deb/
           cp ../deb_dist/*.orig.tar.* deb/
           apt-ftparchive packages deb/ | gzip > deb/Packages.gz
-          apt-ftparchive sources  deb/ | gzip > deb/Sources.gz
+          apt-ftparchive sources deb/ | gzip > deb/Sources.gz
+          apt-ftparchive release deb/ > deb/Release
+          gpg --sign --default-key 8A124CD64688ABCC -b -a -o deb/Release.gpg deb/Release
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 deb/ > deb/index.html
 
       - name: Commit & Push
