@@ -54,6 +54,6 @@ jobs:
 
       - name: Build deb packages
         run: |
-          DEBIAN_FRONTEND=noninteractive apt install -y debhelper python3-all python3-pip dh-python
-          pip3 install stdeb
+          sudo env DEBIAN_FRONTEND=noninteractive apt install -y debhelper python3-all python3-pip dh-python
+          pip3 install --user stdeb
           python3 setup.py --command-packages=stdeb.command bdist_deb sdist_dsc
