@@ -5,7 +5,9 @@
 # Whitelist files
 !.gitignore
 !index.html
+!*.buildinfo
+!*.changes
 !*.deb
+!*.dsc
 !*.orig.tar.[bgx]z
 !*.debian.tar.[bgx]z
-!*.dsc
