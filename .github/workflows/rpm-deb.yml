@@ -1,4 +1,4 @@
-name: Archive RPM
+name: RPM and DEB
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build_and_push:
+  build_and_push_rpm:
     runs-on: ubuntu-latest
     container: centos
     steps:
@@ -46,3 +46,14 @@ jobs:
           git add --verbose --all --force rpm/repodata/  # TODO: Remove '--force' option somehow.
           git commit --verbose -m "Update rpm via $GITHUB_REF"
           git push origin gh-pages
+
+  build_and_push_deb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build deb packages
+        run: |
+          DEBIAN_FRONTEND=noninteractive apt install -y debhelper python3-all python3-pip dh-python
+          pip3 install stdeb
+          python3 setup.py --command-packages=stdeb.command bdist_deb sdist_dsc
