@@ -1,7 +1,8 @@
 # Ignore everything in this directory
 *
-# Except these files & directories
+# Whitelist any directories
+!*/
+# Whitelist files
 !/.gitignore
 !/index.html
 !/*.rpm
-!/repodata/*
