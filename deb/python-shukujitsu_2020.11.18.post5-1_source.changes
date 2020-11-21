@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 21 Nov 2020 14:58:59 +0000
+Source: python-shukujitsu
+Binary: python3-python-shukujitsu
+Architecture: source
+Version: 2020.11.18.post5-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python3-python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2020.11.18.post5-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ dfdbf31021e531067ea7c7b1c9f3dfd914f0a5fb 1107 python-shukujitsu_2020.11.18.post5-1.dsc
+ 49cdbc28196d85d5ba623628146ec3060780b8e0 11018 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 3081c39aee980b5c01dbd6cb4284a9301ac096d7 1928 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ ecace8981b55d094c7ec76db6fd3a9b0a7367435 7401 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+Checksums-Sha256:
+ 6595aaa1dccc836ebd8eb39828fb1a3cba990680ba2c3dcc5a17a97d8d693539 1107 python-shukujitsu_2020.11.18.post5-1.dsc
+ 81415599a8e8cd4cd5a1099239340742e4698ae22b97738d46c4ed8cc6f00781 11018 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 89d4b0b29cf189b263949a9c7f4caf5202d5828e7088752ed28805ff1bb7d79f 1928 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ f089334d9936887dcf3e481ba4857fc01d1af3459e498f6322bc1423444f5cb5 7401 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+Files:
+ 9ee77ba458fa12e3e96b7b0fa9dfbd95 1107 python optional python-shukujitsu_2020.11.18.post5-1.dsc
+ 08130148ab824145eb86be03553f778b 11018 python optional python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ e4b08dcbee5cac54dd04cd173ce3403e 1928 python optional python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ 44c6c35640ce55b6ca143a4cfcd7021a 7401 python optional python-shukujitsu_2020.11.18.post5-1_source.buildinfo

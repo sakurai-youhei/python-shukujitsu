@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Sat, 21 Nov 2020 14:58:59 +0000
+Source: python-shukujitsu
+Binary: python3-python-shukujitsu
+Architecture: all
+Version: 2020.11.18.post5-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python3-python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2020.11.18.post5-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ b8e0f7c276a120381066bc6bf214b69becaa63fe 7434 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
+ dc10d34cd2d56312872358d7a2fc8e65de356de8 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+Checksums-Sha256:
+ 37dde07392a3fdba03824bc0307d3e353574f849b04543e72247ef1a4c3a2852 7434 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
+ 55b929276c6937e56e14482b06a448f3b2e81ce515bc53d8687f1a0b266b8034 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+Files:
+ 5c610a7b7500f5e67c134ea52957c8d0 7434 python optional python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
+ d5d39b2ccef56851f0663a051579aada 9488 python optional python3-python-shukujitsu_2020.11.18.post5-1_all.deb
