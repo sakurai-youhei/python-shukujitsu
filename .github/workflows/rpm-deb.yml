@@ -102,8 +102,8 @@ jobs:
           apt-ftparchive packages deb/ | gzip > deb/Packages.gz
           apt-ftparchive sources deb/ | gzip > deb/Sources.gz
           apt-ftparchive release deb/ > deb/Release
-          gpg --default-key 8A124CD64688ABCC -abs -o deb/Release.gpg deb/Release
-          gpg --default-key 8A124CD64688ABCC --clearsign -o deb/InRelease deb/Release
+          gpg -abs -o deb/Release.gpg deb/Release
+          gpg --clearsign -o deb/InRelease deb/Release
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 deb/ > deb/index.html
 
       - name: Commit & Push
