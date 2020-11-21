@@ -25,7 +25,9 @@ jobs:
       - name: Sign rpm packages
         run: |
           rpm --import https://sakurai-youhei.github.io/python-shukujitsu/gpg
-          echo ${{ secrets.GPG_PRIVATE_KEY }} | gpg --batch --import
+          cat <<EOF | gpg --batch --import
+          ${{ secrets.GPG_PRIVATE_KEY }}
+          EOF
           cat <<EOF > $HOME/.rpmmacros
           %_signature gpg
           %_gpg_path $HOME/.gnupg
