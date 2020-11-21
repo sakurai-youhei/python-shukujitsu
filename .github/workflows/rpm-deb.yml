@@ -35,7 +35,7 @@ jobs:
           %_gpgbin /usr/bin/gpg
           %__gpg_sign_cmd %{__gpg} gpg --force-v3-sigs --batch --verbose --no-armor --passphrase-fd 0 --pinentry-mode loopback --no-secmem-warning -u '%{_gpg_name}' -sbo %{__signature_filename} %{__plaintext_filename}
           EOF
-          echo | rpmsign --addsign /dist/*.rpm
+          echo | rpmsign --addsign dist/*.rpm
 
       - uses: actions/checkout@v2
         with:
