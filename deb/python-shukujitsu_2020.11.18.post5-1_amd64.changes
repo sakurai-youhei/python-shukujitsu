@@ -2,9 +2,9 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Sat, 21 Nov 2020 16:50:16 +0000
+Date: Sat, 21 Nov 2020 16:52:49 +0000
 Source: python-shukujitsu
-Binary: python3-python-shukujitsu
+Binary: python-shukujitsu
 Architecture: all
 Version: 2020.11.18.post5-1
 Distribution: unstable
@@ -12,32 +12,32 @@ Urgency: low
 Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
 Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
 Description:
- python3-python-shukujitsu - Python Japanese holidays library based on static data publis
+ python-shukujitsu - Python Japanese holidays library based on static data publis
 Changes:
  python-shukujitsu (2020.11.18.post5-1) unstable; urgency=low
  .
    * source package automatically created by stdeb 0.10.0
 Checksums-Sha1:
- e45ecd0856a7f1bb3f6f7dbf2c3631ce8590e103 8143 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
- 47ffe3acc4a62e9c45d798202ed577076dc0cea0 9492 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 62c7b9cb17fee5f3fd45ab2db9a7889e2516a275 9176 python-shukujitsu_2020.11.18.post5-1_all.deb
+ 4478b4ae0fb20ca5ec94df146b2b178b77578baa 8111 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
 Checksums-Sha256:
- 56dd3c6047fd8b2fa9a8a228e6bc50c5e035a2b37ddd6a22bd21233f9f5d9eab 8143 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
- 9833f95d7408570a07e308b8321d88a3d52bfb798ee62899599a04802a3e128e 9492 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 441f021b1e437420f4f0ce2a0d718425f8f405d8ad0638ea461bc6a1d3a8b122 9176 python-shukujitsu_2020.11.18.post5-1_all.deb
+ e1cf030cc4f323580e54e2d6d3e0d04df8271fde4f8b4672b905eab276e6d517 8111 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
 Files:
- fc6f3baeb9ce061b37611380319b60fc 8143 python optional python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
- 428081d0c23895074bb015373468cea1 9492 python optional python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 530f39dfb7f481a68ea676fc7ef5b58b 9176 python optional python-shukujitsu_2020.11.18.post5-1_all.deb
+ 82bd91c17fa62dfa0c961d22d6c2038e 8111 python optional python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5RWMACgkQihJM1kaI
-q8yanwv/R86HFll3ofX45/3gsKfdUcjfEmYVn6EACj8t9DGY7pnTh31fjVDH8GyH
-qXa6ZzzdDBSXo9+B5fzlNTwQihBAGOYjdRDI7Zp4FK9uf/bkhdhKxKFRa7FGEtp9
-UioN+WufZjkhpF6vr//8baAzrR37qVQYO8cOncdgocN5pr8chQ8xRhKEGplmt7Ce
-Q9iniOoW2eY8sk1cl/rbQ3OeRJ0DW99y7sFIwMY7t6YgIE8Ozcgeqer7QDFcz3RU
-jy1P0Nn38TS8Voa85xcMF8GuZzfpqzyXqlPom/jNaz593Am1WkUJj9EvmKuBnZsi
-20qHOwilMthrxwWaG73sS+7e6o5ZkNQ0VcN8KfkqToLVVaShaNCovKYAYkmxZt20
-lRr0EbskPmg4TWkL/G/qLFG0Eaaff6mxpi4rwxQKriKao66f+LDsVDZHGdlVZnN8
-qicTE07AiRkYTLm1QjiTujU0lBoVXj2iV6NTKCx2TVEoNuj2xU8U4BvVhl0iO/nu
-rdeyP/lN
-=bqJM
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5RfoACgkQihJM1kaI
+q8xzIAv8D1H/VZ6dfR9qBYnO8M+t0JKl+tx/1eIcweany5LRvy9AYTogYcEYt1t7
+k7m74Pk27RMGKseBEDo7O8gw26xly56bqDxfdgbD57fEbM3HslUGPTkq4jGH7gHt
+BDDSb7ZbLZyvW8Bz3iEv9mPbt+KdKjlJKWobkwsL9ZPRuq97WE4qbJNsUJ4j2eKT
+OEZvAG32lJjykrFEgiHZD6b+NBlbJPgGHdwMC2A+OwEDdfDJRW6kTZSPrzcV3tg9
+ktsnpNXxHyrO3fwFW8sfnmpeW47dMu9ljb1ZvBh3sT9V2GJ0ih7kYaEyFeIPu/3d
+uedM399+NPBxmyD9Uf0yRgy7F3oF8YB2CzueFoH4l+6vISn7W7hAbV/KzzQGqsf3
+za3/+gRDDz0UgfkUUC3kEsg86Gryhy2WMUuEK8nxNPchrEd80+H85H7Lpb63DBef
+f0kQs4LeVC3EkzvpA9/KQX/cxhtZV7KsGGje/l/+01fj594vYhC4CFXcCO0Ae8Iu
+0UDxcLvb
+=0KkC
 -----END PGP SIGNATURE-----

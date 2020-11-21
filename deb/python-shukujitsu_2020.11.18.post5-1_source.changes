@@ -2,9 +2,9 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Sat, 21 Nov 2020 16:50:16 +0000
+Date: Sat, 21 Nov 2020 16:52:49 +0000
 Source: python-shukujitsu
-Binary: python3-python-shukujitsu
+Binary: python-shukujitsu
 Architecture: source
 Version: 2020.11.18.post5-1
 Distribution: unstable
@@ -12,38 +12,38 @@ Urgency: low
 Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
 Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
 Description:
- python3-python-shukujitsu - Python Japanese holidays library based on static data publis
+ python-shukujitsu - Python Japanese holidays library based on static data publis
 Changes:
  python-shukujitsu (2020.11.18.post5-1) unstable; urgency=low
  .
    * source package automatically created by stdeb 0.10.0
 Checksums-Sha1:
- 87dcf040b3897d08c412372d21d12c721e8be04b 1816 python-shukujitsu_2020.11.18.post5-1.dsc
- a09a7970b6352f44e1ae5ce1c203ccf178bfc3ad 11022 python-shukujitsu_2020.11.18.post5.orig.tar.gz
- 61d2832855ea29f62fbc6ff76258bc4b3ace1674 1932 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
- 0f35ef327347af47939af16848e1123cf9dc74af 8110 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+ 266d8a5e2de3bf2807c64f02fb1abb333dd70631 1800 python-shukujitsu_2020.11.18.post5-1.dsc
+ 8ed79f85dd9bae2da73d91f7498e82702d37d71a 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 3e312936ba93b8197ff15e45e6c055150b61f472 1924 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ 6aedb0d6a65aa58c98fa1ceab945b26c909969b9 8102 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
 Checksums-Sha256:
- 1745d0058fab5b0ef2922659cbd077584c9a96cd8253b3939b0efed516548fe2 1816 python-shukujitsu_2020.11.18.post5-1.dsc
- 624af02c629870fe2c56eb253c28e12efd98e29809fb49aafc14424f7c96ce0c 11022 python-shukujitsu_2020.11.18.post5.orig.tar.gz
- 526791eb18cfe82b79250e14bdfe6f912201ad838b4eef35b8613e0258455e17 1932 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
- 7518bc663b4ef51b9a4a2a037ecece16ce73d76f2bafe62cddd50f35b20bf107 8110 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+ a2d15bbb93151e891f8431697e8e5854e041f8ce7ed14673554501084192fe49 1800 python-shukujitsu_2020.11.18.post5-1.dsc
+ fda5ca270c93ee2cfb7d21d29e22505a22e1b2718320889df4d4bacd822f5664 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 2ab23ae0494a33373284187d9283358b4f628d10f373efa63329f900e47c2b8c 1924 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ 0822c9301537ec7d18466231062ed13a4b218bc8c67638d4fa5caa33210f9929 8102 python-shukujitsu_2020.11.18.post5-1_source.buildinfo
 Files:
- 3dc82ef38a3fdf53a7968d3c6de490dc 1816 python optional python-shukujitsu_2020.11.18.post5-1.dsc
- 0e02cdbf73f1b8df4e806898b86e01b0 11022 python optional python-shukujitsu_2020.11.18.post5.orig.tar.gz
- a772ad2bfe3e16ad4b9d4d9861d6122f 1932 python optional python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
- 483ac2d0de99a176f013fb3ebfc81f8d 8110 python optional python-shukujitsu_2020.11.18.post5-1_source.buildinfo
+ fe73fbb76bee90e800231463a0ca0ae0 1800 python optional python-shukujitsu_2020.11.18.post5-1.dsc
+ ac208188b24b65fa722b270e62c73dd7 11016 python optional python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 4f2b44f01082102559749951832a6f35 1924 python optional python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+ 4985d744992e76628a6363347bc71eaf 8102 python optional python-shukujitsu_2020.11.18.post5-1_source.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5RWMACgkQihJM1kaI
-q8yX0AwAwLvqIaDuS1nKzHXlBjWOdgFJLJPQh41PxeSY8tLqsjCbq2FHD4psgh2l
-1ciHkL85BUynYYD0IOwdWdTwNLTOisyRZvOd2aJEqOFtvSARXtuErfatUs2e762V
-kdxSMHLIFt8sZUO8tAnAbgmitQvwIHq8ZA/57+opC97/bFochA+6HFj6lX1a2uIK
-zcuhhdaLpupbC1KpaLirESYUpQn+B9x2qkwX9fXUlO3CECAC68OfWDITQGFesZ7t
-pHROTd4xfDhmcK3jgbxHiKTE6W9MStMwBadiD2x20vv1kIr+5x0uj2CcsFJ+PmCQ
-TkElK2ZvWJL2Q2CdXg9eUtO/6H74mXXYAR6HjpGpJHRsgm+1NGmSF/W4EuUfweTK
-GrroCiGExt//9lqWaE1UDxSlSWaNL/dTYNL1O/ifUZ5Ju0lzsAylysfZH+vU2nIw
-eg6kLL/K9HvBaPC0AafBBuWKj/5yecEVjgjzH4syFVWZ4oeic1kaVP5PR4w53Yzi
-bQFPzB0P
-=WSwq
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5RfoACgkQihJM1kaI
+q8zILgwAx4n4vYk7Zm0Kkwz1R1PmVat/qulx5T2Gceqe04cElcALWruCSKW2txrt
+CSLYZmYtU8FNScyDJww4lm7rTMsINvXbEG10osCbz0O1po/9G67JPLBJTpYewGlG
+zRmYIhRRCv8MpQ7CQLC86l12MJ/oj3MvoJbVxI7Q30Fljk+Wk9IXVSpsML6S0L3S
+BEnvM5cCxpCNCU8+vBt7Sa88boKJSGEY4DxxfidbEPzJ0zFI/Y9ciThstXsFBtMI
++VodApd++/GNCIEbWujmcfGd43neMurwgSBD5Zv2IldalZweL9aykgijZJp50B9T
+3l+fp+dhw7n5XCXnDS0bit1kXazx6KCmHeH0lirPvd7cOMAltm1uThovM++tUYje
+4e0/63xBD1Fc8XJ9tjV9aDvtM+6oeMOzsfzMXpovlej2K62yi4UhV1mHbPuBqShl
+oyXAMegVQJFxIEOVXU0HVdjBldis2bHVL9824kpZrtlXk1d3ZgtcgXH+PP/AsM0n
+Ez5ZLZ2v
+=69+N
 -----END PGP SIGNATURE-----
