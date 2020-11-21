@@ -7,14 +7,14 @@ Binary: python3-python-shukujitsu
 Architecture: source
 Version: 2020.11.18.post5-1
 Checksums-Md5:
- 3a94f6c5a9d26f762cd753199b070945 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ fc4c337cda56fe7487d146c63b7920f5 1816 python-shukujitsu_2020.11.18.post5-1.dsc
 Checksums-Sha1:
- ad521352fb57edbcc9626b000c496045890f1ae6 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ 07582c498193bbfaebf8baf357d7226fc2c89382 1816 python-shukujitsu_2020.11.18.post5-1.dsc
 Checksums-Sha256:
- 76198d115fe6554fe5dfed43459ec68b9f61d7918eb96ed233ecf428a8e8e693 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ 3334a155b24f18717ea37c77c808059a4399707a1f58860be044363bedbd7a0c 1816 python-shukujitsu_2020.11.18.post5-1.dsc
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 21 Nov 2020 15:59:14 +0000
+Build-Date: Sat, 21 Nov 2020 16:22:48 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -215,19 +215,19 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
- SOURCE_DATE_EPOCH="1605974352"
+ SOURCE_DATE_EPOCH="1605975766"
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5OWgACgkQihJM1kaI
-q8y2RgwAhVzC/T8Di9Lvp+wlDmVeSJSQJbKXHd8/Mj/5h6E94Uzxnf23GUXeW7lg
-U4/0OAAvJmIbx6mUBsDj67OQG9GdGWeZSrIpWT+3hVNY3J1SeLYGhec0tDfh9lV8
-Bjic3PIH8xRlhLsFpWJShfguIn/C4OiG5M21bzx8yJXh3gmQjosZE8H4BcO2uIej
-cgNZpJ0QCAu0zPc2uNmGyzJB9GdJ+hl719UZeD10TJn8nw/TVw6V1TJccFxkmstk
-kvFazhxLRP9nK4z4t+xt3iDXaWBd7OD/EbF7LknkFUW708VjdvDOgDXVmaQu5sE0
-/K9p8a39eHsugUqf8VpIBJ5r9uH6QccbP7JAmdGipFERwDnztZkDKnW0ACdfKej2
-mo8LUeF7sqrtDaPhTuuR+C4XlcY0DoeWx05LQhOpB+Ek3rjxwcwgwnIkpwpYAoEN
-Ud6YiDn0WN2DwqDwqiBgRPEhxzYcL2bCgG+VEb6FmRIrL5byT/1PukEcM4D6q3jO
-UsimRMZJ
-=DafZ
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5Pu4ACgkQihJM1kaI
+q8w9ygwArGfMsXcLndd8JRn1NA5dZ1doKQontUWTjJUky39yV9H1mtYOGMIWQEdD
+Ry0wmfF8aGS9JUOIcUSznqvjMshNVj5RiquIUAmDU3ocUz9TBnUD6CgW61/57B1O
+vWk3HwcWCKss/hIdH647X7zRTVqITuE6WgrQzZPMW0dEDdQehsfgD0e0ILZgcXKn
+DG48WxFkWk6ExbwAsyediarP1Whjjo3bYAtUt13ExwfKYEs4U5Qek4xgny6/TE71
+If3YsDeQOXVHOoEvc380jW93YMYzgyzckJs308L55Jm1N5kAiLeH8lDl6zXnmoDm
+N/WpIFE/5LyAuXYAUJFUq4iG7u3ZGlazX5WwVr0olWvpO9vQbLrVXd7CtifW6Avx
+DpXIrtMthevUJD8BtTERvrvtGHQQVncqCv9RDGAIJgni0YG070NAeBoiqyvbdkmU
+JcRgoiIyKYV7qeDUCOKB8Rs+0Ix79LvxzHsUyiW7sdJr/YTWR2oLr3tT3M1r4/tm
+5l+YNqeq
+=JG56
 -----END PGP SIGNATURE-----

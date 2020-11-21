@@ -1,0 +1,30 @@
+Package: python-shukujitsu
+Format: 3.0 (quilt)
+Binary: python3-python-shukujitsu
+Architecture: all
+Version: 2020.11.18.post5-1
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Uploaders: Youhei Sakurai <sakurai.youhei@gmail.com>
+Standards-Version: 3.9.1
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/sakurai-youhei/python-shukujitsu
+Directory: deb
+Package-List:
+ python3-python-shukujitsu deb python optional arch=all
+Files:
+ fc4c337cda56fe7487d146c63b7920f5 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ 7aa15e0c5e22a934d2e05b89dfa116ee 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 13c0d6e382dcf09a1bb5f9e32212fca9 1932 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+Checksums-Sha1:
+ 07582c498193bbfaebf8baf357d7226fc2c89382 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ c7d300c20c09662bf16b826f0d56e8bbb96a5a01 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 7054e8420d66fdb9d9b36fcab87511754756d70c 1932 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+Checksums-Sha256:
+ 3334a155b24f18717ea37c77c808059a4399707a1f58860be044363bedbd7a0c 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ 9b2f72af96e6dbe01f6c7613da83c3ce29a1e403a5a40392782c7ba2c281b3f1 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 54a15cacf723c33f16967bc910d650f75e5a167745d486ebbd635a1e95eec71c 1932 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+Checksums-Sha512:
+ 945a5fbd38ca5522ef575e1bfb22b50719e4904496965efa830fc88327a6db2df4baac8d948322e9255fe643c308df036956b0d72b0d5d5fb34765acfb72f6ea 1816 python-shukujitsu_2020.11.18.post5-1.dsc
+ 4db9ba46d08f46c5d48de2ecc7a540b49544d6f8dcc8117d803512e688d0b03ce627e84258ae049959adda17e201633c5aed1f8dc58b66dc7456d39887bc0e38 11016 python-shukujitsu_2020.11.18.post5.orig.tar.gz
+ 5d272f92d1e9a94fb6c42e94dd01af2db4bfbceade11d83a6a1728caa0e3089ae813c5e3e9a9c0c3600a5e05715f70f109c1b5085722bff9f2a5f2f1d37b0221 1932 python-shukujitsu_2020.11.18.post5-1.debian.tar.xz
+

@@ -1,0 +1,38 @@
+Package: python3-python-shukujitsu
+Architecture: all
+Version: 2020.11.18.post5-1
+Priority: optional
+Section: python
+Source: python-shukujitsu
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Installed-Size: 58
+Depends: python3-dateutil, python3:any (>= 3.3.2-2~)
+Filename: deb/python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+Size: 10006
+MD5sum: a9e6a5c087f2ef8bc9d7ceb189583607
+SHA1: e6dbf9d3860dedfa1b6d0076ef620240414548f1
+SHA256: bc8f6c8d6305e5c3668751054956d2bd5fd313f0492f4a7734938e56877d4e4e
+SHA512: f852499c414fe8a0f80d5c017b9839f12e641721470f35ef4d671365e1ff52253750e1ed7d4c3f2472ee474528eb4afd58cf29feff712f8a96fe7dc80d204c57
+Homepage: https://github.com/sakurai-youhei/python-shukujitsu
+Description: Python Japanese holidays library based on static data publis
+ # python-shukujitsu
+ Python Japanese holidays library based on static data published by Cabinet Office, Government of Japan
+ .
+ [![PyPI License        ](https://img.shields.io/pypi/l/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ [![PyPI Downloads      ](https://img.shields.io/pypi/dm/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ [![PyPI Version        ](https://img.shields.io/pypi/v/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ [![PyPI Python Versions](https://img.shields.io/pypi/pyversions/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ .
+ Usage is similar to [python-holidays](https://github.com/dr-prodigy/python-holidays) package. But note that this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan **from the year 1955 to 2021** as of today.
+ .
+ ```python
+ import shukujitsu
+ .
+ jp_holidays = shukujitsu.Japan()
+ # or:
+ # jp_holidays = shukujitsu.JP()
+ # or:
+ # jp_holidays = shukujitsu.CountryHoliday('JP')
+ .
+ from datetime import date
+
