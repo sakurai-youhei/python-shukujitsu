@@ -1,4 +1,4 @@
-name: Archive Python RPM Package
+name: Archive RPM
 
 on:
   push:
@@ -18,6 +18,10 @@ jobs:
           yum install -y python3 rpm-build
           python3 setup.py bdist_rpm
 
+      - name: Install additional dependencies
+        run: |
+          yum install -y createrepo git-core tree
+
       - uses: actions/checkout@v2
         with:
           ref: gh-pages
@@ -26,7 +30,6 @@ jobs:
       - name: Update rpm directory
         working-directory: gh-pages
         run: |
-          yum install -y createrepo git-core tree
           cp ../dist/*.rpm rpm/
           rm -rf rpm/repodata/
           createrepo rpm/
