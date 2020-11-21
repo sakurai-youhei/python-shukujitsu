@@ -18,10 +18,13 @@ jobs:
           yum install -y python3 rpm-build
           python3 setup.py bdist_rpm
 
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+
       - name: Update rpm dir
         run: |
-          yum install -y createrepo git-core tree
-          git checkout -b gh-pages origin/gh-pages
+          yum install -y createrepo tree
           cp dist/*.rpm rpm/
           rm -rf rpm/repodata/
           createrepo rpm/
