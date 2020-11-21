@@ -1,17 +1,20 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: python-shukujitsu
 Binary: python3-python-shukujitsu
 Architecture: all
 Version: 2020.11.18.post5-1
 Checksums-Md5:
- d5d39b2ccef56851f0663a051579aada 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ b61dfbd3397d0e2f3d0806548c9aaa61 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Checksums-Sha1:
- dc10d34cd2d56312872358d7a2fc8e65de356de8 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ aa332014a2a501c0d7a9526c25c391bbcdf820e3 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Checksums-Sha256:
- 55b929276c6937e56e14482b06a448f3b2e81ce515bc53d8687f1a0b266b8034 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 40b339da28d16a4b85b681676be38ea3bba158f0364f98cd793b10d1ff6dbbf6 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Sat, 21 Nov 2020 14:59:04 +0000
+Build-Date: Sat, 21 Nov 2020 15:04:29 +0000
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-3ubuntu2),
@@ -212,4 +215,19 @@ Installed-Build-Depends:
 Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="C.UTF-8"
- SOURCE_DATE_EPOCH="1605970739"
+ SOURCE_DATE_EPOCH="1605971064"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5LJEACgkQihJM1kaI
+q8xXYwwAxGjk3LZD5WmRug4zbrtTxaipS6pCed0opt1tukc4ZzTXM4tG+a7dKpBr
+QtvH+0MoyQVwW2dOWg7QEuzwmFDbbEBVwaWAUYM3rW9XYmoqw7VEGBBvm3n0w1+W
+55BQq21gfbQWD3pkorbm0klVBTgXeA8AM9NKl47AvN5I6OQsijZd/9ZWUiIM3LT4
+6pBvRiv7jyT+gDnmp55jax2ZPqLJWqn5NQhKiwJ4IzggycTolcl7jGA8bXrMJLlq
+9VOw4bdUmOfO7fSq4u09yulGFzDVtXOnpz5yBdTldA4Revtu6J3SaWuIQyM0+tsD
+vDwnQ0nLqNMnpvg9JWhIFu70KpMl26RI5czYRHfv2ovvqcNTi+W3yY2eGqMGJwEZ
+RRnq2gH4EV5qoD/79f4BshgDxPekVn8bD6ktGH9/PwzbycYFOp5urHrGo9uksSRS
+8Beq3JSZTYKXU5SgxeAy1TR/qJeS0GXCNQoA2oEyJHk4oAbYrfVr+pYCLgP9CLv8
+K+ktmb9z
+=1Uk+
+-----END PGP SIGNATURE-----

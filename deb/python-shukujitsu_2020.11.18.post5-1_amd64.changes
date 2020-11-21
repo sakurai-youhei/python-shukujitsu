@@ -1,5 +1,8 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
-Date: Sat, 21 Nov 2020 14:58:59 +0000
+Date: Sat, 21 Nov 2020 15:04:24 +0000
 Source: python-shukujitsu
 Binary: python3-python-shukujitsu
 Architecture: all
@@ -15,11 +18,26 @@ Changes:
  .
    * source package automatically created by stdeb 0.10.0
 Checksums-Sha1:
- b8e0f7c276a120381066bc6bf214b69becaa63fe 7434 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
- dc10d34cd2d56312872358d7a2fc8e65de356de8 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ eea4b651adff74349c90d075ba80e92ab35588ef 8143 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
+ aa332014a2a501c0d7a9526c25c391bbcdf820e3 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Checksums-Sha256:
- 37dde07392a3fdba03824bc0307d3e353574f849b04543e72247ef1a4c3a2852 7434 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
- 55b929276c6937e56e14482b06a448f3b2e81ce515bc53d8687f1a0b266b8034 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 9587a3d6afc446e5e31995d22fe2a500b8912b5b0b086232e4206cf7bfb22a16 8143 python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
+ 40b339da28d16a4b85b681676be38ea3bba158f0364f98cd793b10d1ff6dbbf6 9488 python3-python-shukujitsu_2020.11.18.post5-1_all.deb
 Files:
- 5c610a7b7500f5e67c134ea52957c8d0 7434 python optional python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
- d5d39b2ccef56851f0663a051579aada 9488 python optional python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+ 4bb2a43553a995d3318dd3538aa8d1fb 8143 python optional python-shukujitsu_2020.11.18.post5-1_amd64.buildinfo
+ b61dfbd3397d0e2f3d0806548c9aaa61 9488 python optional python3-python-shukujitsu_2020.11.18.post5-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl+5LJEACgkQihJM1kaI
+q8xqrQwA1X2Xtu1FUr0tzp6xD4gaj9jakvNBSqoellloLQjj8y0kLDkK3htToPU8
+JTW0UihSuG0UwMVhmLNyFr2q0TQHR6/R9wnpu84+EarykR/CbOZTXslynsoT2yZ8
+l2ROzWSxNUjx0TLnRkLwtuDaLy8Ak4RUwd2/qULBjCPJ63L5T0XdFoUuGduA36ni
+yVOtEIohWjcD3gEHRVNWUeoXwum9yFuYKDlJ4RrXfvdh9RVdPylHyKke5YNzIfL7
+6qmi4eyGau7RYxdbIL6bwxShOo5df8YYcYqcTOp4gSVK59pklSRkUcQPYEoJwgou
+2SfUlx1/PLJMv/Pid72Mn72UsEDq23TG9YIGvOTdMXUu5bj/LVWKq4S4Lrj08Vii
+ZaoqtFQC1XZPB6IuD76TV+Yu1TZ53ehxTD/gf5c81gbVwfeMC4rnKRlHyiMji9DM
+cBbsdmQKBSRDU7cd5yPGZdqyaAF2Gf4A87Lm7TrlkJzH/9hdU1PEftkIz5gpH6gA
+oXsQUmnh
+=c2RX
+-----END PGP SIGNATURE-----
