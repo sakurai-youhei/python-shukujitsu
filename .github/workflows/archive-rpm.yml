@@ -41,7 +41,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           tree -I .git
-          git add --verbose rpm/
-          git add --verbose rpm/repodata/
+          git add --verbose --all rpm/
+          git add --verbose --all rpm/repodata/
           git commit --verbose -m "Update rpm via $GITHUB_REF"
           git push origin gh-pages
