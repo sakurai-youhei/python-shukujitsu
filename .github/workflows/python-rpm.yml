@@ -20,7 +20,7 @@ jobs:
 
       - name: Update rpm dir
         run: |
-          yum install -y createrepo tree
+          yum install -y createrepo git-core tree
           git checkout -b gh-pages origin/gh-pages
           cp dist/*.rpm rpm/
           rm -rf rpm/repodata/
