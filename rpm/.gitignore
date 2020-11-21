@@ -4,4 +4,4 @@
 !.gitignore
 !index.html
 !*.rpm
-!repodata/
+!repodata/*
