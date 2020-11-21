@@ -1,0 +1,7 @@
+[python-shukujitsu]
+name=python-shukujitsu RPM packages
+baseurl=https://sakurai-youhei.github.io/python-shukujitsu/rpm/
+enabled=1
+gpgcheck=0
+#gpgcheck=1
+#gpgkey=TODO
