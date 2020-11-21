@@ -6,8 +6,8 @@ from urllib.request import urlopen
 from python_wrap_cases import wrap_case
 
 import shukujitsu
-from shukujitsu.holidays import JapaneseHolidays
 from shukujitsu.data import load
+from shukujitsu.holidays import JapaneseHolidays
 
 
 @wrap_case
@@ -17,15 +17,15 @@ class HolidaysTest(TestCase):
     @wrap_case("2014-01-01", True)
     @wrap_case("1/1/2014", True)
     @wrap_case(1388597445, True)
-    def test_holidays(self, date, expect):
+    def test_holidays(self, day, expect):
         if expect:
-            self.assertIn(date, JapaneseHolidays())
+            self.assertIn(day, JapaneseHolidays())
         else:
-            self.assertNotIn(date, JapaneseHolidays())
+            self.assertNotIn(day, JapaneseHolidays())
 
     @wrap_case("2014-01-01", "元日")
-    def test_holidays_get(self, date, expect):
-        self.assertEqual(JapaneseHolidays().get(date), expect)
+    def test_holidays_get(self, day, expect):
+        self.assertEqual(JapaneseHolidays().get(day), expect)
 
     @wrap_case("2014-01-01", "2014-01-03", None,
                [date(2014, 1, 1)])
@@ -68,8 +68,8 @@ class ExportsTest(TestCase):
     def test_CountryHoliday_years(self, years):
         holidays = shukujitsu.CountryHoliday("JPN", years=years)
         if years:
-            for date in holidays:
-                self.assertIn(date.year, years)
+            for holiday in holidays:
+                self.assertIn(holiday.year, years)
         else:
             self.assertGreater(len(set(h.year for h in holidays)), 1)
 

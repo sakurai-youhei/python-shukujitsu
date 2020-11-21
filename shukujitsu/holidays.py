@@ -1,15 +1,15 @@
 from csv import reader
+from collections import UserDict
 from datetime import date
 from datetime import datetime
 from datetime import timedelta
 
 from dateutil.parser import parse
-from frozendict import frozendict
 
 from shukujitsu.data import load
 
 
-class JapaneseHolidays(frozendict):
+class JapaneseHolidays(UserDict):
     def __init__(self, *args, **kwargs):
         if args or kwargs:
             super().__init__(*args, **kwargs)
