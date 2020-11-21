@@ -34,6 +34,7 @@ jobs:
           rm -rf rpm/repodata/
           createrepo rpm/
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / rpm' -L 1 --noreport --charset utf-8 rpm/ > rpm/index.html
+          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / rpm / repodata' -L 1 --noreport --charset utf-8 rpm/repodata/ > rpm/repodata/index.html
 
       - name: Commit & Push
         working-directory: gh-pages
@@ -42,6 +43,6 @@ jobs:
           git config user.email github-actions@github.com
           tree -I .git
           git add --verbose --all rpm/
-          git add --verbose --all rpm/repodata/
+          git add --verbose --all --force rpm/repodata/  # TODO: Remove '--force' option somehow.
           git commit --verbose -m "Update rpm via $GITHUB_REF"
           git push origin gh-pages
