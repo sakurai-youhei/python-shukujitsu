@@ -1,0 +1,41 @@
+name: Archive Python RPM Package
+
+on:
+  push:
+    tags:
+    - 'v*'
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: centos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build rpm packages
+        run: |
+          yum install -y python3 rpm-build
+          python3 setup.py bdist_rpm
+
+      - name: git setting
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Update rpm dir
+        run: |
+          yum install -y createrepo tree
+          git checkout -b gh-pages origin/gh-pages
+          cp dist/*.rpm rpm/
+          rm -rf rpm/repodata/
+          createrepo rpm/
+          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / rpm' -L 1 --noreport --charset utf-8 rpm/ > index.html
+
+      - name: Commit & Push
+        run: |
+          git add rpm/
+          git commit -m "Update rpm via $GITHUB_REF"
+          git pull
+          git push origin gh-pages
+  
