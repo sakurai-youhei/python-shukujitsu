@@ -1,6 +1,8 @@
 # Ignore everything in this directory
 *
-# Except these files
+# Whitelist any directories
+!*/
+# Whitelist files
 !.gitignore
 !index.html
 !*.deb
