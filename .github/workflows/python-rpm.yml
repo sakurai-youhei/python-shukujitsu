@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build_and_push:
     runs-on: ubuntu-latest
     container: centos
     steps:
@@ -23,10 +23,10 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Update rpm dir
+      - name: Update rpm directory
         working-directory: gh-pages
         run: |
-          yum install -y createrepo tree
+          yum install -y createrepo git-core tree
           cp ../dist/*.rpm rpm/
           rm -rf rpm/repodata/
           createrepo rpm/
@@ -35,18 +35,12 @@ jobs:
 #  push:
 #    runs-on: ubuntu-latest
 #    steps:
-      - name: Config
+      - name: Commit & Push
         working-directory: gh-pages
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-      - name: Commit
-        working-directory: gh-pages
-        run: |
           git add rpm/
           git commit -m "Update rpm via $GITHUB_REF"
-      - name: Push
-        working-directory: gh-pages
-        run: |
           git pull
           git push origin gh-pages
