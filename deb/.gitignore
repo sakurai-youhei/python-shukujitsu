@@ -5,6 +5,7 @@
 # Whitelist files
 !.gitignore
 !index.html
+!InRelease
 !Packages.gz
 !Sources.gz
 !Release
