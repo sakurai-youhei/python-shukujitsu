@@ -6,7 +6,9 @@
 !.gitignore
 !index.html
 !InRelease
+!Packages
 !Packages.gz
+!Sources
 !Sources.gz
 !Release
 !Release.gpg
