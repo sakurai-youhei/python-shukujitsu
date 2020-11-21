@@ -99,8 +99,8 @@ jobs:
           cp ../deb_dist/*.dsc deb/
           cp ../deb_dist/*.debian.tar.* deb/
           cp ../deb_dist/*.orig.tar.* deb/
-          apt-ftparchive packages deb/ | gzip > deb/Packages.gz
-          apt-ftparchive sources deb/ | gzip > deb/Sources.gz
+          apt-ftparchive packages deb/ | tee deb/Packages | gzip > deb/Packages.gz
+          apt-ftparchive sources deb/ | tee deb/Sources | gzip > deb/Sources.gz
           apt-ftparchive release deb/ > deb/Release
           echo | gpg --verbose --batch --yes --passphrase-fd 0 --pinentry-mode loopback -abs -o deb/Release.gpg deb/Release
           echo | gpg --verbose --batch --yes --passphrase-fd 0 --pinentry-mode loopback --clearsign -o deb/InRelease deb/Release
