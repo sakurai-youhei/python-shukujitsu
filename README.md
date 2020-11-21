@@ -98,7 +98,7 @@ $ shukujitsu -i 2020/7/22 2020/7/23 2020/7/24
 2020/7/22
 ```
 
-## Other ways to use
+## Alternatives to use
 
 ### Docker
 
