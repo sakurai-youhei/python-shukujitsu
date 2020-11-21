@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: centos-latest
+    container: centos
     steps:
       - uses: actions/checkout@v2
 
@@ -17,11 +17,6 @@ jobs:
         run: |
           yum install -y python3 rpm-build
           python3 setup.py bdist_rpm
-
-      - name: git setting
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
 
       - name: Update rpm dir
         run: |
@@ -32,10 +27,18 @@ jobs:
           createrepo rpm/
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / rpm' -L 1 --noreport --charset utf-8 rpm/ > index.html
 
-      - name: Commit & Push
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Config
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      - name: Commit
         run: |
           git add rpm/
           git commit -m "Update rpm via $GITHUB_REF"
+      - name: Push
+        run: |
           git pull
           git push origin gh-pages
-  
