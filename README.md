@@ -23,6 +23,7 @@ jp_holidays = shukujitsu.Japan()
 # jp_holidays = shukujitsu.CountryHoliday('JP')
 
 from datetime import date
+
 date(2020, 7, 24) in jp_holidays  # True
 date(2019, 7, 24) in jp_holidays  # False
 
