@@ -140,7 +140,7 @@ This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) pa
 
 ### Source Code
 
-This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package may contain a copy of and/or modified code from [python-holidays](https://github.com/dr-prodigy/python-holidays) package which is licensed under [MIT License](https://github.com/dr-prodigy/python-holidays/blob/master/LICENSE).
+This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package may contain a copy of and/or modified code from [python-holidays](https://github.com/dr-prodigy/python-holidays) package which is also licensed under [MIT License](https://github.com/dr-prodigy/python-holidays/blob/master/LICENSE).
 
 ### Relation to the Government of Japan
 
