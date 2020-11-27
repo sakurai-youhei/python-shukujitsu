@@ -18,8 +18,3 @@ def CountryHoliday(country, years=[], *args, **kwargs):
     elif country not in "Japan JP JPN".split():
         raise RuntimeError("Unsupported country provided, %s" % country)
     return Japan(years)
-
-
-# aliases
-JP = JPN = Japan
-assert JP and JPN

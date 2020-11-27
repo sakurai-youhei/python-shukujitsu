@@ -1,12 +1,12 @@
-from csv import reader
 from collections import UserDict
+from csv import reader
 from datetime import date
 from datetime import datetime
 from datetime import timedelta
 
 from dateutil.parser import parse
 
-from shukujitsu.data import load
+from shukujitsu.data import load_txt
 
 
 class JapaneseHolidays(UserDict):
@@ -14,7 +14,7 @@ class JapaneseHolidays(UserDict):
         if args or kwargs:
             super().__init__(*args, **kwargs)
         else:
-            csv = reader(load().decode("cp932").splitlines())
+            csv = reader(load_txt().splitlines())
             next(csv)  # skip header
             super().__init__({date(*map(int, holiday.split("/"))): name
                               for holiday, name in csv})
