@@ -6,7 +6,7 @@ from urllib.request import urlopen
 from python_wrap_cases import wrap_case
 
 import shukujitsu
-from shukujitsu.data import load
+from shukujitsu.data import load_bin
 from shukujitsu.holidays import JapaneseHolidays
 
 
@@ -87,7 +87,7 @@ class DataTest(TestCase):
     def test_bundled_data_with_the_one_on_web(self):
         URL = "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv"
         with urlopen(URL) as res:
-            self.assertEqual(load(), res.read())
+            self.assertEqual(load_bin(), res.read())
 
 
 if __name__ == "__main__":
