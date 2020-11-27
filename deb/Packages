@@ -1,17 +1,17 @@
 Package: python-shukujitsu
 Architecture: all
-Version: 2020.11.18.post5-1
+Version: 2020.11.27-1
 Priority: optional
 Section: python
 Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
-Installed-Size: 58
+Installed-Size: 80
 Depends: python3-dateutil, python3-pkg-resources
-Filename: ./python-shukujitsu_2020.11.18.post5-1_all.deb
-Size: 9974
-MD5sum: 7506cadc7db06e788d41fd641d2c487c
-SHA1: 3a8c032a3994829773da12c9ae25e43ca8f9797a
-SHA256: c113258538e8cbd5fc90284ce1bfba0fdcf89641da5864a686b7a6bbbd61dff0
-SHA512: fd7f24fe03ab19f40aee4dfdcb8ceea25fe2d4f16d8a1f61d23a48ecd3e5959523328f4cb31405415d5e486085912583fe3f638088eea3cff0f07452996a5f47
+Filename: ./python-shukujitsu_2020.11.27-1_all.deb
+Size: 10270
+MD5sum: 892195bcf4f42f0c0b022f4864f69735
+SHA1: cb41d94bc4af9c8c880c15f560391c2fdbe343b9
+SHA256: 4490c5d6e439b7ccb88d9ae77a5f49981066216a863bbab44472461ee8a22be0
+SHA512: 92699d5bb9210ce7f1e3066bdbe7ea6d0368819922aae033cbdd3e500f48333b88470eeeb81e5d82cd63c155a405f874258c8ffc3885a28fc1c211b567407f49
 Homepage: https://github.com/sakurai-youhei/python-shukujitsu
 Description: Python Japanese holidays library based on static data publis
  # python-shukujitsu
@@ -22,10 +22,10 @@ Description: Python Japanese holidays library based on static data publis
  [![PyPI Version        ](https://img.shields.io/pypi/v/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
  [![PyPI Python Versions](https://img.shields.io/pypi/pyversions/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
  .
- ![flake8 and pytest   ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/flake8%20and%20pytest/badge.svg)
- ![Publish to PyPI     ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20PyPI/badge.svg)
- ![Publish to DockerHub](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20DockerHub/badge.svg)
- ![RPM and DEB         ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/RPM%20and%20DEB/badge.svg)
+ [![flake8 and pytest   ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/flake8%20and%20pytest/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22flake8+and+pytest%22)
+ [![Publish to PyPI     ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20PyPI/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22Publish+to+PyPI%22)
+ [![Publish to DockerHub](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20DockerHub/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22Publish+to+DockerHub%22)
+ [![RPM and DEB         ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/RPM%20and%20DEB/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22RPM+and+DEB%22)
  .
  Usage is similar to [python-holidays](https://github.com/dr-prodigy/python-holidays) package. But note that this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan **from the year 1955 to 2021** as of today.
  .
