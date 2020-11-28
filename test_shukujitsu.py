@@ -1,4 +1,5 @@
 from datetime import date
+from datetime import datetime
 from unittest import main
 from unittest import TestCase
 from urllib.request import urlopen
@@ -17,6 +18,9 @@ class HolidaysTest(TestCase):
     @wrap_case("2014-01-01", True)
     @wrap_case("1/1/2014", True)
     @wrap_case(1388597445, True)
+    @wrap_case("20200320", True)
+    @wrap_case(date(2020, 3, 20), True)
+    @wrap_case(datetime(2020, 3, 20), True)
     def test_holidays(self, day, expect):
         if expect:
             self.assertIn(day, JapaneseHolidays())
