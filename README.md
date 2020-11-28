@@ -63,7 +63,7 @@ optional arguments:
   -n, --holiday-name  output holiday name instead
   -V, --version       display version information and exit
 
-Exit code stays 0 if one or more dates are matched. Otherwise, it always goes 1.
+Exit status stays 0 if one or more dates are matched. Otherwise, it always goes 1.
 ```
 
 One or some dates can be input to the command through command-line arguments or STDIN.
