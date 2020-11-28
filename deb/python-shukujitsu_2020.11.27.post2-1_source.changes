@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 28 Nov 2020 13:15:32 +0000
+Source: python-shukujitsu
+Binary: python-shukujitsu
+Architecture: source
+Version: 2020.11.27.post2-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2020.11.27.post2-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ ee6a6fcadb9af9e9f532bad411e3620b5b40d1bb 1800 python-shukujitsu_2020.11.27.post2-1.dsc
+ 8522a5ce4732227e833f5b39b51323a22300a9a4 12301 python-shukujitsu_2020.11.27.post2.orig.tar.gz
+ 2a326439cd4151bd20551e9029b49385be5640f7 2040 python-shukujitsu_2020.11.27.post2-1.debian.tar.xz
+ 8feb8f09dd4782005e4f94ef70f01cb17d0c8c24 8102 python-shukujitsu_2020.11.27.post2-1_source.buildinfo
+Checksums-Sha256:
+ 4d9cff303017b574e9f83f563c1b44c46745bbd31ded8af2966b44eff18ad543 1800 python-shukujitsu_2020.11.27.post2-1.dsc
+ 417d3b023d651f21a27f751f58b5e429b43d7bd33df1824078eb6a7704bce780 12301 python-shukujitsu_2020.11.27.post2.orig.tar.gz
+ b82ea0958fdd5c5aef505cdb0000e90fb585a5edeb95929574a316794f208cde 2040 python-shukujitsu_2020.11.27.post2-1.debian.tar.xz
+ 4c8b222cb3eae1c819ff1a9225547af2513d2076235e6c178ea15d69c8803e00 8102 python-shukujitsu_2020.11.27.post2-1_source.buildinfo
+Files:
+ aad9653f24180a93726fd090926315f0 1800 python optional python-shukujitsu_2020.11.27.post2-1.dsc
+ 7d6682b922d1df8df33627b34463b6f7 12301 python optional python-shukujitsu_2020.11.27.post2.orig.tar.gz
+ 855e3161898996908d0b7db33247dd40 2040 python optional python-shukujitsu_2020.11.27.post2-1.debian.tar.xz
+ e08b75864ed6cfc01998016a86571ab7 8102 python optional python-shukujitsu_2020.11.27.post2-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/CTZAACgkQihJM1kaI
+q8wLNQv9H4uVNC6nliXbajL++r2d57aY8O70Vxl+WCS0QJsVpeI+gEeZNidCsh2T
+IO7p0po97Zm6oYV7YE7EodibZ6/cFf8UaBRV6Y3F6e6rWCm4eT74FG4GPSOPqRRM
+YTuHBY6nZXftesOgb91OmEMlJBoCpb21ruerWqIgYXVh5F9NTNtdloukBuMjcX76
+Y9MR8SdzhGnG2aNFgvItSLAufjFdAjN+JH/SQfgQ3pSU8aM/pL9rzs+l1Ih6A81x
+KZWTq3Kcip7U+TV+I9U3+thRRZArW1aMlT2hOdHZrC5OJMsY6vG92tCsxTqs5ilN
+RFrayUktUvzsrisVLVQ6UMpUapcicwAG6cSGp4grVb/58/a8RBXGLL+l7vVJewdo
+VV2CyMd+VaqfN7RFMaH51eSY1R7Pg2BBeBEWL6jhkzsstftjrKur8FADqmtAsD4r
+pNYjBGbmDXjMe03U8Ckr3j2qmAxqVQX4GEgPx7nCHMlBJwHtP1rP0VLFcwAV2kZP
+sHBcEzeG
+=H2jH
+-----END PGP SIGNATURE-----
