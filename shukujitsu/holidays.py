@@ -24,10 +24,10 @@ class JapaneseHolidays(UserDict):
             len(self), min(self).year, max(self).year)
 
     def __keytransform__(self, key):
-        if isinstance(key, date):
-            return key
-        elif isinstance(key, datetime):
+        if isinstance(key, datetime):
             return key.date()
+        elif isinstance(key, date):
+            return key
         elif isinstance(key, (int, float)):
             return datetime.utcfromtimestamp(key).date()
         elif isinstance(key, str):
