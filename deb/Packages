@@ -1,17 +1,17 @@
 Package: python-shukujitsu
 Architecture: all
-Version: 2020.11.27-1
+Version: 2020.11.27.post1-1
 Priority: optional
 Section: python
 Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
 Installed-Size: 80
 Depends: python3-dateutil, python3-pkg-resources
-Filename: ./python-shukujitsu_2020.11.27-1_all.deb
-Size: 10270
-MD5sum: 892195bcf4f42f0c0b022f4864f69735
-SHA1: cb41d94bc4af9c8c880c15f560391c2fdbe343b9
-SHA256: 4490c5d6e439b7ccb88d9ae77a5f49981066216a863bbab44472461ee8a22be0
-SHA512: 92699d5bb9210ce7f1e3066bdbe7ea6d0368819922aae033cbdd3e500f48333b88470eeeb81e5d82cd63c155a405f874258c8ffc3885a28fc1c211b567407f49
+Filename: ./python-shukujitsu_2020.11.27.post1-1_all.deb
+Size: 10254
+MD5sum: b311f47ce3e0436133cd4e8bac1c9cdd
+SHA1: eb774398d0153a9132e57b7710f632786ecb6895
+SHA256: 8c7df28afc7ac270effd481725646147fde0e62e2267d071b5da3cc93b214627
+SHA512: 166547c26dcbae202179e4bb7cbd10c524784a851daad4352eb4635f4e3767e78788745e4f45cea6ef712b5893f3083651e4701d534e79575965d3b4eb151982
 Homepage: https://github.com/sakurai-youhei/python-shukujitsu
 Description: Python Japanese holidays library based on static data publis
  # python-shukujitsu
