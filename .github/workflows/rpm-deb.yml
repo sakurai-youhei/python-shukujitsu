@@ -110,6 +110,7 @@ jobs:
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
           mkdir -p p/python-shukujitsu
+          ls *.deb | xargs -I{} sh -c 'dpkg-deb --fsys-tarfile {} | tar -x -O --wildcards ./usr/share/doc/python-shukujitsu/changelog\* | gzip -d - > p/python-shukujitsu/`echo {} | rev | cut -c 9- | rev`_changelog'
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 . > index.html
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb / p' -L 1 --noreport --charset utf-8 p/ > p/index.html
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb / p / python-shukujitsu' -L 1 --noreport --charset utf-8 p/python-shukujitsu/ > p/python-shukujitsu/index.html
