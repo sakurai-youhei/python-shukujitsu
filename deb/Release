@@ -1,38 +1,28 @@
-Usage: apt-ftparchive [options] command
-Commands: packages binarypath [overridefile [pathprefix]]
-          sources srcpath [overridefile [pathprefix]]
-          contents path
-          release path
-          generate config [groups]
-          clean config
-
-apt-ftparchive generates index files for Debian archives. It supports
-many styles of generation from fully automated to functional replacements
-for dpkg-scanpackages and dpkg-scansources
-
-apt-ftparchive generates Package files from a tree of .debs. The
-Package file contains the contents of all the control fields from
-each package as well as the MD5 hash and filesize. An override file
-is supported to force the value of Priority and Section.
-
-Similarly apt-ftparchive generates Sources files from a tree of .dscs.
-The --source-override option can be used to specify a src override file
-
-The 'packages' and 'sources' command should be run in the root of the
-tree. BinaryPath should point to the base of the recursive search and 
-override file should contain the override flags. Pathprefix is
-appended to the filename fields if present. Example usage from the 
-Debian archive:
-   apt-ftparchive packages dists/potato/main/binary-i386/ > \
-               dists/potato/main/binary-i386/Packages
-
-Options:
-  -h    This help text
-  --md5 Control MD5 generation
-  -s=?  Source override file
-  -q    Quiet
-  -d=?  Select the optional caching database
-  --no-delink Enable delinking debug mode
-  --contents  Control contents file generation
-  -c=?  Read this configuration file
-  -o=?  Set an arbitrary configuration option
+Date: Tue, 01 Dec 2020 10:43:18 +0000
+Label: python-shukujitsu
+Origin: python-shukujitsu
+MD5Sum:
+ c515aa7017009a7454f44cc947b6482d            12811 Packages
+ 6da11e0f6c750a1bc83534a3a206c15d             1844 Packages.gz
+ f9ec4e0a2f6c243f736f190856eff957               89 Release
+ 0e99918cee63057469f2076f01a77a99             9602 Sources
+ ef9fda8420402c1f995409500efeabdc             3079 Sources.gz
+SHA1:
+ d697595f02022af59491d831bb78b2b3a0827eba            12811 Packages
+ f2839532f22bde99f1dbbe80a07d8f9193b48ac5             1844 Packages.gz
+ 23471c1b37cc27b0a7786c1149b1a6ef2b42e587               89 Release
+ e498932891b7b55d99d643d6b517be723c775523             9602 Sources
+ e2e49bbfaf005ae34cd5f320c29bb26641cc157f             3079 Sources.gz
+SHA256:
+ 0a2dd33c3e5916a82294bf3eb3210bdd3630cc7a90af638960768d80855d504d            12811 Packages
+ 85607df2260b1d482b4e5c678c8fe3628eca119b2f018ee82668775c2d4022a6             1844 Packages.gz
+ ea74e37cacc3aa9b48fc05c315ab7a3865177be08eb8928304f3df421c7a1aaa               89 Release
+ 8ea464fdc6c0080da668726fbe0d26fd6efdb6aa814923a7fe007000a11cc832             9602 Sources
+ 7519224d0ee5766ee6450ecf6d2aab0cde181c084484df7808e21ad6e101eeff             3079 Sources.gz
+SHA512:
+ 03417000b180047a24e592255ad9e2759e564eb7e8fb3345e38bac8e6802d4449a20efe15c3968b0ae1ca4fb92bcdc031306c35b6a6ea4b67f9f7245e037b7bf            12811 Packages
+ 48f13fbc4582a6e3da7263f15ea535b8490efda6f87d015301906ecc9486fac926006530f9e31f2866ec845858c21e5e1b65e8ce37797bffdf558a8a0d8dfbe2             1844 Packages.gz
+ ffc7671c9d1f645fa7f069817c7331603c247bc1da71d2d7d65f8248a8b682cc2eeac7732fc3f29f3b171c2e092e23ea48bcbe04a06cc1b0ec212468f4bda866               89 Release
+ fc9cf68156d1dd93a6dc4dc8fc7b5b9f509712d69ee9d2f58db4a2a7cee7dabbf6d65b74088cf6c38f7fbe93ea58cab5a431ffe33aa8fd9089ce1d7973894a9c             9602 Sources
+ 41bb4bfcb046477c18b1a63edd4c14c46c025f23e61714b5e3b27423d2be28e9a2d5023d5025ee48d9b274c64b9ce79324fa210f715a0b682a87901b185b988d             3079 Sources.gz
+Changelogs: https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog
