@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Tue, 01 Dec 2020 10:07:55 +0000
+Date: Tue, 01 Dec 2020 10:28:16 +0000
 Source: python-shukujitsu
 Binary: python-shukujitsu
 Architecture: all
@@ -18,26 +18,26 @@ Changes:
  .
    * source package automatically created by stdeb 0.10.0
 Checksums-Sha1:
- 4cb801b3dbe587f98838eb07f2e86983e66b7e71 9800 python-shukujitsu_2020.11.27.post3-1_all.deb
- c611e54006a21ef07e40ac334a0da72ab6a288be 8111 python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
+ ade10a319017be0200aaf6fbb6fd80710eeba840 9808 python-shukujitsu_2020.11.27.post3-1_all.deb
+ 20be13065c247f1c241af50e834bfcc7cb549cf8 8111 python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
 Checksums-Sha256:
- 1b40931fba5df8d67cb3aef0238f5cea10b7ddba1bdb1e3e7d45f7b3d43fe4d1 9800 python-shukujitsu_2020.11.27.post3-1_all.deb
- ac2490252052cebc962bb1e8a2d3714c29346550a534ba2bd2aeb7777d4d1cd1 8111 python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
+ 149c2e8194299f09f02deef32176bd73a30d6aba6f4ea361020ed2fddc73321c 9808 python-shukujitsu_2020.11.27.post3-1_all.deb
+ 36b3a5ebd683384af6c19e6c619b90e8e258c6be8cb7925b252bf2fab1d652cd 8111 python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
 Files:
- b34efbb5de986aecf0bed80f23554975 9800 python optional python-shukujitsu_2020.11.27.post3-1_all.deb
- 7ec82001f2d49dfba29d9b521b8e6138 8111 python optional python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
+ 0d0361299a016e136c86f24b19e303ad 9808 python optional python-shukujitsu_2020.11.27.post3-1_all.deb
+ a73cbe574d2b14acab4573d9d9c91225 8111 python optional python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/GFhUACgkQihJM1kaI
-q8yYbQv/asiT4X46FV8J828lv+LbFf6OXE7bwN1zlPNTOTsDpgFRyXHwtjUqW6Uk
-SJUGOmP1nIrLsrXFYTvN2DjGrM6ieap9NLFcAXphoDJVxi6F6U+uwLRvjAFONYpz
-dVUaDWhc2SBaDIBuJTNe/ceI/QYVDMTp5oKM/uvvdKtpsONbXO7yav6Tf9RvtQqh
-gNrj4jFiMkFa8ckiaDURKGCAN61xpXCID3Gk1wC5JibYkWqo8J9+ywlqYEkQMfuO
-ffXZZ9bmzBHe3IZ/FVHzjHo0mR9WyOMJq2XJPC0T3Fm6atNVsD4rgfXV3jo9m0pw
-MSJDeIr5mBjjCIL1xAsIp3EfhFw4/roxGACxD8/wNaehGpkWNRrhUh6Q7vEfKqhL
-pxXTFiiYI3rIR+yqyS4wNDTtWHFgL5MGHAya9YOTNpBR7a6RHGeB39MurCrwKTdu
-LWJ0ybouLzHtRYxve+j7bE95ysabqD7bIa3QKCV1+obeSoqBtYCfKJIlaKn4WNuH
-EcKX9+yS
-=knaY
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/GGtsACgkQihJM1kaI
+q8y+EAwA3c4pDqVZw5it8VQOv3SKpq/t8MCWkXERAiVnQofSlNMAwgXFSryYIhMK
+ohW8y+g5rcBu/Ado3Fq6xXYFcD5oWId2l/NA7Yjk+W5tnijwkhVVEnpWjuycE/fn
+kc92El8p4+fDVLalXk3ynSvmtzEo3XdKVncthH3Ycdo1ucEPb/L5d0JikWzHWilB
+6FAxe/z5EepVo4RpWE2dz1aLx5Xxw3BZGRAHvg2dFfTStX99+ZWEslUsNV2chE5c
+dOIJRaCwnokwbePm3s+q8NrvXb7mpRliNvEmr/NLZcXVioU9HGHhVxMg26u9BJ0H
+D5nhaJg75FK8qJe09kGTscSbuFG9Bs1JJ2fufJ79UypoL+wdqGpyQPV9bW5eGlAL
+H1NMxyw5XNErGRrRDyQsCuXm6pkKIfhGlXSanBjnb+lRijrCp7+cUVK1nZPqqlx8
+wmJO0j8OChQaWAYJPfYriBzpjEVw2MuI+64JSXmgzeKlYRtXFK9d5w7Q+oMWzy/h
+RA+ljAAL
+=Ua3w
 -----END PGP SIGNATURE-----
