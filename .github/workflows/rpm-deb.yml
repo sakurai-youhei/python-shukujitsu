@@ -4,7 +4,7 @@ on:
   push:
     tags:
     - 'v*'
-    branches: [ main ]
+    #branches: [ main ]
 
 jobs:
   build_and_push_rpm:
