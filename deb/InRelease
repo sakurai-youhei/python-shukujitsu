@@ -1,44 +1,55 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Tue, 01 Dec 2020 08:36:45 +0000
-Label: python-shukujitsu
-Origin: python-shukujitsu
-MD5Sum:
- 121a89d6d256358b088ddbeba967cf61            12811 Packages
- a25b87776d67adecdf0394bd6375b1f9             1841 Packages.gz
- ac62a22f8d903114175236d497e597a2               89 Release
- 0ddcefca81402507a1ac434c4b732bfc             9602 Sources
- 9b8180da3a556250f7de0e1dcdfef013             3083 Sources.gz
-SHA1:
- 3f459862fd21ce8f0d8146ae8ff14a9c3d20d652            12811 Packages
- f4c3754eb689d24d2be0ec631d5ace008089a7bf             1841 Packages.gz
- 08d69335ea9a419022df72e18afe1d1d294da25d               89 Release
- 046fe70176fb91ab111f05e5f10e20b94f4178fd             9602 Sources
- 7596d3ef38186b366d011fdcce56a1fab3254a32             3083 Sources.gz
-SHA256:
- ba0555fcb44acdf7af3866e6951585495a4eb59bd38b3f7432e27c8796db197e            12811 Packages
- 33f4ec97664ec506f4bcd642f1797351eb25d20fbd116b790921a4c34cffc9ac             1841 Packages.gz
- b0002099920768d605e0dde412730ccffe62265836004559cccc256163c5b7f8               89 Release
- 1b3bf013d40999f2726139223d5cb3f92debb3f3c33f4fcfd2aa403e24190164             9602 Sources
- aead2472cecfac17b3ef79740f8c368c3ae5263f7ea1e5f7a4ec0d83e6628598             3083 Sources.gz
-SHA512:
- 01f50ac8ebed438ae8df924f6e989a35e9d06220a5dc19510aec0649c86bd7014e148d6f829690645d573d1554dee179b07308b5eeb65f11a5040564984da7d8            12811 Packages
- 96f043aec0b77221a2f0b10793cec87baa0ace7259ed7bdf01ba4dceb2faf46c3b034edcfa286dc2fa046f564ac6e99941cbae83297dbb31f0fb70a036a38e99             1841 Packages.gz
- 2c5cd68e2f83746fc4204eaf5275d46c69caed9db511077d76220152a5babf750789b79db91c5fb218d6dec0683ffdfa2727590c6dbac8908cae85009b073aea               89 Release
- af678ab861393e1cf80c81fda7c7b1fb4ee7809f6ebca0005edd8160ee2e775ee22fd1c0fdc0f2c18b5f93c3da46e16b9ffb673a47e4eced596450f73ecc9b44             9602 Sources
- f79309ef3f5295bb86440d5dc75a4a9cf49b816c57241033dffe79e8fdb7131c159a30973c49c9f2892e9b2cce87b6e2f345e1ff4a06952cfe240a1632364698             3083 Sources.gz
+Usage: apt-ftparchive [options] command
+Commands: packages binarypath [overridefile [pathprefix]]
+          sources srcpath [overridefile [pathprefix]]
+          contents path
+          release path
+          generate config [groups]
+          clean config
+
+apt-ftparchive generates index files for Debian archives. It supports
+many styles of generation from fully automated to functional replacements
+for dpkg-scanpackages and dpkg-scansources
+
+apt-ftparchive generates Package files from a tree of .debs. The
+Package file contains the contents of all the control fields from
+each package as well as the MD5 hash and filesize. An override file
+is supported to force the value of Priority and Section.
+
+Similarly apt-ftparchive generates Sources files from a tree of .dscs.
+The --source-override option can be used to specify a src override file
+
+The 'packages' and 'sources' command should be run in the root of the
+tree. BinaryPath should point to the base of the recursive search and 
+override file should contain the override flags. Pathprefix is
+appended to the filename fields if present. Example usage from the 
+Debian archive:
+   apt-ftparchive packages dists/potato/main/binary-i386/ > \
+               dists/potato/main/binary-i386/Packages
+
+Options:
+  -h    This help text
+  --md5 Control MD5 generation
+  -s=?  Source override file
+  -q    Quiet
+  -d=?  Select the optional caching database
+  --no-delink Enable delinking debug mode
+  --contents  Control contents file generation
+  -c=?  Read this configuration file
+  -o=?  Set an arbitrary configuration option
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/GAJ0ACgkQihJM1kaI
-q8wmVgv/SmmtQ9ViRaDCKEAimT4YQeNSAcaJl9H3g5Gyfw9AiY67toipuWUUS7Ce
-ku/F1/mCSMScJbqKmfGRZpI3lkpjnNc1Osih4b9H6lRBeAfyeVDwDHZvfaXQ5+lf
-TkPoKamjK5FElzILRe8LU80Nho08e5B0F218jvDgxHBVsV/0R9sX+lns+BceGBpT
-62KwAZJd/TX+RN+AqJWI4A0RCc5UXhmbWnxYNK8zzDH1e6SwSh+BnuQNd2EDb/wD
-FG2Aa+p1+pnQML1+iRp8RN0YDsgPSrsvmLYQdqMZJYt4qRkTS2zj894wiODULEhk
-x9HAcBS5T14DkBiE41bqEHBDV9sURIrO5s3ubqONHHBK9E9efvcKSdrjI2/4THCs
-Wf7c9e4aAOzyuJdcVOmtwuXPTrXe69nEalTAk4H4OmwIM7NSFjjNNenMn71gAO6G
-BHGvxXa7KhTWOAFZb6JeWMS+a15LPBTvnfQU7Y+7+5AN3zcEziQp9b+DlzxuzQdN
-1TMZQsyq
-=Tj2w
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/GFhYACgkQihJM1kaI
+q8ySKwv8DwKnQJhhHZDi+3SXu6pFDkH27vNUHknWdVARPG9GfYkLbkAfo61Jwr2O
+vaMxGqKLRViK/yQgNfKSH5FBWTEIz5mse/xJB66MPbMMZfgHpEYFFq9kHectuoCc
+xhoOlgrHuhzgRhmEA2PDa6q/qqEeOkB7sJp7ChGWSVO/oxXUgsLbGRxpWu7mRuCR
+t5a4QscMn+mHwO02/MkxAAr0gTbpsMBqsogkuoozcu8ahXK35dkM0CU+nRiCkEFh
+lL7ir7CVEULX7NpGREXGT4qDEepklyBtEt+AqQRP+WnOeTE472wYe4zEmG/3IwqT
+tYs7584X6CZ3u4wj6YkCI/nauOur+RthNV+Ld9f7hn7Ta77LJ4crEXUkdcanWNrT
+CseAQXvBG3vJBF4f9hIebUSTsHuvpPblwJPY4VvrzAujo+u/FXdKZDWpeTNgKBO5
+WP0/4Ir9R9E9hBzox0UFK8HcLz43Or2QoWYwFI2D1VsMKK6WxRJXtcnX4a4CO0CK
+B5ZTP896
+=zN61
 -----END PGP SIGNATURE-----
