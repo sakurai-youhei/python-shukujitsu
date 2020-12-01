@@ -101,7 +101,7 @@ jobs:
           cp ../deb_dist/*.orig.tar.* deb/
 
       - name: Update deb directory 2
-        working-directory: gh-pages
+        working-directory: gh-pages/deb
         run: |
           rm -f Packages* Sources* *Release*
           apt-ftparchive packages . | tee Packages | gzip > Packages.gz
@@ -109,7 +109,7 @@ jobs:
           apt-ftparchive release . > Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
-          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 deb/ > deb/index.html
+          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 . > index.html
 
       - name: Commit & Push
         working-directory: gh-pages
