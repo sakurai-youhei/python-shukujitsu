@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 01 Dec 2020 00:54:11 +0000
+Source: python-shukujitsu
+Binary: python-shukujitsu
+Architecture: all
+Version: 2020.11.27.post3-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2020.11.27.post3-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ 7f00788661961430c68f8a71dae21068570beea4 9792 python-shukujitsu_2020.11.27.post3-1_all.deb
+ 8da202b94c0669466e54f4a8bd99214c6c937c05 8111 python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
+Checksums-Sha256:
+ 630b6bd17f90ff79c20ba240794cba64eb169684be0df86a5a227bfb13f62ce1 9792 python-shukujitsu_2020.11.27.post3-1_all.deb
+ 181b1400db0a323098a3aa9bf1fe8092f80f396dbed17494f92ef84de4ffc146 8111 python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
+Files:
+ e52d8375da0dfe67ccd7eb349d30a00a 9792 python optional python-shukujitsu_2020.11.27.post3-1_all.deb
+ 1c3da40a6cadbe2d66cdcba790d7b53f 8111 python optional python-shukujitsu_2020.11.27.post3-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/FlFAACgkQihJM1kaI
+q8wBNgwA2A06tPac/NuJkL/EAzp93EYzoXsQbqa7qcb+RR+4aqwRv1rl+G9+VQUi
+zNbaG6KY/p2KetkCPmU7lcSXG4SvxMeQWeQcN0Q72ORZ4NuG6eIoUYmLX6ORTiq6
+R1s8q65NY6IY3LKRuuSf3/MZR+ydzGZtXPwuCSsmom8Byy0CqB506KhG7PAWRuwh
+PxpsPScwE2d/A9Vv4gS8iDbOSrHOFPnte7rvHxE5mLmBN7WsF8ABRsiPQ2AMMGKC
+jhT737QB7jj+4USa3w22bjzBcxZnr00Xf2mT3cEZvwScFD6q52gEklFYyxzaLpu/
+9/+1GMcIHo1kdLojWaMIswMgGM2VIciIKHoDtQxsVLZDQP7Q0ETNbHNcznHcRWZB
++mm32NbzXDdFGkGTKNRUBM/HEmJPWh43g6GWqdaUaapbOKNb/HSvlxIA4wtE8qIG
+kRIWS5XzxQ2Ra4dX7uLH7CRMqhesH/Kj2JSKutV+gcsgPL4l+rpR11ZAFdFXhVZs
+E2pLFqb8
+=zFPQ
+-----END PGP SIGNATURE-----
