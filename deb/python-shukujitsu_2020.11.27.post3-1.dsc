@@ -14,26 +14,26 @@ Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
 Package-List:
  python-shukujitsu deb python optional arch=all
 Checksums-Sha1:
- 1e168c834ff0fc07f65df0437b6dbc89714cb866 12378 python-shukujitsu_2020.11.27.post3.orig.tar.gz
- c45eb0999b0ace1ca4b2690de0c898c09ca81e4f 2048 python-shukujitsu_2020.11.27.post3-1.debian.tar.xz
+ ab6b142c937ff845b7102fbe324fec3b8a2b57d8 12377 python-shukujitsu_2020.11.27.post3.orig.tar.gz
+ b5b1ba8a0feffffe31964c9a707ec55bcbd53ce9 2048 python-shukujitsu_2020.11.27.post3-1.debian.tar.xz
 Checksums-Sha256:
- b11de65cacb9439eef91baa680bdca0f9e41787fe47fecdaf30f6e4749025782 12378 python-shukujitsu_2020.11.27.post3.orig.tar.gz
- d0c4aba2f0fdcebcc653edc47a50a10d42ba77477e48772bb05a35dd5a3d93f6 2048 python-shukujitsu_2020.11.27.post3-1.debian.tar.xz
+ d6497ee3c834741f097cf290dcee351bd5a13e63a3f22a5cfafb40d33e24ffbc 12377 python-shukujitsu_2020.11.27.post3.orig.tar.gz
+ 39213438583074517b2f6434019455a2843a2cc7cd1b5f0d80223164c2f26c94 2048 python-shukujitsu_2020.11.27.post3-1.debian.tar.xz
 Files:
- e51351ce2c11674e8ab46b4ebcbaeb9c 12378 python-shukujitsu_2020.11.27.post3.orig.tar.gz
- 7375f0eef08a5c09d419091f7f076596 2048 python-shukujitsu_2020.11.27.post3-1.debian.tar.xz
+ 2fefcc65945ca304c3780dd81260e661 12377 python-shukujitsu_2020.11.27.post3.orig.tar.gz
+ 254e6aea96363505b5b4bc7c44fac5cd 2048 python-shukujitsu_2020.11.27.post3-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/F6+cACgkQihJM1kaI
-q8wU0gv/SQ+pzOntdJg/n3tFO9bipqzs8HuuAk8WL9rdQfVTqCOJBH3HTXuuAnSz
-2hrGRUl5JJJq3UusYKajygycXNxmg6fiAYh8CR3qD7stqcMiytGyOsuZsLqV6EGd
-sZLGim6P1asXXJXR7O7Gb0Qc228cy1T3sFqXOAPRd0D4p7QKK9FGf47D5lAhdC+M
-DToj7vbr4+Wn4UYhcL/n6Qav3lxKGvh1WzXrQQTBeqx15hZnervDufSJ380Cpu5/
-WdnSsRShGTwNB23L5CfZjGAVCkJh9vMVK1r4zCFK+DeeZ5GWp0lrTF6d7qaYSaOG
-1YT4rxuCzDsDewEBTkloKW+/YdQmkiX5s7mZURz65bh60YFyo8a53ZOq1nACFlPJ
-kn60hhbycYQAxdncD1w0E1R3xovTYLrYs2nlqVfsR5M/2IFQ/z48mbu+1F0nt3ks
-3diE7EEJxiEXXtFbmdMarrcXzHtCl31ldtHeRSpqhXChYzyhM6TqbmQ70E+jmlni
-QpHo+L9M
-=bczZ
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAl/F/9EACgkQihJM1kaI
+q8zbJAv/SoHZHVgF5Tw+FFFjsoDu8RuCBqgmqaXSZgJrQVrPnK7QYCyuhv4qbuf7
+4Q3s5/uOg0DqLziUBdTuqeS+G7d1ZcNqskg/Z/hNGSvEicWro0bVtDUXlVoB9OHW
+UPtZEQ1lQbCYgVbPDQfagVnCCM21afAWKNr89O24aVs2TL5lyfAwswD2n2Y/vxF9
+oKf84lmVcGUykzTcECzZnEmQIUhNLPyhW5Kx28NiB+EvQ5TuCsbYjf1ZYzkWPvAy
+hJ/l6nBOCiZhwnpPut2DFuR7nexAr8ZBdZaLFsUEyWNHHW3c9ZHMOLG05Fag02PF
+f6Tym47I+R1rYhJej1nFBE6hjojI2QPlniVvFYRzwXCH0oZlqfzfRlvkWKzIJ9KJ
+GSVtCU9n8DPVFad2T2Mj+sqXUD4WxHjYFPXnhvfkvcIreiHDyVjGJC6yX9yrS75j
+zzbG8SOM8wxQ3bwEsf9jQcnWcbk/RhnGnnjftgU3kOGFhe67JaZwfWHVyEhAaokj
+VeySDfKR
+=raB2
 -----END PGP SIGNATURE-----
