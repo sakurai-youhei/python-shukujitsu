@@ -106,7 +106,7 @@ jobs:
           rm -f Packages* Sources* *Release*
           apt-ftparchive packages . | tee Packages | gzip > Packages.gz
           apt-ftparchive sources . | tee Sources | gzip > Sources.gz
-          apt-ftparchive release -o APT::FTPArchive::Release::Label=python-shukujitsu -o APT::FTPArchive::Release::Origin=python-shukujitsu -o APT::FTPArchive::Release::Changelogs=https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog　. > Release
+          apt-ftparchive release -o APT::FTPArchive::Release::Label=python-shukujitsu -o APT::FTPArchive::Release::Origin=python-shukujitsu -o APT::FTPArchive::Release::Changelogs='https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog'　. > Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
           mkdir -p p/python-shukujitsu
