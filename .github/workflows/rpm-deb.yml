@@ -106,10 +106,13 @@ jobs:
           rm -f Packages* Sources* *Release*
           apt-ftparchive packages . | tee Packages | gzip > Packages.gz
           apt-ftparchive sources . | tee Sources | gzip > Sources.gz
-          apt-ftparchive release -o APT::FTPArchive::Release::Label=python-shukujitsu -o APT::FTPArchive::Release::Origin=python-shukujitsu . > Release
+          apt-ftparchive release -o APT::FTPArchive::Release::Label=python-shukujitsu -o APT::FTPArchive::Release::Origin=python-shukujitsu -o APT::FTPArchive::Release::Changelogs=https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog　. > Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
+          mkdir -p p/python-shukujitsu
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 . > index.html
+          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb / p' -L 1 --noreport --charset utf-8 p/ > p/index.html
+          tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb / p / python-shukujitsu' -L 1 --noreport --charset utf-8 p/python-shukujitsu/ > p/python-shukujitsu/index.html
 
       - name: Commit & Push
         working-directory: gh-pages
@@ -118,5 +121,7 @@ jobs:
           git config user.email github-actions@github.com
           tree -I .git
           git add --verbose --all deb/
+          git add --verbose --all --force deb/p/  # TODO: Remove '--force' option somehow.
+          git add --verbose --all --force deb/p/python-shukujitsu/  # TODO: Remove '--force' option somehow.
           git commit --verbose -m "Update deb via $GITHUB_REF"
           git push origin gh-pages
