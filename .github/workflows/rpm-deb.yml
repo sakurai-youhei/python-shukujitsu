@@ -4,7 +4,7 @@ on:
   push:
     tags:
     - 'v*'
-    #branches: [ main ]
+    branches: [ main ]
 
 jobs:
   build_and_push_rpm:
@@ -106,7 +106,7 @@ jobs:
           rm -f Packages* Sources* *Release*
           apt-ftparchive packages . | tee Packages | gzip > Packages.gz
           apt-ftparchive sources . | tee Sources | gzip > Sources.gz
-          apt-ftparchive release . > Release
+          apt-ftparchive release -o APT::FTPArchive::Release::Label=python-shukujitsu -o APT::FTPArchive:Release::Origin=python-shukujitsu . > Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
           echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 . > index.html
