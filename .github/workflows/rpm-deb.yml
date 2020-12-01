@@ -4,7 +4,7 @@ on:
   push:
     tags:
     - 'v*'
-    #branches: [ main ]
+    branches: [ main ]
 
 jobs:
   build_and_push_rpm:
@@ -90,16 +90,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Update deb directory #1
-        working-directory: deb_dist
-        run: |
-          apt-ftparchive packages . | tee Packages | gzip > Packages.gz
-          apt-ftparchive sources . | tee Sources | gzip > Sources.gz
-          apt-ftparchive release . > Release
-          echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
-          echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
-
-      - name: Update deb directory #2
+      - name: Update deb directory 1
         working-directory: gh-pages
         run: |
           cp ../deb_dist/*.buildinfo deb/
@@ -108,9 +99,15 @@ jobs:
           cp ../deb_dist/*.dsc deb/
           cp ../deb_dist/*.debian.tar.* deb/
           cp ../deb_dist/*.orig.tar.* deb/
-          cp ../deb_dist/Packages* deb/
-          cp ../deb_dist/Sources* deb/
-          cp ../deb_dist/*Release* deb/
+
+      - name: Update deb directory 2
+        working-directory: gh-pages
+        run: |
+          apt-ftparchive packages . | tee Packages | gzip > Packages.gz
+          apt-ftparchive sources . | tee Sources | gzip > Sources.gz
+          apt-ftparchive release . > Release
+          echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
+          echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 deb/ > deb/index.html
 
       - name: Commit & Push
