@@ -1,13 +1,23 @@
 # build stage
 FROM python:3-slim AS build-env
 LABEL maintainer="sakurai.youhei@gmail.com"
+
 ADD . /src
 WORKDIR /src
 RUN python3 setup.py clean bdist_wheel
 
 # container stage
-FROM python:3-slim
+FROM alpine:latest
+LABEL maintainer="sakurai.youhei@gmail.com"
+
 COPY --from=build-env /src/dist /tmp/dist
-RUN pip3 install /tmp/dist/*.whl && \
+RUN apk add --no-cache py3-pip && \
+    pip3 install /tmp/dist/*.whl && \
     rm -rf /tmp/dist/
-ENTRYPOINT ["/usr/local/bin/shukujitsu"]
+
+RUN apk add --no-cache tini
+ENTRYPOINT ["/sbin/tini", "--", "/usr/bin/shukujitsu"]
+
+RUN addgroup -g 10001 -S nonroot && \
+    adduser -u 10000 -S -G nonroot -h /home/nonroot nonroot
+USER nonroot
