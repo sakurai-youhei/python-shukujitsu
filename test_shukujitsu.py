@@ -21,6 +21,10 @@ class HolidaysTest(TestCase):
     @wrap_case("20200320", True)
     @wrap_case(date(2020, 3, 20), True)
     @wrap_case(datetime(2020, 3, 20), True)
+    @wrap_case(datetime(2022, 4, 29), True)
+    @wrap_case(datetime(2022, 5, 3), True)
+    @wrap_case(datetime(2022, 5, 4), True)
+    @wrap_case(datetime(2022, 5, 5), True)
     def test_holidays(self, day, expect):
         if expect:
             self.assertIn(day, JapaneseHolidays())
