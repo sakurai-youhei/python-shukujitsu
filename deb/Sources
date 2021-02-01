@@ -201,3 +201,32 @@ Checksums-Sha512:
  eeb8376249e611fabfb38ac259bb7944d54af21967167296a15abb8c9259eb2af30877af65bf0befb4f645b519e0138fab52a81e9265328a33d0978fb5634544 13120 python-shukujitsu_2020.11.27.post5.orig.tar.gz
  2160b79bf75e7074475a082c699ad56637bf819cadb0ffb106dec73abc6c3ffadc7b006b875e1aeabeada9a15a900c1c0bb4dd16524dc84ed5f8c3c20e4e3045 2052 python-shukujitsu_2020.11.27.post5-1.debian.tar.xz
 
+Package: python-shukujitsu
+Format: 3.0 (quilt)
+Binary: python-shukujitsu
+Architecture: all
+Version: 2021.2.1-1
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Uploaders: Youhei Sakurai <sakurai.youhei@gmail.com>
+Standards-Version: 3.9.1
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/sakurai-youhei/python-shukujitsu
+Package-List:
+ python-shukujitsu deb python optional arch=all
+Files:
+ a84dfe86f0a2461511a30f0a32612224 1744 python-shukujitsu_2021.2.1-1.dsc
+ 1900d8e2ae71754e1387e20a6d1f8910 12024 python-shukujitsu_2021.2.1.orig.tar.gz
+ bb8cc00ce755008bf778e8ce97be9b66 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
+Checksums-Sha1:
+ 0b6f60782f26ebf5a6d4a0b418b96d088a207a16 1744 python-shukujitsu_2021.2.1-1.dsc
+ 1aadd386209f1312b9e769892e30ee9883ad6670 12024 python-shukujitsu_2021.2.1.orig.tar.gz
+ 32e44c9e84035413ed71b63ca0fd0f86437d9656 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
+Checksums-Sha256:
+ ea42c6c1e82c2a3838d368afb25fbc8e82f345c0f6dad0b04b4d44dcfcdeed8d 1744 python-shukujitsu_2021.2.1-1.dsc
+ 26d861c708a370baf3ac07263f1e66a8e2037f06e9528021d398bda496739fd2 12024 python-shukujitsu_2021.2.1.orig.tar.gz
+ f42a96bb7a5e76b647899f75deab07838d5f542d5a93bf0c2f675a12d02d4469 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
+Checksums-Sha512:
+ bb38eb4f21b9162a21f91cf7bbfc15f33d476f0d05a14c0b99a1f80a6f977ad7cb66523eb79306c576f25b4a01e4bfdc5a094d409140c0097219443936709ae2 1744 python-shukujitsu_2021.2.1-1.dsc
+ 8d91685f708f2d33c9721246674c6334d3e7542a1c47c2b5c4d04c9d9ec4ca0905db5482883d7d6c96c92299943a0fa9953276aba55986f94b3b1b7df7c1b4d2 12024 python-shukujitsu_2021.2.1.orig.tar.gz
+ 6ca83ccf2beddad9cebeaf94f7630e1e08117b364d625a0222869c191aee0d07ded8ada8247179685837c43e693169fc7ed28fea44741c3f6969f2c58fff8372 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
+
