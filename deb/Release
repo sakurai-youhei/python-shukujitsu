@@ -1,28 +1,28 @@
-Date: Sat, 06 Nov 2021 01:34:06 +0000
+Date: Sat, 06 Nov 2021 01:44:42 +0000
 Label: python-shukujitsu
 Origin: python-shukujitsu
 MD5Sum:
- 7028ba2f38cf09808c181a3fc7fb1dbc            21181 Packages
- 9a075ce51f558bfe65f60b9d1ee8553b             2460 Packages.gz
- 4b21531bc982dcdb81afa4d1b260c06f               89 Release
- 96d2d5c7f945d85cc91cfc5724d50df1            15306 Sources
- eb4371229c80d336f07366dd74cc6a86             4744 Sources.gz
+ 71cffc1edc05653bfb7035c17f2805a6            23973 Packages
+ 1c470ffd5ff233adb81e6b2330399c6b             2662 Packages.gz
+ 3fb3eb5ae724080aa81535e60b252392               89 Release
+ 5766fc06bd35a970aac3ffb26db74454            17216 Sources
+ f128fcec1c3a568a3a1fd7024a33d0ca             5282 Sources.gz
 SHA1:
- 8878a08ece3fca09b759a8ee442c07bf2729a709            21181 Packages
- 3b189317ffd558dadd8b98cf3d6ed0219e3655cb             2460 Packages.gz
- 390b305fb6d8c8da5fc46c980c2b8cb870654752               89 Release
- 5c0677b3edc4ef4afc0fae6445319bacd36b0ac0            15306 Sources
- 9f9d78152e50ce4958c67e293c799d3f7d7508d4             4744 Sources.gz
+ 1c9ad6c9f31b21070e5eb02ed3f8dfaeaa0b60b1            23973 Packages
+ dc6b568ee1de5c4cd7ce51d5e490bae9aef04d5e             2662 Packages.gz
+ 147789f8a457eb5a445e12f8aa4dc3f27488058f               89 Release
+ ca20707764bce4efcaded7e8cd3c084d0b0e2687            17216 Sources
+ 3ca60b4eed673f7af1d03cb300affd74d5835aff             5282 Sources.gz
 SHA256:
- e0c58af02939f5c8344a68266a7de45bdf47345bf9a5838bf560c6f328fb8c26            21181 Packages
- 13c7a2046261ce72633520f031a987fa7dde9b032e2f68f862b3d76425b319df             2460 Packages.gz
- 3b814e18cc0aaff4f33c3538ffba4306de743f8976e37f32154b1695f72cbeb5               89 Release
- ec4e0539bb284d8115481eed1705136154a7c8947b5299ca12e5584cf9fefcd6            15306 Sources
- e3f235a86974f8a389e5376b9333c3dc438695f9a5eccc25d35b201eadc54b6a             4744 Sources.gz
+ 524b0f0b64e034177c0146235e9eab80a68b3165ef417905e042f2f053689ad4            23973 Packages
+ a60310387129effb325b639668de1233b81ccccfd1c88cb605c7b651b5f94227             2662 Packages.gz
+ 348c20a793e8942c56390c9782f32cf86b0f5956b85935c46823bd0c41e023cc               89 Release
+ b88ffcde566c52b65a227e2c57a73ccfaddf0b4ccfa8f1afe0237d04d1d55ade            17216 Sources
+ ec14dc104f8be6c0fc2458beba2b5e0a54b8136c610bf79b439d6f82910a9a23             5282 Sources.gz
 SHA512:
- b8b45fb0aee0ab23f51800ddd7346bbdfc79200570d2dfcccf9942891a063418693f6fa4c9f0f0ef0dfb7c632e01b258ada154f1cd961a8612b0881513c68056            21181 Packages
- 83a7bd25b8603ebf799707ab76467d6e2a4e169d6feeb8234b22ade3e5e53f6744f9f0b256ed825924a4e4982da30539b945bf215c37d4f54d97f1ec8ca42d37             2460 Packages.gz
- dcb4426ccc0c0ee5f492aa6df5275d00d609ed8afdf62f5d74d1f940724c5f15872e7892fe15964822552677c991766adb8b157d46baa172465b6dea065bec7e               89 Release
- e7558a7f8337ca07009e7e75312b6e66ba5bef721b6a81ba5ca6fbf015b83c16741764feb79f8a0dae2c2a1e79272fa17cde5c9b4cfa2d6a50c7298f270c047c            15306 Sources
- 21d26733362cf7a4c8bc56fb39ca1739c13e8fc7dbde3951d97fbb1d8b342582808d81dca4a7827ce82bd2a405a3da0519b297c4ec609895b51a33e29ad2fca8             4744 Sources.gz
+ cd098b107f21e52bfc77c44012c5b5e90fd21730791edc293e8627b1a9fa0606320de13394a2e2e4f1f47cc1015538ac2600ddbf9190378717353aa0e54955c5            23973 Packages
+ fc0921b8c9acbe166e4e977ff719820dffb0c855825617708645c500078d8aa8f8923e2f384a1ae8d4adcf7a97d63e3998303fd271d0f1bda3797034f66d8a6e             2662 Packages.gz
+ be6008c0766f339eb34ebd1b26bc68c82290541c4bd130435671621b667a2aeedc95952b4549910041e3fc52f44cfc2688244aae4c4c6eed6bbabc1219275e5b               89 Release
+ ac1130133ceffc94ff6199663b2c48699fe429f1368fc903652edce19472a987f9f5b405c51a25e741465299b8e617d5c05d47bd6f0078ac2d4dfe6a0e11d334            17216 Sources
+ 0ea7ece4895871049bb05af492ceb61d547f2de5b1526a91fb8dd682e8e5daafaa7a454e1c674721764d9ef52e20cc249f2fc65757e55ea241012bdd6d0b4e02             5282 Sources.gz
 Changelogs: https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog
