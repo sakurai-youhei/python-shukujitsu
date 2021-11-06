@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Mon, 01 Feb 2021 05:40:32 +0000
+Date: Sat, 06 Nov 2021 01:31:07 +0000
 Source: python-shukujitsu
 Architecture: source
 Version: 2021.2.1-1
@@ -15,32 +15,32 @@ Changes:
  .
    * source package automatically created by stdeb 0.10.0
 Checksums-Sha1:
- 0b6f60782f26ebf5a6d4a0b418b96d088a207a16 1744 python-shukujitsu_2021.2.1-1.dsc
- 1aadd386209f1312b9e769892e30ee9883ad6670 12024 python-shukujitsu_2021.2.1.orig.tar.gz
- 32e44c9e84035413ed71b63ca0fd0f86437d9656 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
- bcf0b1906f74f57dd59f6575fa44f794a1c35633 7844 python-shukujitsu_2021.2.1-1_source.buildinfo
+ 01dea503b23a1cee6f342cd376ed9c37113062fe 1744 python-shukujitsu_2021.2.1-1.dsc
+ 17b446934b1fdb6ebffd181502f5cabf2bb1b75a 12033 python-shukujitsu_2021.2.1.orig.tar.gz
+ eb6a3da46dc41596d77f7ef562d79ec4d4e20e91 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
+ 97f63d1c1f87164eae22ced7d10924bb3690f02b 7829 python-shukujitsu_2021.2.1-1_source.buildinfo
 Checksums-Sha256:
- ea42c6c1e82c2a3838d368afb25fbc8e82f345c0f6dad0b04b4d44dcfcdeed8d 1744 python-shukujitsu_2021.2.1-1.dsc
- 26d861c708a370baf3ac07263f1e66a8e2037f06e9528021d398bda496739fd2 12024 python-shukujitsu_2021.2.1.orig.tar.gz
- f42a96bb7a5e76b647899f75deab07838d5f542d5a93bf0c2f675a12d02d4469 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
- a5264cc38603deb321a7f6190b97ed5d34419ba1703030051faae4764c60c4d7 7844 python-shukujitsu_2021.2.1-1_source.buildinfo
+ e38f163cdf586660777ecb3550aacf2945cb118d3fbd911981eec4a840b65435 1744 python-shukujitsu_2021.2.1-1.dsc
+ 74588d0be3f6ccdbbeb8bd3506895fbc9767053b2f3ac6f2074afb20c92e9517 12033 python-shukujitsu_2021.2.1.orig.tar.gz
+ 20be9fcb327c927fb779109ef0556854e8e71e6b1cd35de0a72cbde0a5c6b2d7 2048 python-shukujitsu_2021.2.1-1.debian.tar.xz
+ 0170f1502811faa2d9b08286376ea156991c5a9e81e9959b3acdc1b6a20597a9 7829 python-shukujitsu_2021.2.1-1_source.buildinfo
 Files:
- a84dfe86f0a2461511a30f0a32612224 1744 python optional python-shukujitsu_2021.2.1-1.dsc
- 1900d8e2ae71754e1387e20a6d1f8910 12024 python optional python-shukujitsu_2021.2.1.orig.tar.gz
- bb8cc00ce755008bf778e8ce97be9b66 2048 python optional python-shukujitsu_2021.2.1-1.debian.tar.xz
- 9026a5a3355814acd13ba85bb761d52b 7844 python optional python-shukujitsu_2021.2.1-1_source.buildinfo
+ 1c838634397f00d1e2c0369043798d39 1744 python optional python-shukujitsu_2021.2.1-1.dsc
+ e9107c3ab8c33d41e8810ef6f98607a5 12033 python optional python-shukujitsu_2021.2.1.orig.tar.gz
+ 140340a638be9c231299419776414739 2048 python optional python-shukujitsu_2021.2.1-1.debian.tar.xz
+ 6099d59d291aff98fe72162742a56f41 7829 python optional python-shukujitsu_2021.2.1-1_source.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAmAXlLsACgkQihJM1kaI
-q8zdJgwAn3JQBHTq2XSd8Lnpjb7skE0EmUk01jMbVRQOu+FyrWwqzz4KIYg5lZuF
-RXsKO+UaNyaHv/svzSvQgdx2eK1LHQq2j1wjp6O5aJsm6KCygbco57E2Ri3weWPu
-vA/4wp3uHuCKCgmAABkxDsluCnOYLUNZIrYwFt0x1xyNd07bw0SKQkxIfOAhpyfG
-4wduG4hgQ3jRurk4fN1xaWzld3UWPqRVHUcFG7OwswOUZCz4oGJkotlcmJ65/Zsj
-os2XgLUqzL07KaH+TUIRPdulWxqJTJTDFMhn5CdIheZk2/3xD+4zStXqSEye9dFy
-yQtVfeyCMB0DEGsF2OclkHqZUAPXmmN7tx1mw+CLS1ol2NpoMi3CorNEFbir8RMP
-YB5SCVRrefOCA9jkRORw/w6si9MtCX8y5hpVaZeENOtecThfI4WItPzi2Ky1qHQe
-/qT549El3GTO2zhHS8sQByyG18kwENKEVZlOJAU0fNHVBvw1/5obZ7Ju/b9IvGxP
-lOKQAqBA
-=Id82
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAmGF240ACgkQihJM1kaI
+q8xdHgv9FVLk+KYP+gilhN/3liunVuCvFTkYmrwvgmdmYk8H0eAmDd3d6N7OOnYW
+WNIR6u1MjDyfJslueUi4whEtI+TnkfoCZee5T7kFRORDoUPGa0UoNObMvlliSRPf
+3Odp7GL34v8xlSqh1zTb1NZBvonhKj0n7plDSh+GOf5JCOBexOhk163b8X39Mrgc
+DAvJ/qb6qcxWFQNAHGgbV+rQeBC27gtuJzLEeq4oZfWQmAiFYOrHik3NkeOrJfFr
+JGxFMZr3dj9OdhXjHhpzNChlpm0wc/94CMvWfp0XPKdaE2gnrPQRCVlmMv2YjGft
+EUs6lnra1bYTHOR3/dUh7qCv7M7vankVVua2iLSxrq2xP+P8PI2orM3EMZk2Gw98
+8BGCvBgAqX5+IWR/0G3pdvL1SrR7K18svGflwTv8XMGfaIUcz79KsSA5eAj8SO8a
+KsNOGfONA6wukkiycexrq1MkTuA8ZMXlYySu7h/I4m2wFr4nLKZ+gEYFWdZAAUhE
+7UXHAcD1
+=PtWc
 -----END PGP SIGNATURE-----
