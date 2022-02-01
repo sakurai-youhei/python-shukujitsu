@@ -12,7 +12,7 @@ Python Japanese holidays library based on static data published by Cabinet Offic
 [![RPM and DEB         ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/RPM%20and%20DEB/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22RPM+and+DEB%22)
 [![CodeQL              ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/CodeQL/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3ACodeQL)
 
-Usage is similar to [python-holidays](https://github.com/dr-prodigy/python-holidays) package. But note that this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan **from the year 1955 to 2022** as of today.
+Usage is similar to [python-holidays](https://github.com/dr-prodigy/python-holidays) package. But note that this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan **from the year 1955 to 2023** as of today.
 
 ```python
 import shukujitsu
@@ -53,7 +53,7 @@ pip3 install python-shukujitsu
 $ shukujitsu --help  # or python3 -m shukujitsu --help
 usage: shukujitsu [-h] [-i] [-n] [-V] [DATE ...]
 
-Utility to match Japanese holidays from the year 1955 to 2021
+Utility to match Japanese holidays from the year 1955 to 2023
 
 positional arguments:
   DATE                date to be matched
@@ -137,6 +137,7 @@ $ shukujitsu --help
 
 This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package bundles the following data. (Japanese - 本ライブラリは以下のデータを同梱しています。) The license of Source Data is [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.ja) compatible; The exact conditions are described at [内閣府ホームページ利用規約](https://www.cao.go.jp/notice/rule.html).
 
+- 2022年2月1日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和5年（2023年）国民の祝日（csv形式：20KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
 - 2021年2月1日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和4年（2022年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
 - 2020年11月27日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
 - 2020年11月18日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
