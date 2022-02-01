@@ -1,45 +1,45 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Date: Tue, 01 Feb 2022 09:43:36 +0000
+Date: Tue, 01 Feb 2022 09:49:00 +0000
 Label: python-shukujitsu
 Origin: python-shukujitsu
 MD5Sum:
- eeb898071b2d5ec4dbd639404cded8c7            26753 Packages
- e17b167ec2c5864402dc340fe1ad60af             2871 Packages.gz
- 520e901999735d9a2a7c5016f70e3133               89 Release
- 8d46eb554ecf60eb3a4d025c41eb2b5a            19048 Sources
- 2be522ff3463fc3e8cc9579d70fc4668             5822 Sources.gz
+ 9b12315859231f389db498c56ed1b39a            29545 Packages
+ 4b67f6dceea33c39c79607608ba9b4b2             3071 Packages.gz
+ a84cdf2f07d7ed628a91e0f5af43a6de               89 Release
+ a5044b3c72737a5a0c8756ceb3baad1b            20958 Sources
+ dab06eff16df95ee44f3cfaaf9f50d65             6363 Sources.gz
 SHA1:
- a4b77c8d3312b42ea90515abd8f2d0678932a210            26753 Packages
- bb0413b5b2cd034da217626334e1bbc5afb474e5             2871 Packages.gz
- 739674b8e3fb8b39569b2956105035a61f7a95aa               89 Release
- 1454a686ce3d769c269b7f32739d93240115c90d            19048 Sources
- a6455435c35f63443772f640662a61be412eae81             5822 Sources.gz
+ f55aea610a87f0c73b27992a7cb09ea69ca1c2b4            29545 Packages
+ a543dd9e0dec3fee555da293103b68c0b9138474             3071 Packages.gz
+ 4269b5119842210fd62266f4cfe8d8c2fa1fa1e6               89 Release
+ e1449df17db6d3bcc30a7d498646aed0f20b53b1            20958 Sources
+ 08c59cda0516059cb855f4bc3f1c743529dc8a52             6363 Sources.gz
 SHA256:
- b71ab055b3d083a7a27f4ee8bf838c5308e303d54063b9e0674adee8524d7687            26753 Packages
- 306a41b59ff6d9732435f6f0aa400895dca390993b1b2f699cc169d321d95c71             2871 Packages.gz
- 332e05278fd289080e73f6e32e64594eb0b2decfda46e6bf4e4d18d246722ce7               89 Release
- 5d3da961b1be112dd51483f223cff918a09e0773737b5f911bf986184171107f            19048 Sources
- 111306382a03fee61f54389b7b9d19dfdd96946d7827e2bf2fa40d4448b82c1e             5822 Sources.gz
+ 20e18a7af9b19a45e8b9ce486a00c45832f202f736e68a10391eb03c2f2a3133            29545 Packages
+ 9c97dcc25cdbe257fb1d2b4ceca0ecdccef6e5ce1c840290f75a670ab17ec9e1             3071 Packages.gz
+ bbe6737c797fb0d2d691653519ef4e314df3e46a1558cdd1fcfd78ee4be7a1a9               89 Release
+ 2f5c6c44dbf212377afe1fa2f51167e68fe465f666ea5ff17e0570f40f9cfc76            20958 Sources
+ 82d776fd829211387704ae6dd3c618757bad396ba7d9f3c74043f1788309855f             6363 Sources.gz
 SHA512:
- c81aa3e5ef2f8bde8c5a5f1383987fa63a940ba21f7477fa7815a478f2db7d2bbcc717da35d6099d7184848b1f6d661d7b3f5f20d15cf2a4d3e277e2b3c6b1b6            26753 Packages
- a83a6d1648dbe4f43982f0defd916ab63dbf1746709b9b8e8b6d26c8dc06b248827f312f40c91bc5423f7737f1efb780e768fa8bfae21d4d23618747914ce39c             2871 Packages.gz
- 62c9a1e88a6906d1af8189cf266c30cd9aafb6b6cdfa2c3cca34b43a5513f174034129a8c4d9d4bb54ad31407fb5329b31aea7cdf6464facf9f8b1cd7207092f               89 Release
- d3143287cfb19c777bb2b65f6775fdd5dfb7fb3b425fe53823e4375a2178ff26a41dedb166c4df02b5ad9234e14acb9e7969bda830b7ed3d2eac48db075274cb            19048 Sources
- 05c0802e2397419262f01a5faa0086f996d7f9b54a731ff62bf20735fd5cdc44e6956a3cf71dd822d28c660d254b1b521198700d51482da475af70da788ca0e6             5822 Sources.gz
+ bd6240ab9c060d7fad4120a0cedb4c0ecdd033b2aa3eeca8b1455bb48f2139153df87a2c37c2a43bb59e283f40aed699bc9d4b3c5a1d415e2bb9cbc700b446a2            29545 Packages
+ bfa0ce9466288dc16e2df3bcda21f1122bcd1e2bdff204968b38abb59ca15ea98fbff24076fa9a4291c746292c9776c48001cbecba94370400d9859bb495cb2d             3071 Packages.gz
+ 0faa239dac750566a7fc1a761de05b6400d0942eb9dcf394e1b37fda1f03f6617d9cfc60dcf00d20bd75c5bf4e1101b0d8d3153d8a032def5581817fc1ba8523               89 Release
+ 6386303386c5fc65de5be59c981d6f54c7721e2d3be03cc17fc567910f3d897c659300cb97a718a996f0c889b33c61c5e850f2dbf9d34feae8fbdfe47cd71995            20958 Sources
+ cad859f9a91c0c1da1db7bafbff4d822dffbe3ae5106226e562b1129633c72231390886e546e8512e97d4db3a370f3120700c647525a5c67d9ce3b461b9b6970             6363 Sources.gz
 Changelogs: https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAmH5AMgACgkQihJM1kaI
-q8x3twwAtEqDfol0uSbJ2JXzScrtaK1tJ5mvB2zfvmeXnGipxt9qJK5s53QS2hpW
-PojKfAIs4wDYLXGJgtisKOo+8rr7La6b6Nik0IYZeiiiyAKWbXthjq7GAT5Fj9sM
-2Elg9N7zLwr6qHDl+Yt5Cn7YcXvzOuvxyxCVjjtjil1vXLWzyxwDhSs7/cesJQ4H
-BtSuNoqXnrcxTj6vRztKOb9x0Z1wAAXHN+wz1/V4EiCYNJphlLjDrB+0RM2ZVoMG
-92Vv66YV+YF9ewcwOZAqaOVwonHT87ONcqUQc3fHG91cGwhrmG7gj0YKwYHoGMNO
-+D/9b6NKlKYbbPycdTw6ce/QG/7YCZisJWmQp3qnzW7XfgZqyMgejpoMZeKnFBh0
-3fmW6gaykOxuo/7MiDXNjnFTr9gIVDQ/3P54QxP7wy3l3ptniZFGIkj1J3qPI0SP
-OtuWBjoihJcMzzLMAIzhFOgQbr7KVVkA3UgVUIOf4c2TndYLa3qiJ0CkITFhdl2j
-YhEBtDDT
-=IbjZ
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAmH5AgwACgkQihJM1kaI
+q8wBpgv/Z4pWZMYKU3FS+YU4EhcqyQfNAm4sTqKbN1PCalAcxCymEE0pUbyF3WP0
+4I4usBmf/IPgJEuU7rGpC8LpEc/dWZkYAhG+H0hzklmZtM3B1IkAK4bqgZueVoKK
+DJViTWWC2UB7k2aOkues3ydH6I0LeBXxRTlcbGjt1b+6xfWSPm9GLHHG5Knbq8a/
+7z9bUWFU+CE/KVtCHcmQJ/px5VWhRp5/IE667BUOJx1YGDA0iz6GbLKf4fDNaFz5
+KDfc1TGXZ9hBQ+T93D/TOb47uqxi9UFr40K5alLFHuKVmQUf/ZKq6tDg/ran/OsI
+/PaIzWxjX+nItMYgsIRYLOuZXOtGc//pbUgEq9cXDxz6Z5V/pv0taqQML/Ke4xq8
+2KDH8VSlOrAaPToxn1ZARIs0FT83uvxRuwGT0QgPQSVHyAOKOhOgfIklGbs4/tyD
++gogFwjC9XHWwkcbh98wPOjX5a7nfpsQ0OOQGekqOL8hwe3Y8kwj/IRRShPDXjCZ
+1R4O62je
+=sFoU
 -----END PGP SIGNATURE-----
