@@ -9,7 +9,7 @@ on:
 jobs:
   build_and_push_rpm:
     runs-on: ubuntu-latest
-    container: amazonlinux
+    container: rockylinux/rockylinux
     steps:
       - uses: actions/checkout@v2
 
