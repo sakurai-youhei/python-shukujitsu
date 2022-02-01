@@ -10,7 +10,7 @@ def load_bin(*args, **kwargs):
     return load("BIN", *args, **kwargs)
 
 
-def load(type_, bundles="asof20210201 asof20201127 asof20201118".split()):
+def load(type_, bundles="asof20220201 asof20210201 asof20201127 asof20201118".split()):
     for asof in bundles:
         try:
             mod = import_module("shukujitsu.%s" % asof)
