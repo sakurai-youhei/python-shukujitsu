@@ -2,7 +2,7 @@
 Hash: SHA512
 
 Format: 1.8
-Date: Tue, 01 Feb 2022 09:46:27 +0000
+Date: Tue, 01 Feb 2022 09:58:08 +0000
 Source: python-shukujitsu
 Architecture: source
 Version: 2022.2.1.post1-1
@@ -15,32 +15,32 @@ Changes:
  .
    * source package automatically created by stdeb 0.10.0
 Checksums-Sha1:
- a7c8bf0df7bdef7de93cdaed2853a047d0f68b85 1786 python-shukujitsu_2022.2.1.post1-1.dsc
- 49a6e569f21c7d6ecbbadee79d3e6a2dde6cf9e5 12557 python-shukujitsu_2022.2.1.post1.orig.tar.gz
- a21ac55e6bd66d6636db77350c55f88a5727a0b7 2052 python-shukujitsu_2022.2.1.post1-1.debian.tar.xz
- e034f2f31ad5ee84450bf6b8c304da51d0ed15d3 7885 python-shukujitsu_2022.2.1.post1-1_source.buildinfo
+ a8cd7e2e06851ea381889ac9381e6edb13c65dc1 1786 python-shukujitsu_2022.2.1.post1-1.dsc
+ 682dd9fb5d82138e16833c532dfe010a3f1142af 12520 python-shukujitsu_2022.2.1.post1.orig.tar.gz
+ 8b264c7f334e61666dade51ae64895176ba88d04 2056 python-shukujitsu_2022.2.1.post1-1.debian.tar.xz
+ 19096cdff1bca8c70d31e07175a00e889d3f3530 7885 python-shukujitsu_2022.2.1.post1-1_source.buildinfo
 Checksums-Sha256:
- 33d947046665c55f2e78b155d9ff70c6fe3ffffef0c268398bfe0db562b6ff16 1786 python-shukujitsu_2022.2.1.post1-1.dsc
- d6ce009b8bf44fb07d7f25aa2fdaf9a0031a5ca8826b9fd31c0a42ed1b8c32c9 12557 python-shukujitsu_2022.2.1.post1.orig.tar.gz
- 05176e0c87d73a822b056a3afc7994c34ac8f73ea2833dd84e7006a38d8abe0e 2052 python-shukujitsu_2022.2.1.post1-1.debian.tar.xz
- ee8457af213211911f85f37ce8871f8bc9d3154d62695fd8faa1cd9d1a51aa58 7885 python-shukujitsu_2022.2.1.post1-1_source.buildinfo
+ 43935b969f91a981eaf6e5142e2b28603e016695877668a668a9f73b1b11918f 1786 python-shukujitsu_2022.2.1.post1-1.dsc
+ 00c9292c1881ff4b12a51bc6e3a3bfbc5e5e97b25c20759b25c66ec79a616776 12520 python-shukujitsu_2022.2.1.post1.orig.tar.gz
+ 8a5cb477b11698ff2d3b794ba7b6a1ce6484eb3f3aed151c096581d0f7cdb57e 2056 python-shukujitsu_2022.2.1.post1-1.debian.tar.xz
+ bc7e5548ace2743f2a9adf4273f3df3fd1a079ac851c93b5edddf540be38f5ed 7885 python-shukujitsu_2022.2.1.post1-1_source.buildinfo
 Files:
- 3773a1c7f010ccd82a2ab2a9c94feaa3 1786 python optional python-shukujitsu_2022.2.1.post1-1.dsc
- 375ed9b6a3f522b50a8869b1b812baa5 12557 python optional python-shukujitsu_2022.2.1.post1.orig.tar.gz
- 402604732483cf682f7a40074a11f609 2052 python optional python-shukujitsu_2022.2.1.post1-1.debian.tar.xz
- 940018735e64183eced8de1722834cf5 7885 python optional python-shukujitsu_2022.2.1.post1-1_source.buildinfo
+ 1630b7680af94ead2b229b01e8cad4f7 1786 python optional python-shukujitsu_2022.2.1.post1-1.dsc
+ 1330933769e490bd5eaefd81d87f0a0b 12520 python optional python-shukujitsu_2022.2.1.post1.orig.tar.gz
+ 876b43a8bec28ba4c52917169daf1fe3 2056 python optional python-shukujitsu_2022.2.1.post1-1.debian.tar.xz
+ c200f84d1dc0adb2af978be4995be44c 7885 python optional python-shukujitsu_2022.2.1.post1-1_source.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAmH5AgwACgkQihJM1kaI
-q8yS4AwA3f8LxY3m12vNSSApUA4MAsEb7Cm0oJAt0WuZDpaXvFzr+k6PHDfskYZj
-lcbSX86Lzqn16N105Pjs3rx3W1Ufph+KXnWx4NFDWcyGaUVGWYWj0WCyZOaM1VdO
-gAeYgku6LQxTvVDdT9hPWaI520XlPt9VP2oc9FjPfBWMyz6mBKyotwt0Vk1tTmIs
-1qqJ5keyYDEfm6WfXd4Mq7yiv64eS5lpriwUZOv7xnVPbGbPOmXGQ/EloujOjq3K
-sFNM7V06VFbD08jy0d6P80qxZ/zhSa45YX+IGXq6eK0+VQaWd5XCoSBh6QqR7f+j
-KBxqMiVPP6huiImEJgvjBVEiQmufdbrtIypFNxNsr9DylkKePpGhey4T6jenEp+I
-MfUJuvxwH1e3hlhNFrVNK3qr4dWnJo/2KVsefjDPJem6CgeS6Sb40l1w6nIVG28n
-uWy/9B2FeI36pqm/Bxc7i1pY7y/wTz/KAB2NCou2uI653lNiq4NH1BxVwJUMGn7Y
-mo/+nqex
-=y6s8
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAmH5BPUACgkQihJM1kaI
+q8x6IgwAzGcGzeQ153eVGygI/Jjfyv5FflR+YYiCE8x7Q3wOI+pydoRnM1FTDvKG
+GXfV1AtajaUxrRMeTof1Q8YGsIpIQ6omgg7twwuOHYo1KJqkH6TtUGDCNx04+GGq
+azfspK7prT5B48sbKNvDSarDB4yY12hQ7c3N0eCYSzFhOGMoS62AzDZhQhi1m0M8
+4JDMeUkdPa/BkCoHynt4Nbd6AdryrE/qkRwI/iEqQm7nBda2O1J2wfZ6sLKJjFqO
+mnk/IdY8KudUt5nlIycbmwGgbuJKAGYCa5CgDkVTblyHD3vSD7xXF52NJRFmebxn
+JDsQZRSCwg/Oqt5oBceSfvdyhlq2blAl5xT+SxJNTuz0yGp9fUdXE6U1D2elUN5A
+L2ca0DA09I2Fq25YKLMZKXzeE+ZXYn6jk9ZikG2dwkI5UJW5DDGWCMkc438xGq14
+n1YTmOYzmXAR6ECZCz1mKh2uEjuPcG/CPWJWbuybZPFCXBi77o65tgJFrOtQcPyH
+DSVQ+BbD
+=Kkya
 -----END PGP SIGNATURE-----
