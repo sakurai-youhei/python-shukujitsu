@@ -346,3 +346,32 @@ Checksums-Sha512:
  44c9fd355d4e5fc333c4cfe5a6405cf6439c3724e3cbc21631eed42bd29dda1189ce367377ad76c5ac6b3ed3290aa988b6758a925dc31b28c47644efff9291dd 12565 python-shukujitsu_2022.2.1.post2.orig.tar.gz
  093002a645416c5113a60fa0eb38bdf667689c985aa41b6f7cb3bd91065ebb31de30f2cbdb9ee4676c3a6a1f1c050c9639f8813f08bffec185f5e62355e151fa 2052 python-shukujitsu_2022.2.1.post2-1.debian.tar.xz
 
+Package: python-shukujitsu
+Format: 3.0 (quilt)
+Binary: python-shukujitsu
+Architecture: all
+Version: 2022.2.1.post3-1
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Uploaders: Youhei Sakurai <sakurai.youhei@gmail.com>
+Standards-Version: 3.9.1
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/sakurai-youhei/python-shukujitsu
+Package-List:
+ python-shukujitsu deb python optional arch=all
+Files:
+ a802c917efcd167ff544e49e1b979790 1786 python-shukujitsu_2022.2.1.post3-1.dsc
+ 05b8b340e0c5cb03f608bfee904366d2 12862 python-shukujitsu_2022.2.1.post3.orig.tar.gz
+ f90aa5997f01f192f91fd8cd66c6120c 2068 python-shukujitsu_2022.2.1.post3-1.debian.tar.xz
+Checksums-Sha1:
+ a9003ec46c7b74247521646a732608fd59561f5b 1786 python-shukujitsu_2022.2.1.post3-1.dsc
+ 81f954ee573265750dd48274a86f099fcf63ad13 12862 python-shukujitsu_2022.2.1.post3.orig.tar.gz
+ c99b4daef9b0470658eb249f0ab64795cf2a8485 2068 python-shukujitsu_2022.2.1.post3-1.debian.tar.xz
+Checksums-Sha256:
+ 912434ebe289d3356ab562f651ef615907bd08a1f2690d572e99aa5ea0d9cc11 1786 python-shukujitsu_2022.2.1.post3-1.dsc
+ 5acdd61232cb72c4f8c90beb14105652b2e6ef3c20a891c0637f9773f59a1e99 12862 python-shukujitsu_2022.2.1.post3.orig.tar.gz
+ dbb059755313d58d7156e02c9ef1183e73be8d6327473c8f3368e3d0d815bc66 2068 python-shukujitsu_2022.2.1.post3-1.debian.tar.xz
+Checksums-Sha512:
+ 660287baf9c70afbccea7ed83d1ce0b7577b087bc10841a89b9204fb40b253094ad62b9513257949849af538bdb5d01549357bd9d574f6c182385eef9a99ef3b 1786 python-shukujitsu_2022.2.1.post3-1.dsc
+ 8e8d902c3675b53c9ec0f4e7a1f5af3f3d197123066272888c7c5ff7be6566526d24cbcf79bee3522d5e7d278b5a88a497ba818a384aaf6c86588353d604f45e 12862 python-shukujitsu_2022.2.1.post3.orig.tar.gz
+ f38bc2cc8240367d50e86a33b440c4aa97597d6ecc4a664f19cd9bd7ffa62b377f451c461d9d1cb55f66e6244707ac1c95e348f8576ebc5602e13025eabec8a2 2068 python-shukujitsu_2022.2.1.post3-1.debian.tar.xz
+
