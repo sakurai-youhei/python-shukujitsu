@@ -17,7 +17,11 @@ class HolidaysTest(TestCase):
     @wrap_case(date(2019, 7, 24), False)
     @wrap_case("2014-01-01", True)
     @wrap_case("1/1/2014", True)
+    @wrap_case("1/1/2014 12:34:56", True)
+    @wrap_case("2/1/2014 12:34:56", False)
+    @wrap_case("1/2/2014 12:34:56", False)
     @wrap_case(1388597445, True)
+    @wrap_case(1388597445.1, True)
     @wrap_case("20200320", True)
     @wrap_case(date(2020, 3, 20), True)
     @wrap_case(datetime(2020, 3, 20), True)
@@ -25,6 +29,8 @@ class HolidaysTest(TestCase):
     @wrap_case(datetime(2022, 5, 3), True)
     @wrap_case(datetime(2022, 5, 4), True)
     @wrap_case(datetime(2022, 5, 5), True)
+    @wrap_case(datetime(2023, 5, 5), True)
+    @wrap_case(datetime(2024, 5, 5), False)  # Not yet announced holidays in 2024
     def test_holidays(self, day, expect):
         if expect:
             self.assertIn(day, JapaneseHolidays())

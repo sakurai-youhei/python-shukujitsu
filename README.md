@@ -12,7 +12,20 @@ Python Japanese holidays library based on static data published by Cabinet Offic
 [![RPM and DEB         ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/RPM%20and%20DEB/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22RPM+and+DEB%22)
 [![CodeQL              ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/CodeQL/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3ACodeQL)
 
-Usage is similar to [python-holidays](https://github.com/dr-prodigy/python-holidays) package. But note that this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan **from the year 1955 to 2023** as of today.
+## Important notices
+
+- This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan from **1955 to 2023**; will expand to holidays in 2014 in February 2023.
+- This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package has ZERO relation to the Government of Japan - NEVER EVER assume any authorization as this is just a personal project.
+
+## Installation
+
+```
+pip3 install python-shukujitsu
+```
+
+## Usage
+
+Play the dict-like object.
 
 ```python
 import shukujitsu
@@ -28,7 +41,7 @@ from datetime import date
 date(2020, 7, 24) in jp_holidays  # True
 date(2019, 7, 24) in jp_holidays  # False
 
-# The Holiday class will also recognize strings of any format
+# The dict-like object also accepts misc. date(time)-like strings
 # and int/float representing a Unix timestamp
 '2014-01-01' in jp_holidays  # True
 '1/1/2014' in jp_holidays    # True
@@ -39,43 +52,37 @@ jp_holidays.get('2014-01-01')  # "元日"
 jp_holidays['2014-01-01': '2014-01-03']  # [date(2014, 1, 1)]
 ```
 
-## Installation
-
-```
-pip3 install python-shukujitsu
-```
-
 ## Command-Line interface
 
-`shukujitsu` command becomes available by installing this [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package.
+`shukujitsu` command is bundled.
 
 ```console
 $ shukujitsu --help  # or python3 -m shukujitsu --help
 usage: shukujitsu [-h] [-i] [-n] [-V] [DATE ...]
 
-Utility to match Japanese holidays from the year 1955 to 2023
+Select Japanese holidays from 1955 to 2023
 
 positional arguments:
-  DATE                date to be matched
+  DATE                date to be examined
 
-optional arguments:
+options:
   -h, --help          show this help message and exit
-  -i, --invert-match  select non-matching dates
+  -i, --invert-match  select non-holidays
   -n, --holiday-name  output holiday name instead
   -V, --version       display version information and exit
 
-Exit status stays 0 if one or more dates are matched. Otherwise, it always goes 1.
+With no DATE, read standard input. Exit status is 0 if any date is selected, 1 otherwise.
 ```
 
-One or some dates can be input to the command through command-line arguments or STDIN.
+Pass any dates through command-line arguments or STDIN.
 
 ```console
-$ # You can start a conditional branch from shukujitsu command.
-$ shukujitsu 2020-01-01 && echo This is a holiday || echo This is not a holiday
-2020-01-01
-This is a holiday
+$ # With logical operators
+$ shukujitsu 1/1/2020 && echo Holiday found || echo Holiday not found
+1/1/2020
+Holiday found
 
-$ # You can also filter dates by using shukujitsu command.
+$ # Select holidays
 $ cat <<EOF | shukujitsu > holidays.txt
 > 2020-05-02
 > 2020-05-03
@@ -85,24 +92,22 @@ $ cat <<EOF | shukujitsu > holidays.txt
 > 2020-05-07
 > EOF
 
-$ # You can check multiple dates at once.
+$ # Select holidays
 $ shukujitsu 2020/7/22 2020/7/23 2020/7/24
 2020/7/23
 2020/7/24
 
-$ # You can also check the name of each holiday.
+$ # Output each holiday name
 $ shukujitsu -n 2020/7/22 2020/7/23 2020/7/24
 海の日
 スポーツの日
 
-$ # You can also pick up non-holiday.
+$ # Select non-holidays
 $ shukujitsu -i 2020/7/22 2020/7/23 2020/7/24
 2020/7/22
 ```
 
-## Alternative ways
-
-### Docker
+## Docker image
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
 [![Image Size  ](https://img.shields.io/docker/image-size/sakuraiyouhei/shukujitsu)](https://hub.docker.com/r/sakuraiyouhei/shukujitsu/)
@@ -111,7 +116,7 @@ $ shukujitsu -i 2020/7/22 2020/7/23 2020/7/24
 $ docker run -it sakuraiyouhei/shukujitsu --help
 ```
 
-### yum
+## yum repository
 
 ```console
 $ sudo yum install -y curl
@@ -120,7 +125,7 @@ $ sudo yum install -y python-shukujitsu
 $ shukujitsu --help
 ```
 
-### apt
+## apt repository
 
 ```console
 $ sudo apt install -y curl gpg
@@ -131,21 +136,11 @@ $ sudo apt install -y python-shukujitsu
 $ shukujitsu --help
 ```
 
-## Important Notice
+## Source data
 
-### Source Data
+This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package bundles the following source data, which is distributed by the Government of Japan under the [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.ja) compatible conditions according to [内閣府ホームページ利用規約](https://www.cao.go.jp/notice/rule.html).
 
-This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package bundles the following data. (Japanese - 本ライブラリは以下のデータを同梱しています。) The license of Source Data is [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.ja) compatible; The exact conditions are described at [内閣府ホームページ利用規約](https://www.cao.go.jp/notice/rule.html).
-
-- 2022年2月1日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和5年（2023年）国民の祝日（csv形式：20KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
-- 2021年2月1日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和4年（2022年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
-- 2020年11月27日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
-- 2020年11月18日時点の[内閣府ホームページ](https://www.cao.go.jp/)の[「国民の祝日」について](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html)で公開されていた「[昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)」（内閣府） （[https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv](https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv)）
-
-### Source Code
-
-This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package may contain a copy of and/or modified code from [python-holidays](https://github.com/dr-prodigy/python-holidays) package which is also licensed under [MIT License](https://github.com/dr-prodigy/python-holidays/blob/master/LICENSE).
-
-### Relation to the Government of Japan
-
-Nothing - NEVER EVER imagine relation to Government of Japan. This is just a personal project.
+- 2022年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和5年（2023年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
+- 2021年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和4年（2022年）国民の祝日（csv形式：19KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
+- 2020年11月27日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
+- 2020年11月18日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）

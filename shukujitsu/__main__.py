@@ -24,19 +24,18 @@ def getargs(args):
     jp_holidays = shukujitsu.Japan()
     parser = ArgumentParser(prog="shukujitsu",
                             formatter_class=RawTextHelpFormatter,
-                            description="Utility to match Japanese holidays "
-                            "from the year %d to %d" % (min(jp_holidays).year,
-                                                        max(jp_holidays).year),
-                            epilog="Exit status stays 0 if one or more dates "
-                            "are matched. Otherwise, it always goes 1.")
+                            description="Select Japanese holidays from %d to %d"
+                                        % (min(jp_holidays).year, max(jp_holidays).year),
+                            epilog="With no DATE, read standard input. Exit status is 0 if any "
+                                   "date is selected, 1 otherwise.")
     parser.add_argument("-i", "--invert-match", action="store_true",
-                        help="select non-matching dates")
+                        help="select non-holidays")
     parser.add_argument("-n", "--holiday-name", action="store_true",
                         help="output holiday name instead")
     parser.add_argument("-V", "--version", action="version", version=VERSION,
                         help="display version information and exit")
     parser.add_argument("dates", metavar="DATE", type=str, nargs="*",
-                        help="date to be matched")
+                        help="date to be examined")
     return parser.parse_args(args)
 
 
