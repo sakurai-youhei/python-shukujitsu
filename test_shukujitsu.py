@@ -1,5 +1,9 @@
 from datetime import date
 from datetime import datetime
+from os.path import abspath
+from os.path import dirname
+from os.path import join
+from sys import version_info
 from unittest import main
 from unittest import TestCase
 from urllib.request import urlopen
@@ -102,6 +106,14 @@ class DataTest(TestCase):
         URL = "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv"
         with urlopen(URL) as res:
             self.assertEqual(load_bin(), res.read())
+
+
+class SetupPyTest(TestCase):
+    def test_classifiers_version(self):
+        here = dirname(abspath(__file__))
+        with open(join(here, "setup.py")) as fp:
+            classifier = "Programming Language :: Python :: %s.%s" % version_info[:2]
+            self.assertIn(classifier, fp.read())
 
 
 if __name__ == "__main__":
