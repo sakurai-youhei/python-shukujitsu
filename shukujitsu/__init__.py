@@ -25,7 +25,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 """
 
-__version__ = "2022.2.1.post3"
+__version__ = "2022.2.1.post4"
 # aliases
 JP = JPN = Japan
 assert __version__ and CountryHoliday and Japan and JP and JPN
