@@ -34,7 +34,7 @@ class HolidaysTest(TestCase):
     @wrap_case(datetime(2022, 5, 4), True)
     @wrap_case(datetime(2022, 5, 5), True)
     @wrap_case(datetime(2023, 5, 5), True)
-    @wrap_case(datetime(2024, 5, 5), False)  # Not yet announced holidays in 2024
+    @wrap_case(datetime(2024, 5, 5), False)  # No data for holidays in 2024
     def test_holidays(self, day, expect):
         if expect:
             self.assertIn(day, JapaneseHolidays())
@@ -109,11 +109,12 @@ class DataTest(TestCase):
 
 
 class SetupPyTest(TestCase):
+    classifier = "Programming Language :: Python :: %s.%s" % version_info[:2]
+
     def test_classifiers_version(self):
         here = dirname(abspath(__file__))
         with open(join(here, "setup.py")) as fp:
-            classifier = "Programming Language :: Python :: %s.%s" % version_info[:2]
-            self.assertIn(classifier, fp.read())
+            self.assertIn(SetupPyTest.classifier, fp.read())
 
 
 if __name__ == "__main__":
