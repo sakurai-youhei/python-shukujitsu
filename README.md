@@ -16,7 +16,7 @@ Python Japanese holidays library based on static data published by Cabinet Offic
 
 - This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan from **1955 to 2024**; will expand to holidays in 2025 in February 2024.
 - This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package has ZERO relation to the Government of Japan - NEVER EVER assume any authorization as this is just a personal project.
-- The signature key 8A124CD64688ABCC was expired Mon Nov 21 11:31:15 2022 UTC; please file an issue if you hit any troubles due to the expiry.
+- The signature key 8A124CD64688ABCC was expired Mon Nov 21 11:31:15 2022 UTC; please file an issue if you hit troubles around DEB/RPM packages due to the expiry.
 
 ## Installation
 
