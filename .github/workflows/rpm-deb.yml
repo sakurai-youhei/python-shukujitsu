@@ -26,6 +26,7 @@ jobs:
         run: |
           git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
           cd libfaketime/src
+          mkdir -p /usr/local/lib
           make install
 
       - name: Sign rpm packages
@@ -88,6 +89,7 @@ jobs:
         run: |
           git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
           cd libfaketime/src
+          mkdir -p /usr/local/lib
           make install
 
       - name: Sign deb packages
