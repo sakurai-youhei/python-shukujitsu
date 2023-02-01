@@ -408,6 +408,35 @@ Package: python-shukujitsu
 Format: 3.0 (quilt)
 Binary: python-shukujitsu
 Architecture: all
+Version: 2023.2.1.post12-1
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Uploaders: Youhei Sakurai <sakurai.youhei@gmail.com>
+Standards-Version: 3.9.1
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/sakurai-youhei/python-shukujitsu
+Package-List:
+ python-shukujitsu deb python optional arch=all
+Files:
+ def5d8774dfe653635114f5e79f0b5ed 1967 python-shukujitsu_2023.2.1.post12-1.dsc
+ 93db2f91d54b3f12c9d016f01ba9b215 13077 python-shukujitsu_2023.2.1.post12.orig.tar.gz
+ db8fd8647844189b63490751a4054d2f 2152 python-shukujitsu_2023.2.1.post12-1.debian.tar.xz
+Checksums-Sha1:
+ a495cdc072997c81aff9ac3187b7d31207fed61a 1967 python-shukujitsu_2023.2.1.post12-1.dsc
+ f08f1ac8798fb872c53a81e09b5dcbc682203e02 13077 python-shukujitsu_2023.2.1.post12.orig.tar.gz
+ 2c62d66e8bcb4b75498eb4b104513866e4166ab0 2152 python-shukujitsu_2023.2.1.post12-1.debian.tar.xz
+Checksums-Sha256:
+ 84c53cf4c24f4aa2cd55bf5c6ec4cb0b1ab70ac24e4d7617f97f4065c9f79c2d 1967 python-shukujitsu_2023.2.1.post12-1.dsc
+ e11086ce6e653375f5c6355e3179ca6ac552cb1c750ed1b65039641d87e72510 13077 python-shukujitsu_2023.2.1.post12.orig.tar.gz
+ 1e947ba37f3e18b6a6a19757704c210f0724d5bdc65be8f09508646bde35b679 2152 python-shukujitsu_2023.2.1.post12-1.debian.tar.xz
+Checksums-Sha512:
+ 1d2df23013b41bf72de75f46df76a4950bba9d15215cf573d42a9e4ff7c911aa6951e86a38fd06a03b8ae7ff0520cf9f8ee35493125892f7f1219d0337aa2319 1967 python-shukujitsu_2023.2.1.post12-1.dsc
+ 256f4734644848c4aa858761c38f6338e61564efbc789e092d7d239909041205288fc125d9b1a07fabedbce176be2db7ff7e5b6483a86fc1573bbfcf9c131ab8 13077 python-shukujitsu_2023.2.1.post12.orig.tar.gz
+ 5dc992336bd768ee4e12cc311aeccc3d75f2c1eda2ece848eead521425d631a33346c00530e3e3bb3799d57e9b78f08b03a92c39dc9ff673c166e9be31cb3b30 2152 python-shukujitsu_2023.2.1.post12-1.debian.tar.xz
+
+Package: python-shukujitsu
+Format: 3.0 (quilt)
+Binary: python-shukujitsu
+Architecture: all
 Version: 2023.2.1.post6-1
 Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
 Uploaders: Youhei Sakurai <sakurai.youhei@gmail.com>

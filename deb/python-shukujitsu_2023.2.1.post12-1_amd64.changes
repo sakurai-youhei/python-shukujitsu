@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 01 Feb 2023 15:26:47 +0000
+Source: python-shukujitsu
+Binary: python-shukujitsu
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 2023.2.1.post12-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2023.2.1.post12-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ 586dc5e7188fedef35e207488b2c29e119c11eeb 11338 python-shukujitsu_2023.2.1.post12-1_all.deb
+ f0df79e4abbf3e7ee0ac76672a23e39f75543429 8923 python-shukujitsu_2023.2.1.post12-1_amd64.buildinfo
+Checksums-Sha256:
+ 2d4a9b90140e8f31653565ef1ff567fbeccb58cb9db01e09b20f981ae2612197 11338 python-shukujitsu_2023.2.1.post12-1_all.deb
+ 744d043b17494fbe2537793b5b3313a40db79b803b57a5e331cff18bc1afdead 8923 python-shukujitsu_2023.2.1.post12-1_amd64.buildinfo
+Files:
+ fe740818b61509112171036ee8bf153a 11338 python optional python-shukujitsu_2023.2.1.post12-1_all.deb
+ d58b866c743ca63db0e0bf70ab782ea4 8923 python optional python-shukujitsu_2023.2.1.post12-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHU5BnVW8t3N+ScH4I6XXAa4va+EFAmPahXgACgkQI6XXAa4v
+a+FCzA//aeqFIkrIJHiJOQfYAWoz6f7ueBE5OICsbSSKSXZ0k3wn12cgpYE/cWOf
+B7dqX4rkRC3coS66MAiLRutzutwvjCcp6iCFZg9hsKMz0YyPKKteWMHrz+Jdf0G4
+3UPhE3pl/ne9BQo6wQljAAaI8HGFshYgYcFOmLRYrJy4tqBnTzJoSw1c5XqErILy
+u6OtSGQOUdEJkWNcmDXxOtPjZRsYzbnGiA3X21dXyykJ2YdpWeMWNJgufzsB+WmD
+hhzH6TtMNbIfPU3MuB57vUa5Cx9cs9OxXy0sh3Aw+Wu4n8QqgRtvpGzxqbWVHr9U
+eAmmO+M/496MHRdfbQUX2gDok+maIICoin64C0HTvG6Vve71BaaLxER4LXJSaF+P
+3U6sD/nyad7U9JucZujRlUzgh/E73lI9391zm+bNOu2DFS47umHiv22jNajZp93K
+DNl1WeTEmEEUKlF0eN54+Bm+z729mmFWxuBNpV84sEmn23J1HpKlROJRRXHUBNoO
+HK8ATJF517spGgXlcMVWQ/qMTmVAShFRjsdv7qnjvDyWIj4PBShl28jFFPgRiaJi
+hvYa1E5kcpp9qkSZspgzgc3DG+DVM2Btzx86jrLF5F+lt+SqPEMYFUrEs+Z9D8cz
+tKcup44tH9orcHND9xPoHfPyPWuQczs1ovlWnDOvCc31BReF3S0=
+=Uuru
+-----END PGP SIGNATURE-----
