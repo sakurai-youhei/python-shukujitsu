@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 01 Feb 2023 13:20:00 +0000
+Source: python-shukujitsu
+Binary: python-shukujitsu
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 2023.2.1.post9-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2023.2.1.post9-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ b09560de947dde189a94d7180594ccce08c87432 11344 python-shukujitsu_2023.2.1.post9-1_all.deb
+ a3c7d8fd5a91174b5d3e573148b3e34e861578aa 8745 python-shukujitsu_2023.2.1.post9-1_amd64.buildinfo
+Checksums-Sha256:
+ 9f011a5881891fbb628ea6b711c8fc0847267dc5c756dc69247f78603d041673 11344 python-shukujitsu_2023.2.1.post9-1_all.deb
+ 8329cd0679f04d53a765b01c5b443c6534e475553fccd9e2f860c47e33d77595 8745 python-shukujitsu_2023.2.1.post9-1_amd64.buildinfo
+Files:
+ fe96da19d474e62a9de1a1b878660b70 11344 python optional python-shukujitsu_2023.2.1.post9-1_all.deb
+ 2793f77705fb79f863804da58434ba85 8745 python optional python-shukujitsu_2023.2.1.post9-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEX2UmFopB+oHvYp3eihJM1kaIq8wFAmPaZ5oACgkQihJM1kaI
+q8xdAAv/dcmEpL2MkjX5cT7EhfDBEWMO3zmHpAdDrQmfAeWJ94S8X3mnhHt6uWAF
+tT5T0V6G7y7wmtwb8G/BtCSYvEbZZ+GozTpUUpVaisJhvBkgJ7Kv9W4Ne/mas4k/
+nKPJqukxN7drkxzD/h37nPo1IOUAthpxY6e1wJhlQRGKN6NfSqueasxLknO3J9kL
+wv6/cFwAj8YpLhxfwG/py13canxw9/Q+hSPAnnaz5JgG7/6agNuMSjllMBrvSFxV
+Q3tD2sWuuLcsXFTuwTu97t5awG+lM//BN3nHStYA3ITxhLGr/mhhhgk+4Aqk3XTE
+mqgLfP3ydvoMpkLVEOjSDRTa4TcNNiUXalJM7YNqSa6ITUw789W2tLmK/P7OA01D
+UG9KAzDC6uzK4ygAGMZ1bjwzMCdmrR5mAn7UKdgm8mHxk0DomlajSgVfg7DcISoG
+wW6m+u8XN5Mgqj55j4XZJgHmaGobmTQ/bTEaPqQhfAijOljM8PM3F2Kh1BkXKves
+lRTNOXo4
+=+M5Y
+-----END PGP SIGNATURE-----
