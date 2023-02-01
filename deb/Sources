@@ -433,3 +433,32 @@ Checksums-Sha512:
  a89a5f50ac54f446db3e336da22a6cf8de76cb0283ce466fca76a228a4213aca42b8f8ef4a0a6b3edb591353a1e6b2db0d85e31357f5ec0f39e94940df0d5372 12987 python-shukujitsu_2023.2.1.post6.orig.tar.gz
  660040f0a6865c00fa10480e70456c1303d78e4eb93010a0424a1e44732bdf0810e47e3b554bb368dfaf080d7aa63ac175595d79c741c905c686374f8a4f6b58 2068 python-shukujitsu_2023.2.1.post6-1.debian.tar.xz
 
+Package: python-shukujitsu
+Format: 3.0 (quilt)
+Binary: python-shukujitsu
+Architecture: all
+Version: 2023.2.1.post7-1
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Uploaders: Youhei Sakurai <sakurai.youhei@gmail.com>
+Standards-Version: 3.9.1
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/sakurai-youhei/python-shukujitsu
+Package-List:
+ python-shukujitsu deb python optional arch=all
+Files:
+ 5b7ed5becdb1f83581ae510a39445a1f 1786 python-shukujitsu_2023.2.1.post7-1.dsc
+ 93c1b95bb44d022cf0a31a8695f5b1da 12977 python-shukujitsu_2023.2.1.post7.orig.tar.gz
+ b724baecfad1dc9f7ca6ceddc2bb2b26 2068 python-shukujitsu_2023.2.1.post7-1.debian.tar.xz
+Checksums-Sha1:
+ e2116cc898f747df5ad87c1ccd46c24a77aca62e 1786 python-shukujitsu_2023.2.1.post7-1.dsc
+ 9790fad78be7d728e102dd335edfdce82bc108b2 12977 python-shukujitsu_2023.2.1.post7.orig.tar.gz
+ d648c66e273bebde665c6d9445523bf2fe4ffb48 2068 python-shukujitsu_2023.2.1.post7-1.debian.tar.xz
+Checksums-Sha256:
+ 395d01c8587b933b0a87ddb504416ab28b937014195ae6acaf70d75441ba415d 1786 python-shukujitsu_2023.2.1.post7-1.dsc
+ 2e177daffa94fb150132c08e70d2960fe08bb6673faa249fafc3c0d591b79cdd 12977 python-shukujitsu_2023.2.1.post7.orig.tar.gz
+ 99afb59110580d4c25ff369f377142060168be51e8b2ea4ebd3d3a305f259aed 2068 python-shukujitsu_2023.2.1.post7-1.debian.tar.xz
+Checksums-Sha512:
+ 25434c02305116a808d65cf3e193e5ea4db5ecc5d2268565168ac6a90f55c353565032cede185441d49e9a82ce640bbad1b2b6ef7540ce386e5a807dc8e8db24 1786 python-shukujitsu_2023.2.1.post7-1.dsc
+ 101e48db6de00f886b4aab55cc0502da181365f59c58b4c3a04f9a9b9373a03cbde1c3dc6c9d47832f9abc7d45a26b6cc563413e5fb27f8f10445a28a66d9088 12977 python-shukujitsu_2023.2.1.post7.orig.tar.gz
+ ce90cebfe1dc729cfdb455e15088fc89095f3ce22070487d1fff066417734457ba60ec3de6cf39e7d8dfba442785d4017c58029fb227a5184c78bf98818a0fdb 2068 python-shukujitsu_2023.2.1.post7-1.debian.tar.xz
+
