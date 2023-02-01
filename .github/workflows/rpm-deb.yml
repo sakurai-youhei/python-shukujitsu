@@ -27,7 +27,6 @@ jobs:
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
-          gpg --quick-set-expire 5F6526168A41FA81EF629DDE8A124CD64688ABCC 10y
           rpm --import https://sakurai-youhei.github.io/python-shukujitsu/gpg
           cat <<EOF > $HOME/.rpmmacros
           %_signature gpg
@@ -83,7 +82,6 @@ jobs:
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
-          gpg --quick-set-expire 5F6526168A41FA81EF629DDE8A124CD64688ABCC 10y
           debsign -k 8A124CD64688ABCC deb_dist/*.buildinfo deb_dist/*.changes deb_dist/*.dsc
           debsigs -k 8A124CD64688ABCC --sign=origin deb_dist/*.deb
 
