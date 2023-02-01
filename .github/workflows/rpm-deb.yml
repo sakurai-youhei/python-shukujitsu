@@ -25,7 +25,7 @@ jobs:
       - name: Build & install faketime
         run: |
           git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
-          cd /libfaketime/src
+          cd libfaketime/src
           make install
 
       - name: Sign rpm packages
@@ -87,7 +87,7 @@ jobs:
       - name: Build & install faketime
         run: |
           git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
-          cd /libfaketime/src
+          cd libfaketime/src
           make install
 
       - name: Sign deb packages
