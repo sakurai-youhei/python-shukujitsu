@@ -24,8 +24,8 @@ jobs:
 
       - name: Build faketime
         run: |
-          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
-          cd libfaketime/src
+          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git $HOME/libfaketime
+          cd $HOME/libfaketime/src
           make all
 
       - name: Sign rpm packages
@@ -38,7 +38,7 @@ jobs:
           %_gpgbin /usr/bin/gpg
           %__gpg_sign_cmd %{__gpg} gpg --force-v3-sigs --batch --verbose --no-armor --passphrase-fd 0 --pinentry-mode loopback --no-secmem-warning -u '%{_gpg_name}' -sbo %{__signature_filename} %{__plaintext_filename}
           EOF
-          export LD_PRELOAD=libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
+          export LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
@@ -86,13 +86,13 @@ jobs:
 
       - name: Build faketime
         run: |
-          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
-          cd libfaketime/src
+          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git $HOME/libfaketime
+          cd $HOME/libfaketime/src
           make all
 
       - name: Sign deb packages
         run: |
-          export LD_PRELOAD=libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
+          export LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
@@ -122,8 +122,8 @@ jobs:
           apt-ftparchive sources . | tee Sources | gzip > Sources.gz
           apt-ftparchive release -o APT::FTPArchive::Release::Label=python-shukujitsu -o APT::FTPArchive::Release::Origin=python-shukujitsu . > Release
           echo 'Changelogs: https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog' >> Release
-          echo | env LD_PRELOAD=libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00" gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
-          echo | env LD_PRELOAD=libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00" gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
+          echo | env LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00" gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
+          echo | env LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00" gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
           mkdir -p p/python-shukujitsu
           ls *.deb | xargs -I{} sh -c 'dpkg-deb --fsys-tarfile {} | tar -x -O --wildcards ./usr/share/doc/python-shukujitsu/changelog\* | gzip -d - > p/python-shukujitsu/`echo {} | rev | cut -c 9- | rev`_changelog'
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 . > index.html
