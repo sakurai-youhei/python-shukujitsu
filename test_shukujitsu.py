@@ -34,7 +34,8 @@ class HolidaysTest(TestCase):
     @wrap_case(datetime(2022, 5, 4), True)
     @wrap_case(datetime(2022, 5, 5), True)
     @wrap_case(datetime(2023, 5, 5), True)
-    @wrap_case(datetime(2024, 5, 5), False)  # No data for holidays in 2024
+    @wrap_case(datetime(2024, 5, 5), True)
+    @wrap_case(datetime(2025, 5, 5), False)  # No data for holidays in 2025
     def test_holidays(self, day, expect):
         if expect:
             self.assertIn(day, JapaneseHolidays())
@@ -42,6 +43,7 @@ class HolidaysTest(TestCase):
             self.assertNotIn(day, JapaneseHolidays())
 
     @wrap_case("2014-01-01", "元日")
+    @wrap_case("2024-01-08", "成人の日")
     def test_holidays_get(self, day, expect):
         self.assertEqual(JapaneseHolidays().get(day), expect)
 
@@ -55,6 +57,8 @@ class HolidaysTest(TestCase):
                [date(2020, 5, day) for day in range(3, 7, -1)])
     @wrap_case("2021/5/5", "2021/5/1", None,
                [date(2021, 5, day) for day in range(5, 2)])
+    @wrap_case("2024/5/3", "2024/5/7", None,
+               [date(2024, 5, day) for day in range(3, 7)])
     def test_holidays_slice(self, start, stop, step, expect):
         self.assertEqual(JapaneseHolidays()[slice(start, stop, step)], expect)
 
@@ -103,7 +107,7 @@ class ExportsTest(TestCase):
 
 class DataTest(TestCase):
     def test_bundled_data_with_the_one_on_web(self):
-        URL = "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv"
+        URL = "https://www8.cao.go.jp/chosei/shukujitsu/shukujitsu.csv"
         with urlopen(URL) as res:
             self.assertEqual(load_bin(), res.read())
 
