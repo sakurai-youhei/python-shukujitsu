@@ -20,16 +20,14 @@ jobs:
 
       - name: Install additional dependencies
         run: |
-          yum install -y createrepo git-core rpm-sign tree make gcc
-
-      - name: Build faketime
-        run: |
-          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git $HOME/libfaketime
-          cd $HOME/libfaketime/src
-          make all
+          yum install -y createrepo git-core rpm-sign tree
 
       - name: Sign rpm packages
         run: |
+          cat <<EOF | gpg --batch --import
+          ${{ secrets.GPG_PRIVATE_KEY }}
+          EOF
+          gpg --quick-set-expire 5F6526168A41FA81EF629DDE8A124CD64688ABCC 10y
           rpm --import https://sakurai-youhei.github.io/python-shukujitsu/gpg
           cat <<EOF > $HOME/.rpmmacros
           %_signature gpg
@@ -37,10 +35,6 @@ jobs:
           %_gpg_name Youhei Sakurai
           %_gpgbin /usr/bin/gpg
           %__gpg_sign_cmd %{__gpg} gpg --force-v3-sigs --batch --verbose --no-armor --passphrase-fd 0 --pinentry-mode loopback --no-secmem-warning -u '%{_gpg_name}' -sbo %{__signature_filename} %{__plaintext_filename}
-          EOF
-          export LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
-          cat <<EOF | gpg --batch --import
-          ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
           echo | rpmsign --addsign dist/*.rpm
 
@@ -82,20 +76,14 @@ jobs:
 
       - name: Install additional dependencies
         run: |
-          sudo apt install -y apt-utils debsigs devscripts git-core tree make gcc
-
-      - name: Build faketime
-        run: |
-          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git $HOME/libfaketime
-          cd $HOME/libfaketime/src
-          make all
+          sudo apt install -y apt-utils debsigs devscripts git-core tree
 
       - name: Sign deb packages
         run: |
-          export LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
+          gpg --quick-set-expire 5F6526168A41FA81EF629DDE8A124CD64688ABCC 10y
           debsign -k 8A124CD64688ABCC deb_dist/*.buildinfo deb_dist/*.changes deb_dist/*.dsc
           debsigs -k 8A124CD64688ABCC --sign=origin deb_dist/*.deb
 
@@ -122,8 +110,8 @@ jobs:
           apt-ftparchive sources . | tee Sources | gzip > Sources.gz
           apt-ftparchive release -o APT::FTPArchive::Release::Label=python-shukujitsu -o APT::FTPArchive::Release::Origin=python-shukujitsu . > Release
           echo 'Changelogs: https://sakurai-youhei.github.io/python-shukujitsu/deb/@CHANGEPATH@_changelog' >> Release
-          echo | env LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00" gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
-          echo | env LD_PRELOAD=$HOME/libfaketime/src/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00" gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
+          echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback -abs -o Release.gpg Release
+          echo | gpg --batch --passphrase-fd 0 --pinentry-mode loopback --clearsign -o InRelease Release
           mkdir -p p/python-shukujitsu
           ls *.deb | xargs -I{} sh -c 'dpkg-deb --fsys-tarfile {} | tar -x -O --wildcards ./usr/share/doc/python-shukujitsu/changelog\* | gzip -d - > p/python-shukujitsu/`echo {} | rev | cut -c 9- | rev`_changelog'
           tree -h -F -I 'index.html' -H '.' -T 'python-shukujitsu / deb' -L 1 --noreport --charset utf-8 . > index.html
