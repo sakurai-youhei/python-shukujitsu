@@ -82,8 +82,8 @@ jobs:
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
-          debsign -k 8A124CD64688ABCC deb_dist/*.buildinfo deb_dist/*.changes deb_dist/*.dsc
-          debsigs -k 8A124CD64688ABCC --sign=origin deb_dist/*.deb
+          debsign -k 23A5D701AE2F6BE1 deb_dist/*.buildinfo deb_dist/*.changes deb_dist/*.dsc
+          debsigs -k 23A5D701AE2F6BE1 --sign=origin deb_dist/*.deb
 
       - uses: actions/checkout@v2
         with:
