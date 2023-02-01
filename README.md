@@ -14,7 +14,7 @@ Python Japanese holidays library based on static data published by Cabinet Offic
 
 ## Important notices
 
-- This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan from **1955 to 2023**; will expand to holidays in 2014 in February 2023.
+- This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan from **1955 to 2024**; will expand to holidays in 2025 in February 2024.
 - This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package has ZERO relation to the Government of Japan - NEVER EVER assume any authorization as this is just a personal project.
 
 ## Installation
@@ -60,7 +60,7 @@ jp_holidays['2014-01-01': '2014-01-03']  # [date(2014, 1, 1)]
 $ shukujitsu --help  # or python3 -m shukujitsu --help
 usage: shukujitsu [-h] [-i] [-n] [-V] [DATE ...]
 
-Select Japanese holidays from 1955 to 2023
+Select Japanese holidays from 1955 to 2024
 
 positional arguments:
   DATE                date to be examined
@@ -140,6 +140,7 @@ $ shukujitsu --help
 
 This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package bundles the following source data, which is distributed by the Government of Japan under the [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.ja) compatible conditions according to [内閣府ホームページ利用規約](https://www.cao.go.jp/notice/rule.html).
 
+- 2023年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和6年（2024年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/shukujitsu.csv ）
 - 2022年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和5年（2023年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
 - 2021年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和4年（2022年）国民の祝日（csv形式：19KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
 - 2020年11月27日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和3年（2021年）国民の祝日（csv形式：19KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）

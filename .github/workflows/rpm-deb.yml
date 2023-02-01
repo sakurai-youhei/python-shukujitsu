@@ -20,13 +20,16 @@ jobs:
 
       - name: Install additional dependencies
         run: |
-          yum install -y createrepo git-core rpm-sign tree
+          yum install -y createrepo git-core rpm-sign tree make gcc
+
+      - name: Build & install faketime
+        run: |
+          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
+          cd /libfaketime/src
+          make install
 
       - name: Sign rpm packages
         run: |
-          cat <<EOF | gpg --batch --import
-          ${{ secrets.GPG_PRIVATE_KEY }}
-          EOF
           rpm --import https://sakurai-youhei.github.io/python-shukujitsu/gpg
           cat <<EOF > $HOME/.rpmmacros
           %_signature gpg
@@ -34,6 +37,10 @@ jobs:
           %_gpg_name Youhei Sakurai
           %_gpgbin /usr/bin/gpg
           %__gpg_sign_cmd %{__gpg} gpg --force-v3-sigs --batch --verbose --no-armor --passphrase-fd 0 --pinentry-mode loopback --no-secmem-warning -u '%{_gpg_name}' -sbo %{__signature_filename} %{__plaintext_filename}
+          EOF
+          export LD_PRELOAD=/usr/local/lib/faketime/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
+          cat <<EOF | gpg --batch --import
+          ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
           echo | rpmsign --addsign dist/*.rpm
 
@@ -75,10 +82,17 @@ jobs:
 
       - name: Install additional dependencies
         run: |
-          sudo apt install -y apt-utils debsigs devscripts git-core tree
+          sudo apt install -y apt-utils debsigs devscripts git-core tree make gcc
+
+      - name: Build & install faketime
+        run: |
+          git clone -b v0.9.10 --single-branch --depth=1 https://github.com/wolfcw/libfaketime.git
+          cd /libfaketime/src
+          make install
 
       - name: Sign deb packages
         run: |
+          export LD_PRELOAD=/usr/local/lib/faketime/libfaketime.so.1 FAKETIME="@2022-11-21 11:00:00"
           cat <<EOF | gpg --batch --import
           ${{ secrets.GPG_PRIVATE_KEY }}
           EOF
