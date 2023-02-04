@@ -126,6 +126,8 @@ $ sudo yum install -y python-shukujitsu
 $ shukujitsu --help
 ```
 
+Note: There is one known issue in the RPM package as of 2023-02-04; https://github.com/sakurai-youhei/python-shukujitsu/issues/25
+
 ## apt repository
 
 ```console
@@ -141,6 +143,7 @@ $ shukujitsu --help
 
 This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package bundles the following source data, which is distributed by the Government of Japan under the [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.ja) compatible conditions according to [内閣府ホームページ利用規約](https://www.cao.go.jp/notice/rule.html).
 
+- 2023年2月4日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和6年（2024年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
 - 2023年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和6年（2024年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/shukujitsu.csv ）
 - 2022年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和5年（2023年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
 - 2021年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和4年（2022年）国民の祝日（csv形式：19KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）

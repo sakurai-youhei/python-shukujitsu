@@ -107,7 +107,7 @@ class ExportsTest(TestCase):
 
 class DataTest(TestCase):
     def test_bundled_data_with_the_one_on_web(self):
-        URL = "https://www8.cao.go.jp/chosei/shukujitsu/shukujitsu.csv"
+        URL = "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv"
         with urlopen(URL) as res:
             self.assertEqual(load_bin(), res.read())
 
