@@ -698,3 +698,39 @@ Description: Python Japanese holidays library based on static data publis
  - This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package has ZERO relation to the Government of Japan - NEVER EVER assume any authorization as this is just a personal project.
  - The signature key 8A124CD64688ABCC was expired Mon Nov 21 11:31:15 2022 UTC; please file an issue if you hit troubles around DEB/RPM packages due to the expiry.
 
+Package: python-shukujitsu
+Architecture: all
+Version: 2023.2.4-1
+Priority: optional
+Section: python
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Installed-Size: 169
+Depends: python3-dateutil, python3-pkg-resources
+Filename: ./python-shukujitsu_2023.2.4-1_all.deb
+Size: 12090
+MD5sum: b85818c193cf6d4f6bbae4d5f43a68bd
+SHA1: 9e348c13ecdd2028d167f49840751011997ced1e
+SHA256: 1fe230df011682f5694c85b6fb35869cee2192dbf3be0e3ee08954d1ea00c882
+SHA512: d704f607c0be453f4928eff4be24974d95c4b900935a8eefc41bb77f09294c4b68a15f9949c8ec4789aeb32c9ef66f342f545e755c411b454fc93693ce240bcd
+Homepage: https://github.com/sakurai-youhei/python-shukujitsu
+Description: Python Japanese holidays library based on static data publis
+ # python-shukujitsu
+ Python Japanese holidays library based on static data published by Cabinet Office, Government of Japan
+ .
+ [![PyPI License        ](https://img.shields.io/pypi/l/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ [![PyPI Downloads      ](https://img.shields.io/pypi/dm/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ [![PyPI Version        ](https://img.shields.io/pypi/v/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ [![PyPI Python Versions](https://img.shields.io/pypi/pyversions/python-shukujitsu.svg)](https://pypi.org/project/python-shukujitsu/)
+ .
+ [![flake8 and pytest   ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/flake8%20and%20pytest/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22flake8+and+pytest%22)
+ [![Publish to PyPI     ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20PyPI/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22Publish+to+PyPI%22)
+ [![Publish to DockerHub](https://github.com/sakurai-youhei/python-shukujitsu/workflows/Publish%20to%20DockerHub/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22Publish+to+DockerHub%22)
+ [![RPM and DEB         ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/RPM%20and%20DEB/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3A%22RPM+and+DEB%22)
+ [![CodeQL              ](https://github.com/sakurai-youhei/python-shukujitsu/workflows/CodeQL/badge.svg)](https://github.com/sakurai-youhei/python-shukujitsu/actions?query=workflow%3ACodeQL)
+ .
+ ## Important notices
+ .
+ - This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan from **1955 to 2024**; will expand to holidays in 2025 in February 2024.
+ - This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package has ZERO relation to the Government of Japan - NEVER EVER assume any authorization as this is just a personal project.
+ - The signature key 8A124CD64688ABCC was expired Mon Nov 21 11:31:15 2022 UTC; please file an issue if you hit troubles around DEB/RPM packages due to the expiry.
+

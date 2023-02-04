@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 04 Feb 2023 03:05:33 +0000
+Source: python-shukujitsu
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 2023.2.4-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changes:
+ python-shukujitsu (2023.2.4-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ 217ce488e4f73019d5b2ad9925bffb24fcd7e713 1918 python-shukujitsu_2023.2.4-1.dsc
+ 9efbd25b0d9c92255f848da42a9b7456439c7874 13441 python-shukujitsu_2023.2.4.orig.tar.gz
+ 91886144b647b54f242845e1279b865b42a80f6b 2152 python-shukujitsu_2023.2.4-1.debian.tar.xz
+ 728ad2a9756f596a749416dcc8cd50f60221ecd2 8931 python-shukujitsu_2023.2.4-1_source.buildinfo
+Checksums-Sha256:
+ 08116451db82c5578793789689d20a43658768aba3d3b8e7131369f111c9d1d6 1918 python-shukujitsu_2023.2.4-1.dsc
+ 4862b5a499a9230b41b9c2ede27da9f05d55ae4f0fab886cd70c29f9637b073a 13441 python-shukujitsu_2023.2.4.orig.tar.gz
+ c00838772926934eff068ab2d54b7f8e0a92bb4e9266707ab9d4910d55fd8a36 2152 python-shukujitsu_2023.2.4-1.debian.tar.xz
+ 90374dc6b5c430024c6c4ba95c23c9aa02a04a6e19f42b88004068e36f20c0e1 8931 python-shukujitsu_2023.2.4-1_source.buildinfo
+Files:
+ ef4a93e7ffba7fcc770de6ce6534a6bb 1918 python optional python-shukujitsu_2023.2.4-1.dsc
+ db602dfded8dcf4bd17d64858716198b 13441 python optional python-shukujitsu_2023.2.4.orig.tar.gz
+ d97a336737bcd6331f21324ec1019305 2152 python optional python-shukujitsu_2023.2.4-1.debian.tar.xz
+ c084e02ca53aed3af119690dfb798771 8931 python optional python-shukujitsu_2023.2.4-1_source.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHU5BnVW8t3N+ScH4I6XXAa4va+EFAmPdy88ACgkQI6XXAa4v
+a+EWNA/9FCBVCVFxinzFvEko4GyCbJvObOQurCzBfJCCLYNMy3WLXWl1hmr4yXDa
+DOQxKvjt8+VP+G+8+vJml3LvhtpXzGpDsFilU7y6QPrBn7Op4sNIMQclVy7EVSX0
+ulfekN1wuC8CYWP+GQLt5fdVakFuybs4AXCmgCMrFAbSOM10xRaUwvscxzES6RMZ
+LlfV0c40g80DHTudKH+Vl5Oo2fUoh+qDx5JYVj7zTTqRr+oCuvBdZBmM7LxQ1cPj
+0k+Erba3OBUJ657RgOYl63uzGExs+OSCkbrnw0uPIVpO+4l5K+fiItNVmoHqA74a
+d5+Z+CBzfFKy/ZiVx1VheRsKBoNjOgHVsNmN5RNAFpjSSXmqjc3y+YMbd26wSjm4
+ZYMjn7D3cyt0jsQH6kjlQ7Cj98yMgCojzG01m3SWsKBCHbLL/MTZNDoaU+RalU2D
+IXmXwU6k+6rsw6eiypCyBWD15uM3sU63U7lHQW5Jv4JqIVT/J/c+zohmZu/Ov9Mp
+YcE9VE/k8C0/VqZtF+lxFTOaDYYS040r3+Kt4agdoIziJuV985R7dT5C5Ii6bD2l
+8YAQDFEi+apaoj+EweRv1ZrRBns+CgMcxZKmmiaCqQQpP4rEYzAaAr4XXcZQly5c
++YS8Iuivb0TLaVaAvQZN9BicDhR4IQQG+ivq/bzbPxs2vNF5hq4=
+=tW2N
+-----END PGP SIGNATURE-----

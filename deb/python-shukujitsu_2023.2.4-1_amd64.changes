@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Sat, 04 Feb 2023 03:05:33 +0000
+Source: python-shukujitsu
+Binary: python-shukujitsu
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 2023.2.4-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2023.2.4-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ 4792524ef9db2a8fd0fa791089e9d019c4360794 11464 python-shukujitsu_2023.2.4-1_all.deb
+ 7674c270558d1348f816eec0fc2033b4ae265548 8969 python-shukujitsu_2023.2.4-1_amd64.buildinfo
+Checksums-Sha256:
+ e76ffe0958c92ad9cdde84fada7571c7f4e6c94a4517df82c4ef035afc9525d6 11464 python-shukujitsu_2023.2.4-1_all.deb
+ 508b93dac22487a64cfa469ae18acf22104bdfbea0b161ddb5a864ba4c9cbe1d 8969 python-shukujitsu_2023.2.4-1_amd64.buildinfo
+Files:
+ 041b8eea16062f59651618436ebe367d 11464 python optional python-shukujitsu_2023.2.4-1_all.deb
+ b12f2ea4817c1113e613c90b244039c0 8969 python optional python-shukujitsu_2023.2.4-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHU5BnVW8t3N+ScH4I6XXAa4va+EFAmPdy88ACgkQI6XXAa4v
+a+EB9w/9F7TsvPUD8yyq917Yhopy3X2Tj0CI5kGWfEvFV8fYYX/S+2UP2IeGGAgy
+D76LkC6aYI5OxoWfJeH9lCnqi/JyRg0UGETs0EK2IIpcEWV3/DrhXtQW4M2VGPF5
+VVk4xOu5Lot8ijiv09cnvVLNNo6VKo5uSnUqg30O3up96Gs/TFOyluTiQyXvzRYj
+IlDYQePLxw8zRTeWQPm2NDSvP7OwI8xF7NTGRmdhltpwp46mUJWhbIHn0PSm/1c4
+cx85+l9pu7ttxnPvbfYj/3BlCRmxNdreTbT5h5J9UIcI6E0dALVAexIjRM0AXUAq
+t/KwM4BmMr/hLYxjdjLZYYnDh/1J0Sbov+tIidub7XhgocJbpsxXfJbaaC9T91zF
+RbotlxzzX67AYWUoHt7IS4SzxMs/aV7hdRgdvhknOVqq4j7HoXrZ+l+2QSAjDuuX
+xSjn/Tle+gccXHNYqjNUbbSUriuPAHSNFoLJxpK9RX1ZFkVpHycyNXcDoqIR2PlI
+6aOQEkJwYkwu6BCUQF7lWgiwjarS6/LJd9jXcYjGVActxg8HqWtaA+LmPXTFE8W9
+QlSrOFSl9vlKTr8nxxDUxeGD4/PDH5k7KUIGm6dH0z+YGkfK8lvnrBkGxN6RIl8Q
+E82VLvnBDr2iuXlLHSlBJySJp/1QjGLphNDYe2S6J8rhUQQzhHE=
+=8rIl
+-----END PGP SIGNATURE-----
