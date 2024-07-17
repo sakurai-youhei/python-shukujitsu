@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 17 Jul 2024 02:33:38 +0000
+Source: python-shukujitsu
+Binary: python-shukujitsu
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 2024.7.17-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2024.7.17-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ ec899a6ddc3baf2dd3272e62cd41928a673db6c0 11620 python-shukujitsu_2024.7.17-1_all.deb
+ 4df88898647160a035c6d89a87c01da5689003ba 9140 python-shukujitsu_2024.7.17-1_amd64.buildinfo
+Checksums-Sha256:
+ 2041bd17a760f092a84057aa6a3494ddf780f7cbe10962ad85f33ae31a05d367 11620 python-shukujitsu_2024.7.17-1_all.deb
+ 26b4ce5eae81fa51ecf194f1563875984f38df9248b238df2b711dbaee7832e3 9140 python-shukujitsu_2024.7.17-1_amd64.buildinfo
+Files:
+ 3a5213aa83e66179da3816823182000b 11620 python optional python-shukujitsu_2024.7.17-1_all.deb
+ 6336df318e7bbba946c8a010139c7963 9140 python optional python-shukujitsu_2024.7.17-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHU5BnVW8t3N+ScH4I6XXAa4va+EFAmaXLg4ACgkQI6XXAa4v
+a+FBHhAAmf/OehbVBAnkHjFpmS+BzcovDNhe9ZAZQllaglZQ/bhPEplYSVB+4BXX
+FYKxfLcqMhGaBAyR0ogbJXL14NuXhIKzi6A5Q0Z8O3J19PzW0EXIy/yc1cr9wsy1
++Oirmhqzeo3X9liEx66iJ44j62LfJGJw2It4befIGz7xwsovBtjcYj+ohCXLYSvw
+lp6xKkZYjSyFg9i7wkzC/oAJGLDWKP4AnbyTac4448IV//s0/FRuvHLrld/wlyiO
+Kg7Icxl7EQPGbOLkxsAyiBegs0mzzXAYZV3OFtEpu960HdkryWzEz2IuHfrIXBYG
+jAmx+wUX99HcVs6fQTBhEtZ5kaqNIGKKbe7mBElF6ISBKuNbcF1l4cFcze6qIf2W
+I/m6dfUt9m995wEbwrJ/KwsWme25e+cnXs7TB12seeAx5+gxSob51O4i1f1PL6Uq
+fhRH8Y2IUlh9AstXnIZNmVZmqyFhVYNYu07Qelm9NpXwa8Ixgd1x+YOfwKTOIIK4
+DCy7Kf1N6KcU07HZdNlEgKf03TD5PNT4+AdQNbxBFi6GN1hPBTEImVfVtTFiChDQ
+rQmcLJSpz1MSMkKrB5P3b1ac9WhdTA+32AHgvKv7DqbplYEj+VicakXY7dXByVz2
+vVDIGsirdhDxlv/RbCxv5MQfk1ECvbrsd5UtRPODYogWDQvSKhM=
+=8lSm
+-----END PGP SIGNATURE-----
