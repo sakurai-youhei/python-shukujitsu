@@ -1,6 +1,7 @@
 -r requirements.txt
 flake8
 hacking==4.1.0
+importlib_metadata<5  # https://github.com/python/importlib_metadata/issues/406#issuecomment-1264666048
 mock
 python_wrap_cases
 wheel
