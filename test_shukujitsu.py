@@ -35,7 +35,8 @@ class HolidaysTest(TestCase):
     @wrap_case(datetime(2022, 5, 5), True)
     @wrap_case(datetime(2023, 5, 5), True)
     @wrap_case(datetime(2024, 5, 5), True)
-    @wrap_case(datetime(2025, 5, 5), False)  # No data for holidays in 2025
+    @wrap_case(datetime(2025, 5, 5), True)
+    @wrap_case(datetime(2026, 5, 5), False)  # No data for holidays in 2026
     def test_holidays(self, day, expect):
         if expect:
             self.assertIn(day, JapaneseHolidays())

@@ -11,6 +11,7 @@ def load_bin(*args, **kwargs):
 
 
 _DEFAULT_BUNDLES = """\
+asof20240717
 asof20230204
 asof20230201
 asof20220201
