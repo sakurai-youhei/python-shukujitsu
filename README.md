@@ -14,7 +14,7 @@ Python Japanese holidays library based on static data published by Cabinet Offic
 
 ## Important notices
 
-- This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan from **1955 to 2024**; will expand to holidays in 2025 in February 2024.
+- This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package covers only holidays in Japan from **1955 to 2025**; will expand to holidays in 2026 in February 2025.
 - This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package has ZERO relation to the Government of Japan - NEVER EVER assume any authorization as this is just a personal project.
 - The signature key 8A124CD64688ABCC was expired Mon Nov 21 11:31:15 2022 UTC; please file an issue if you hit troubles around DEB/RPM packages due to the expiry.
 
@@ -143,6 +143,7 @@ $ shukujitsu --help
 
 This [python-shukujitsu](https://github.com/sakurai-youhei/python-shukujitsu) package bundles the following source data, which is distributed by the Government of Japan under the [CC BY](https://creativecommons.org/licenses/by/4.0/legalcode.ja) compatible conditions according to [内閣府ホームページ利用規約](https://www.cao.go.jp/notice/rule.html).
 
+- 2024年7月17日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和7年（2025年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
 - 2023年2月4日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和6年（2024年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
 - 2023年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和6年（2024年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/shukujitsu.csv ）
 - 2022年2月1日時点の [内閣府ホームページ](https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html) で公開されていた「昭和30年（1955年）から令和5年（2023年）国民の祝日（csv形式：20KB）」（ https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv ）
