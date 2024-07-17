@@ -12,7 +12,7 @@ LABEL maintainer="sakurai.youhei@gmail.com"
 
 COPY --from=build-env /src/dist /tmp/dist
 RUN apk add --no-cache py3-pip && \
-    pip3 install /tmp/dist/*.whl && \
+    pip3 install /tmp/dist/*.whl --break-system-packages && \
     rm -rf /tmp/dist/
 
 RUN apk add --no-cache tini
