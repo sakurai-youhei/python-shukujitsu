@@ -61,7 +61,7 @@ jp_holidays['2014-01-01': '2014-01-03']  # [date(2014, 1, 1)]
 $ shukujitsu --help  # or python3 -m shukujitsu --help
 usage: shukujitsu [-h] [-i] [-n] [-V] [DATE ...]
 
-Select Japanese holidays from 1955 to 2024
+Select Japanese holidays from 1955 to 2025
 
 positional arguments:
   DATE                date to be examined
