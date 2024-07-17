@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Wed, 17 Jul 2024 02:39:06 +0000
+Source: python-shukujitsu
+Binary: python-shukujitsu
+Built-For-Profiles: noudeb
+Architecture: all
+Version: 2024.7.17.post1-1
+Distribution: unstable
+Urgency: low
+Maintainer: Youhei Sakurai <sakurai.youhei@gmail.com>
+Changed-By: Youhei Sakurai <sakurai.youhei@gmail.com>
+Description:
+ python-shukujitsu - Python Japanese holidays library based on static data publis
+Changes:
+ python-shukujitsu (2024.7.17.post1-1) unstable; urgency=low
+ .
+   * source package automatically created by stdeb 0.10.0
+Checksums-Sha1:
+ 644d194465307eb68315967893a3d9e7cc0e9442 11646 python-shukujitsu_2024.7.17.post1-1_all.deb
+ a9fa74fe3eb8bd85f1a4742b2ac6913e10bea310 9164 python-shukujitsu_2024.7.17.post1-1_amd64.buildinfo
+Checksums-Sha256:
+ 201a4cdf76f38dea19acc83f12e0ee72568cf0ebbabd14b622d27897986ec195 11646 python-shukujitsu_2024.7.17.post1-1_all.deb
+ b415412bce18f4726e8a37dd381a75680213db9c7c0581044292aac1a1212c7d 9164 python-shukujitsu_2024.7.17.post1-1_amd64.buildinfo
+Files:
+ 687df806186703cc32e9fc5381bd79de 11646 python optional python-shukujitsu_2024.7.17.post1-1_all.deb
+ 657a20c3f425aa441a6201612030ed28 9164 python optional python-shukujitsu_2024.7.17.post1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEHU5BnVW8t3N+ScH4I6XXAa4va+EFAmaXL2QACgkQI6XXAa4v
+a+ED0w/+NwdZc0vOQCx6/V9akAh68Na1Foh69W+aNlPgqgho0KYuaz5xmu9pUQBc
+ymildSZI8KxEjrTvT0/NznA3kMHp5Yw8wZuXLuZLQucPwNOkDmIPaJcrforRAUVR
+QbGdJEyuBH5XtYQmZqvfTCpxfg3KmzYQNmVs4RTuyRBAiy3vpYUEELYe0+J3xf3e
+lGDU+Tbm0ykPmt+Y4YPME3xYShdgT4nWdnXBV2kIIIm1kRIxxqkaiNA7VsbzQcUX
+QcjXcpxoCpLc1jGUAdFg74ZXPKMnX8FkKOXlZkjHCjz1DL5in8dkDea+ODkVbymE
+7fqG+bYphSV2ePkUt1NjP/CO8YuEkseUUp0L3lmYFVpb53CxISYjgoTB5ZyhSHV3
+phT+pGauBiFfwugiaA+fYlocStrNk94IGnXsLht1E/a+s/085FI4LEuDQPQjLpBw
+rmvbIWQsSqLf1PZhZWpcEeYSM3bJbZMiz9oALM0Nb7SsG8NemW0zQPSeHG9JMiJL
+MrJ1UM3RrAscWwl2PvTic5y8cap7BheqrpS1/01usddXbmVjdJ9MM80w1/ndZnyi
+kb14s4MtwJOuGrlwokUIFtCqOTtfz/mUehm8MjN0ABkF1oXAkpNpmRCRSSlxtcWY
+3PCIesrZKObpIGv5QxMV0z6sauHpxkQ7F1J4WPYQyfsSJI9zXD8=
+=nWTW
+-----END PGP SIGNATURE-----
